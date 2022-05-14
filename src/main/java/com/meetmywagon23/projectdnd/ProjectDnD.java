@@ -1,7 +1,5 @@
 package com.meetmywagon23.projectdnd;
-
 import com.meetmywagon23.projectdnd.core.init.ItemInit;
-
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
