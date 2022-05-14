@@ -17,11 +17,11 @@ public final class ItemInit {
 	public static final RegistryObject<Item> COPPER_COIN = ITEMS.register("copper_coin",
 			()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(50)));
 	public static final RegistryObject<Item> SILVER_COIN = ITEMS.register("silver_coin",
-			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(50)));
+			()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(50)));
 	public static final RegistryObject<Item> GOLD_COIN = ITEMS.register("gold_coin",
 			()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(50)));
 	public static final RegistryObject<Item> PLATINUM_COIN = ITEMS.register("platinum_coin",
-			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(50)));
+			()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(50)));
 	
 	//Gemstones A-Z
 	//                 A
