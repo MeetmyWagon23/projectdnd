@@ -1,6 +1,6 @@
 package com.meetmywagon23.projectdnd;
 
-import com.meetmywagon23.projectdnd.core.init.iteminit;
+import com.meetmywagon23.projectdnd.core.init.ItemInit;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -12,6 +12,6 @@ public class ProjectDnD {
 	public ProjectDnD() {
 		var bus = FMLJavaModLoadingContext.get().getModEventBus();
 		
-		iteminit.ITEMS.register(bus);
+		ItemInit.ITEMS.register(bus);
 	}
 }
