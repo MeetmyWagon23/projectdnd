@@ -1,5 +1,5 @@
 modLoader="javafml" #mandatory
-loaderVersion="[39,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+loaderVersion="[41,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 license="All rights reserved"
 [[mods]] #mandatory
     modId="projectdnd" #mandatory
@@ -20,8 +20,8 @@ cool
 '''
 
 [[dependencies.projectdnd]]
-    modId="baubles"
-    mandatory=true
+    modId=""
+    mandatory=false
     versionRange="[1,)"
     ordering="AFTER"
     side="BOTH"

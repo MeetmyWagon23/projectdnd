@@ -23,7 +23,7 @@ java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 println('Java: ' + System.getProperty('java.version') + ' JVM: ' + System.getProperty('java.vm.version') + '(' + System.getProperty('java.vendor') + ') Arch: ' + System.getProperty('os.arch'))
 minecraft {
 
-    mappings channel: 'official', version: '1.18.1'
+    mappings channel: 'official', version: '1.19'
 
     // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg') // Currently, this location cannot be changed from the default.
 
@@ -76,11 +76,11 @@ repositories {
 
 dependencies {
 
-    minecraft 'net.minecraftforge:forge:1.18.1-39.0.80'
+    minecraft 'net.minecraftforge:forge:1.19-41.1.0'
 
 
-    compileOnly fg.deobf("curse.maven:baublesreborn-366844:3576950")
-    runtimeOnly fg.deobf("curse.maven:baublesreborn-366844:3576950")
+  //  compileOnly fg.deobf("")
+    //runtimeOnly fg.deobf("")
 
 }
 
