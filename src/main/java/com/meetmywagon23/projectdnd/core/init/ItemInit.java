@@ -4,6 +4,8 @@ import com.meetmywagon23.projectdnd.ProjectDnD;
 
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.TridentItem;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -88,8 +90,16 @@ public final class ItemInit {
 	//Gemstone / Jewel Dusts
 	
 	//
+	//ALL STEEL STUFF
+	public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
+			()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
 	
-	
+	public static final RegistryObject<SwordItem> STEEL_SWORD = ITEMS.register("steel_sword",
+			() -> new SwordItem(ToolMaterialInit.STEEL, 6, -2.4f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+	//public static final RegistryObject<TridentItem> STEEL_DAGGER = ITEMS.register("steel_dagger",
+	//		() -> new TridentItem(ToolMaterialInit.STEEL, 6, -2.4f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+	public static final RegistryObject<TridentItem> STEEL_DAGGER = ITEMS.register("steel_dagger",
+			() -> new TridentItem((new Item.Properties()).durability(250).tab(CreativeModeTab.TAB_COMBAT)));
 	
 	
 	
