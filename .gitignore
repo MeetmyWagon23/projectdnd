@@ -23,3 +23,9 @@ run
 
 # Files from Forge MDK
 forge*changelog.txt
+
+README.md
+
+settings.gradle
+
+build.gradle.bak
