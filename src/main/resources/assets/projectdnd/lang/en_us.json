@@ -7,15 +7,14 @@
 	"item.projectdnd.five_copper_coins": "5 Copper Coins",
 	"item.projectdnd.five_silver_coins": "5 Silver Coins",
 	"item.projectdnd.five_gold_coins": "5 Gold Coins",
-	"item.projectdnd.Five_platinum_coins": "5 Platinum Coins",
+	"item.projectdnd.five_platinum_coins": "5 Platinum Coins",
 	"item.projectdnd.ten_copper_coins": "10 Copper Coins",
 	"item.projectdnd.ten_silver_coins": "10 Silver Coins",
 	"item.projectdnd.ten_gold_coins": "10 Gold Coins",
 	"item.projectdnd.ten_platinum_coins": "10 Platinum Coins",
-	//GEMS
+//GEMS need to add the rest of the gems at some point.
 	"item.projectdnd.agni_mani": "Agni Mani",
-	
-	//STEEL STUFF
+//STEEL STUFF
 	"item.projectdnd.steel_ingot": "Steel Ingot",
 	"item.projectdnd.steel_sword": "Steel Sword",
 	"item.projectdnd.steel_dagger": "Steel Dagger"
