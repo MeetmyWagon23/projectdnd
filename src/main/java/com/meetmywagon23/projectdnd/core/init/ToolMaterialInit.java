@@ -9,7 +9,7 @@ public class ToolMaterialInit {
 		
 	}
 	
-	protected static final Tier STEEL = new BaseToolMaterial(1f, 25, 8, 10f, 500,
+	protected static final Tier STEEL = new BaseToolMaterial(2f, 25, 8, 10f, 500,
 				() -> Ingredient.of(ItemInit.STEEL_INGOT.get()));
 	
 }

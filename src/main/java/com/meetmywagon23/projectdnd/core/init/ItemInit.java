@@ -15,7 +15,7 @@ public final class ItemInit {
 	
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ProjectDnD.MODID);
 	
-	//Coins (Items)
+	//Coins (currency)
 	public static final RegistryObject<Item> COPPER_COIN = ITEMS.register("copper_coin",
 			()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(50)));
 	public static final RegistryObject<Item> SILVER_COIN = ITEMS.register("silver_coin",
@@ -23,6 +23,22 @@ public final class ItemInit {
 	public static final RegistryObject<Item> GOLD_COIN = ITEMS.register("gold_coin",
 			()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(50)));
 	public static final RegistryObject<Item> PLATINUM_COIN = ITEMS.register("platinum_coin",
+			()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(50)));
+	public static final RegistryObject<Item> FIVE_COPPER_COINS = ITEMS.register("five_copper_coins",
+			()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(50)));
+	public static final RegistryObject<Item> FIVE_SILVER_COINS = ITEMS.register("five_silver_coins",
+			()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(50)));
+	public static final RegistryObject<Item> FIVE_GOLD_COINS = ITEMS.register("five_gold_coins",
+			()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(50)));
+	public static final RegistryObject<Item> FIVE_PLATINUM_COINS = ITEMS.register("five_platinum_coins",
+			()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(50)));
+	public static final RegistryObject<Item> TEN_COPPER_COINS = ITEMS.register("ten_copper_coins",
+			()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(50)));
+	public static final RegistryObject<Item> TEN_SILVER_COINS = ITEMS.register("ten_silver_coins",
+			()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(50)));
+	public static final RegistryObject<Item> TEN_GOLD_COINS = ITEMS.register("ten_gold_coins",
+			()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(50)));
+	public static final RegistryObject<Item> TEN_PLATINUM_COINS = ITEMS.register("ten_platinum_coins",
 			()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(50)));
 	
 	//Gemstones A-Z
