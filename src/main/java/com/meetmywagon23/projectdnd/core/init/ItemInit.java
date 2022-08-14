@@ -14,6 +14,7 @@ public final class ItemInit {
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ProjectDnD.MODID);
 	
 	//Coins (Items)
+	
 	public static final RegistryObject<Item> COPPER_COIN = ITEMS.register("copper_coin",
 			()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(50)));
 	public static final RegistryObject<Item> SILVER_COIN = ITEMS.register("silver_coin",

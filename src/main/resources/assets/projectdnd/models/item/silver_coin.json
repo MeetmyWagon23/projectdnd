@@ -1,6 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "projectdnd:items/silver_coin"
+		"layer0": "projectdnd:items/silver_coin/coinstack_1"
 	}
 }
