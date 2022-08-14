@@ -40,6 +40,52 @@ public final class ItemInit {
 			()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(50)));
 	public static final RegistryObject<Item> TEN_PLATINUM_COINS = ITEMS.register("ten_platinum_coins",
 			()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(50)));
+
+//Sheaths
+	public static final RegistryObject<Item> LEATHER_SHEATH = ITEMS.register("leather_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+	public static final RegistryObject<Item> WHITE_SHEATH = ITEMS.register("white_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+	public static final RegistryObject<Item> GRAY_SHEATH = ITEMS.register("gray_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+	public static final RegistryObject<Item> DARK_GRAY_SHEATH = ITEMS.register("dark_gray_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+	public static final RegistryObject<Item> BLACK_SHEATH = ITEMS.register("black_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+	public static final RegistryObject<Item> BROWN_SHEATH = ITEMS.register("brown_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+	public static final RegistryObject<Item> RED_SHEATH = ITEMS.register("red_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+	public static final RegistryObject<Item> ORANGE_SHEATH = ITEMS.register("orange_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+	public static final RegistryObject<Item> YELLOW_SHEATH = ITEMS.register("yellow_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+	public static final RegistryObject<Item> LIME_GREEN_SHEATH = ITEMS.register("lime_green_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+	public static final RegistryObject<Item> GREEN_SHEATH = ITEMS.register("green_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+	public static final RegistryObject<Item> CYAN_SHEATH = ITEMS.register("cyan_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+	public static final RegistryObject<Item> LIGHT_BLUE_SHEATH = ITEMS.register("light_blue_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+	public static final RegistryObject<Item> BLUE_SHEATH = ITEMS.register("blue_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+	public static final RegistryObject<Item> PURPLE_SHEATH = ITEMS.register("purple_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+	public static final RegistryObject<Item> MAGENTA_SHEATH = ITEMS.register("magenta_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+	public static final RegistryObject<Item> PINK_SHEATH = ITEMS.register("pink_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+	public static final RegistryObject<Item> CHAIN_SHEATH = ITEMS.register("chain_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+	public static final RegistryObject<Item> GOLD_SHEATH = ITEMS.register("gold_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+	public static final RegistryObject<Item> IRON_SHEATH = ITEMS.register("iron_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+	public static final RegistryObject<Item> DIAMOND_SHEATH = ITEMS.register("diamond_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+	public static final RegistryObject<Item> NETHERITE_SHEATH = ITEMS.register("netherite_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 	
 	//Gemstones A-Z
 	//                 A
@@ -57,8 +103,6 @@ public final class ItemInit {
 			()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
 	public static final RegistryObject<Item> AMBER = ITEMS.register("amber",
 			()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
-	//public static final RegistryObject<Item> AMETHYST = ITEMS.register("amethyst",
-		//	()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
 	public static final RegistryObject<Item> ANDAR = ITEMS.register("andar",
 			()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
 	public static final RegistryObject<Item> AQUAMARINE = ITEMS.register("aquamarine",
@@ -105,17 +149,28 @@ public final class ItemInit {
 	
 	//Gemstone / Jewel Dusts
 	
-	//
+	//Misc Daggers
+	public static final RegistryObject<TridentItem> WOOD_DAGGER = ITEMS.register("wood_dagger",
+			() -> new TridentItem((new Item.Properties()).durability(59).tab(CreativeModeTab.TAB_COMBAT)));
+	public static final RegistryObject<TridentItem> GOLD_DAGGER = ITEMS.register("gold_dagger",
+			() -> new TridentItem((new Item.Properties()).durability(32).tab(CreativeModeTab.TAB_COMBAT)));
+	public static final RegistryObject<TridentItem> STONE_DAGGER = ITEMS.register("stone_dagger",
+			() -> new TridentItem((new Item.Properties()).durability(131).tab(CreativeModeTab.TAB_COMBAT)));
+	public static final RegistryObject<TridentItem> IRON_DAGGER = ITEMS.register("iron_dagger",
+			() -> new TridentItem((new Item.Properties()).durability(250).tab(CreativeModeTab.TAB_COMBAT)));
+	public static final RegistryObject<TridentItem> diamond_DAGGER = ITEMS.register("diamond_dagger",
+			() -> new TridentItem((new Item.Properties()).durability(1561).tab(CreativeModeTab.TAB_COMBAT)));
+	public static final RegistryObject<TridentItem> NETHERITE_DAGGER = ITEMS.register("netherite_dagger",
+			() -> new TridentItem((new Item.Properties()).durability(2031).tab(CreativeModeTab.TAB_COMBAT)));
+
 	//ALL STEEL STUFF
 	public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
 			()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
 	
 	public static final RegistryObject<SwordItem> STEEL_SWORD = ITEMS.register("steel_sword",
 			() -> new SwordItem(ToolMaterialInit.STEEL, 6, -2.4f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-	//public static final RegistryObject<TridentItem> STEEL_DAGGER = ITEMS.register("steel_dagger",
-	//		() -> new TridentItem(ToolMaterialInit.STEEL, 6, -2.4f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 	public static final RegistryObject<TridentItem> STEEL_DAGGER = ITEMS.register("steel_dagger",
-			() -> new TridentItem((new Item.Properties()).durability(250).tab(CreativeModeTab.TAB_COMBAT)));
+			() -> new TridentItem((new Item.Properties()).durability(400).tab(CreativeModeTab.TAB_COMBAT)));
 	
 	
 	
