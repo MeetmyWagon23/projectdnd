@@ -149,7 +149,7 @@ public final class ItemInit {
 	
 	//Gemstone / Jewel Dusts
 	
-	//Misc Daggers
+	//Misc Daggers Damage needs to be adjusted, and Speed needs to be adjusted. not sure how to change it. i think a few tool materials will need to be used.
 	public static final RegistryObject<TridentItem> WOOD_DAGGER = ITEMS.register("wood_dagger",
 			() -> new TridentItem((new Item.Properties()).durability(59).tab(CreativeModeTab.TAB_COMBAT)));
 	public static final RegistryObject<TridentItem> GOLD_DAGGER = ITEMS.register("gold_dagger",
