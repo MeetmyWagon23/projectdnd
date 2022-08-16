@@ -82,6 +82,8 @@ public final class ItemInit {
 			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 	public static final RegistryObject<Item> IRON_SHEATH = ITEMS.register("iron_sheath",
 			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+	public static final RegistryObject<Item> STEEL_SHEATH = ITEMS.register("steel_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 	public static final RegistryObject<Item> DIAMOND_SHEATH = ITEMS.register("diamond_sheath",
 			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 	public static final RegistryObject<Item> NETHERITE_SHEATH = ITEMS.register("netherite_sheath",

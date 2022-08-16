@@ -35,6 +35,7 @@
 	"item.projectdnd.chain_sheath": "Chain Sheath",
 	"item.projectdnd.gold_sheath": "Gold Sheath",
 	"item.projectdnd.iron_sheath": "Iron Sheath",
+	"item.projectdnd.steel_sheath": "Steel Sheath",
 	"item.projectdnd.diamond_sheath": "Diamond Sheath",
 	"item.projectdnd.netherite_sheath": "Netherite Sheath",
 	"item.projectdnd.leather_dagger_sheath": "Leather Dagger Sheath",
@@ -64,7 +65,7 @@
 	"item.projectdnd.steel_sword": "Steel Sword",
 	"item.projectdnd.steel_dagger": "Steel Dagger",
 //to be moved into proper catagories
-"item.projectdnd.wood_dagger": "Wood Dagger",
+	"item.projectdnd.wood_dagger": "Wood Dagger",
 	"item.projectdnd.stone_dagger": "Stone Dagger",
 	"item.projectdnd.gold_dagger": "Gold Dagger",
 	"item.projectdnd.iron_dagger": "Iron Dagger",
