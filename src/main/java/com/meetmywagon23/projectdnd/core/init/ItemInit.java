@@ -43,51 +43,98 @@ public final class ItemInit {
 
 //Sheaths
 	public static final RegistryObject<Item> LEATHER_SHEATH = ITEMS.register("leather_sheath",
-			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 	public static final RegistryObject<Item> WHITE_SHEATH = ITEMS.register("white_sheath",
-			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 	public static final RegistryObject<Item> GRAY_SHEATH = ITEMS.register("gray_sheath",
-			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 	public static final RegistryObject<Item> DARK_GRAY_SHEATH = ITEMS.register("dark_gray_sheath",
-			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 	public static final RegistryObject<Item> BLACK_SHEATH = ITEMS.register("black_sheath",
-			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 	public static final RegistryObject<Item> BROWN_SHEATH = ITEMS.register("brown_sheath",
-			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 	public static final RegistryObject<Item> RED_SHEATH = ITEMS.register("red_sheath",
-			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 	public static final RegistryObject<Item> ORANGE_SHEATH = ITEMS.register("orange_sheath",
-			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 	public static final RegistryObject<Item> YELLOW_SHEATH = ITEMS.register("yellow_sheath",
-			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 	public static final RegistryObject<Item> LIME_GREEN_SHEATH = ITEMS.register("lime_green_sheath",
-			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 	public static final RegistryObject<Item> GREEN_SHEATH = ITEMS.register("green_sheath",
-			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 	public static final RegistryObject<Item> CYAN_SHEATH = ITEMS.register("cyan_sheath",
-			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 	public static final RegistryObject<Item> LIGHT_BLUE_SHEATH = ITEMS.register("light_blue_sheath",
-			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 	public static final RegistryObject<Item> BLUE_SHEATH = ITEMS.register("blue_sheath",
-			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 	public static final RegistryObject<Item> PURPLE_SHEATH = ITEMS.register("purple_sheath",
-			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 	public static final RegistryObject<Item> MAGENTA_SHEATH = ITEMS.register("magenta_sheath",
-			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 	public static final RegistryObject<Item> PINK_SHEATH = ITEMS.register("pink_sheath",
-			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 	public static final RegistryObject<Item> CHAIN_SHEATH = ITEMS.register("chain_sheath",
-			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 	public static final RegistryObject<Item> GOLD_SHEATH = ITEMS.register("gold_sheath",
-			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 	public static final RegistryObject<Item> IRON_SHEATH = ITEMS.register("iron_sheath",
-			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 	public static final RegistryObject<Item> STEEL_SHEATH = ITEMS.register("steel_sheath",
-			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 	public static final RegistryObject<Item> DIAMOND_SHEATH = ITEMS.register("diamond_sheath",
-			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 	public static final RegistryObject<Item> NETHERITE_SHEATH = ITEMS.register("netherite_sheath",
-			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
+//Dagger Sheaths Please use leather_dagger_sheath.png as a working ground for these textures.
+	public static final RegistryObject<Item> LEATHER_DAGGER_SHEATH = ITEMS.register("leather_dagger_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
+	public static final RegistryObject<Item> WHITE_DAGGER_SHEATH = ITEMS.register("white_dagger_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
+	public static final RegistryObject<Item> GRAY_DAGGER_SHEATH = ITEMS.register("gray_dagger_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
+	public static final RegistryObject<Item> DARK_DAGGER_GRAY_SHEATH = ITEMS.register("dark_gray_dagger_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
+	public static final RegistryObject<Item> BLACK_DAGGER_SHEATH = ITEMS.register("black_dagger_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
+	public static final RegistryObject<Item> BROWN_DAGGER_SHEATH = ITEMS.register("brown_dagger_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
+	public static final RegistryObject<Item> RED_DAGGER_SHEATH = ITEMS.register("red_dagger_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
+	public static final RegistryObject<Item> ORANGE_DAGGER_SHEATH = ITEMS.register("orange_dagger_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
+	public static final RegistryObject<Item> YELLOW_DAGGER_SHEATH = ITEMS.register("yellow_dagger_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
+	public static final RegistryObject<Item> LIME_GREEN_DAGGER_SHEATH = ITEMS.register("lime_green_dagger_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
+	public static final RegistryObject<Item> GREEN_DAGGER_SHEATH = ITEMS.register("green_dagger_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
+	public static final RegistryObject<Item> CYAN_DAGGER_SHEATH = ITEMS.register("cyan_dagger_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
+	public static final RegistryObject<Item> LIGHT_BLUE_DAGGER_SHEATH = ITEMS.register("light_blue_dagger_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
+	public static final RegistryObject<Item> BLUE_DAGGER_SHEATH = ITEMS.register("blue_dagger_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
+	public static final RegistryObject<Item> PURPLE_DAGGER_SHEATH = ITEMS.register("purple_dagger_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
+	public static final RegistryObject<Item> MAGENTA_DAGGER_SHEATH = ITEMS.register("magenta_dagger_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
+	public static final RegistryObject<Item> PINK_DAGGER_SHEATH = ITEMS.register("pink_dagger_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
+	public static final RegistryObject<Item> CHAIN_DAGGER_SHEATH = ITEMS.register("chain_dagger_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
+	public static final RegistryObject<Item> GOLD_DAGGER_SHEATH = ITEMS.register("gold_dagger_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
+	public static final RegistryObject<Item> IRON_DAGGER_SHEATH = ITEMS.register("iron_dagger_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
+	public static final RegistryObject<Item> STEEL_DAGGER_SHEATH = ITEMS.register("steel_dagger_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
+	public static final RegistryObject<Item> DIAMOND_DAGGER_SHEATH = ITEMS.register("diamond_dagger_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
+	public static final RegistryObject<Item> NETHERITE_DAGGER_SHEATH = ITEMS.register("netherite_dagger_sheath",
+			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 	
 	//Gemstones A-Z
 	//                 A
