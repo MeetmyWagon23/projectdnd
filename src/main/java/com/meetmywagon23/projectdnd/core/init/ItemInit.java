@@ -210,7 +210,7 @@ public final class ItemInit {
 	public static final RegistryObject<TridentItem> diamond_DAGGER = ITEMS.register("diamond_dagger",
 			() -> new TridentItem((new Item.Properties()).durability(1561).tab(CreativeModeTab.TAB_COMBAT)));
 	public static final RegistryObject<TridentItem> NETHERITE_DAGGER = ITEMS.register("netherite_dagger",
-			() -> new TridentItem((new Item.Properties()).durability(2031).tab(CreativeModeTab.TAB_COMBAT)));
+			() -> new TridentItem((new Item.Properties().fireResistant()).durability(2031).tab(CreativeModeTab.TAB_COMBAT)));
 
 	//ALL STEEL STUFF
 	public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
@@ -219,7 +219,7 @@ public final class ItemInit {
 	public static final RegistryObject<SwordItem> STEEL_SWORD = ITEMS.register("steel_sword",
 			() -> new SwordItem(ToolMaterialInit.STEEL, 6, -2.4f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 	public static final RegistryObject<TridentItem> STEEL_DAGGER = ITEMS.register("steel_dagger",
-			() -> new TridentItem((new Item.Properties()).durability(400).tab(CreativeModeTab.TAB_COMBAT)));
+			() -> new TridentItem((new Item.Properties().).durability(400).tab(CreativeModeTab.TAB_COMBAT)));
 	
 	
 	
