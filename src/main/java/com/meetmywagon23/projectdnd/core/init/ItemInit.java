@@ -134,7 +134,7 @@ public final class ItemInit {
 	public static final RegistryObject<Item> DIAMOND_DAGGER_SHEATH = ITEMS.register("diamond_dagger_sheath",
 			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 	public static final RegistryObject<Item> NETHERITE_DAGGER_SHEATH = ITEMS.register("netherite_dagger_sheath",
-			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
+			() -> new Item(new Item.Properties().fireResistant().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 	
 	//Gemstones A-Z
 	//                 A
