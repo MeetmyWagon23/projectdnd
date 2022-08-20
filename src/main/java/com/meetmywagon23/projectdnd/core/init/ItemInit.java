@@ -87,7 +87,7 @@ public final class ItemInit {
 	public static final RegistryObject<Item> DIAMOND_SHEATH = ITEMS.register("diamond_sheath",
 			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 	public static final RegistryObject<Item> NETHERITE_SHEATH = ITEMS.register("netherite_sheath",
-			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
+			() -> new Item(new Item.Properties().fireResistant().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
 //Dagger Sheaths Please use leather_dagger_sheath.png as a working ground for these textures.
 	public static final RegistryObject<Item> LEATHER_DAGGER_SHEATH = ITEMS.register("leather_dagger_sheath",
 			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(1)));
@@ -207,7 +207,7 @@ public final class ItemInit {
 			() -> new TridentItem((new Item.Properties()).durability(131).tab(CreativeModeTab.TAB_COMBAT)));
 	public static final RegistryObject<TridentItem> IRON_DAGGER = ITEMS.register("iron_dagger",
 			() -> new TridentItem((new Item.Properties()).durability(250).tab(CreativeModeTab.TAB_COMBAT)));
-	public static final RegistryObject<TridentItem> diamond_DAGGER = ITEMS.register("diamond_dagger",
+	public static final RegistryObject<TridentItem> DIAMOND_DAGGER = ITEMS.register("diamond_dagger",
 			() -> new TridentItem((new Item.Properties()).durability(1561).tab(CreativeModeTab.TAB_COMBAT)));
 	public static final RegistryObject<TridentItem> NETHERITE_DAGGER = ITEMS.register("netherite_dagger",
 			() -> new TridentItem((new Item.Properties().fireResistant()).durability(2031).tab(CreativeModeTab.TAB_COMBAT)));
@@ -219,7 +219,7 @@ public final class ItemInit {
 	public static final RegistryObject<SwordItem> STEEL_SWORD = ITEMS.register("steel_sword",
 			() -> new SwordItem(ToolMaterialInit.STEEL, 6, -2.4f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 	public static final RegistryObject<TridentItem> STEEL_DAGGER = ITEMS.register("steel_dagger",
-			() -> new TridentItem((new Item.Properties().).durability(400).tab(CreativeModeTab.TAB_COMBAT)));
+			() -> new TridentItem((new Item.Properties()).durability(400).tab(CreativeModeTab.TAB_COMBAT)));
 	
 	
 	
