@@ -12,7 +12,7 @@
 	"item.projectdnd.ten_silver_coins": "10 Silver Coins",
 	"item.projectdnd.ten_gold_coins": "10 Gold Coins",
 	"item.projectdnd.ten_platinum_coins": "10 Platinum Coins",
-//GEMS need to add the rest of the gems at some point.
+//GEMS A-Z need to add the rest of the gems at some point.
 	"item.projectdnd.agni_mani": "Agni Mani",
 //Sheaths
 	"item.projectdnd.leather_sheath": "Leather Sheath",
@@ -61,16 +61,23 @@
 	"item.projectdnd.steel_dagger_sheath": "Steel Dagger Sheath",
 	"item.projectdnd.diamond_dagger_sheath": "Diamond Dagger Sheath",
 	"item.projectdnd.netherite_dagger_sheath": "Netherite Dagger Sheath",
+//GREATSWORDS
+	"item.projectdnd.wood_greatsword": "Wood GreatSword",
+	"item.projectdnd.stone_greatsword": "Stone GreatSword",
+	"item.projectdnd.gold_greatsword": "Gold GreatSword",
+	"item.projectdnd.iron_greatsword": "Iron GreatSword",
+	"item.projectdnd.steel_greatsword": "Steel GreatSword",
+	"item.projectdnd.diamond_greatsword": "Diamond GreatSword",
+	"item.projectdnd.netherite_greatsword": "Netherite GreatSword",
 //STEEL STUFF
 	"item.projectdnd.steel_ingot": "Steel Ingot",
 	"item.projectdnd.steel_sword": "Steel Sword",
-	"item.projectdnd.steel_dagger": "Steel Dagger",
-	"item.projectdnd.steel_greatsword": "Steel GreatSword",
-//to be moved into proper catagories
+//DAGGERS
 	"item.projectdnd.wood_dagger": "Wood Dagger",
 	"item.projectdnd.stone_dagger": "Stone Dagger",
 	"item.projectdnd.gold_dagger": "Gold Dagger",
 	"item.projectdnd.iron_dagger": "Iron Dagger",
+	"item.projectdnd.steel_dagger": "Steel Dagger",
 	"item.projectdnd.diamond_dagger": "Diamond Dagger",
 	"item.projectdnd.netherite_dagger": "Netherite Dagger"
 }
