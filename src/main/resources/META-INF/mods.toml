@@ -11,12 +11,6 @@ license="All rights reserved"
     description='''
 Descriptor
 
-I
-am
-multi-
-lined!
-
-cool
 '''
 
 [[dependencies.projectdnd]]
