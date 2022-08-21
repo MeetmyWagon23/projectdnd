@@ -215,11 +215,12 @@ public final class ItemInit {
 	//ALL STEEL STUFF
 	public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
 			()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
-	
 	public static final RegistryObject<SwordItem> STEEL_SWORD = ITEMS.register("steel_sword",
-			() -> new SwordItem(ToolMaterialInit.STEEL, 6, -2.4f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+			() -> new SwordItem(ToolMaterialInit.STEEL, 3, -2.4f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 	public static final RegistryObject<TridentItem> STEEL_DAGGER = ITEMS.register("steel_dagger",
 			() -> new TridentItem((new Item.Properties()).durability(400).tab(CreativeModeTab.TAB_COMBAT)));
+	public static final RegistryObject<SwordItem> STEEL_GREATSWORD = ITEMS.register("steel_greatsword",
+			() -> new SwordItem(ToolMaterialInit.STEEL, 7, -3f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 	
 	
 	
