@@ -15,6 +15,8 @@ public final class ItemInit {
 	
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ProjectDnD.MODID);
 	
+
+
 	//Coins (currency)
 	public static final RegistryObject<Item> COPPER_COIN = ITEMS.register("copper_coin",
 			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD).stacksTo(50)));

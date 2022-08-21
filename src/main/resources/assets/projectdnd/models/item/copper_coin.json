@@ -1,6 +1,50 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "projectdnd:items/copper_coin"
-	}
+		"layer0": "projectdnd:items/copper_coin/coinstack_1"
+	},
+	"overrides": [
+	    {
+			"predicate": {
+			"projectdnd:amount": 2
+			},	
+			"model": "projectdnd:item/copper_coin/coinstack_2"
+	    },
+	    {
+			"predicate": {
+			"projectdnd:amount": 3
+			},	
+			"model": "projectdnd:item/copper_coin/coinstack_3"
+	    },
+	    {
+			"predicate": {
+			"projectdnd:amount": 4
+			},	
+			"model": "projectdnd:item/copper_coin/coinstack_4"
+	    },
+	    {
+			"predicate": {
+			"projectdnd:amount": 10
+			},	
+			"model": "projectdnd:item/copper_coin/coinstack_10"
+	    },
+	    {
+			"predicate": {
+			"projectdnd:amount": 20
+			},	
+			"model": "projectdnd:item/copper_coin/coinstack_20"
+	    },
+	    {
+			"predicate": {
+			"projectdnd:amount": 30
+			},	
+			"model": "projectdnd:item/copper_coin/coinstack_30"
+	    },
+	    {
+			"predicate": {
+			"projectdnd:amount": 40
+			},	
+			"model": "projectdnd:item/copper_coin/coinstack_40"
+	    }
+  ]
 }
