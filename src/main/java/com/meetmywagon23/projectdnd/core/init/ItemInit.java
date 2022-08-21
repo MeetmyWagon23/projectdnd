@@ -2,7 +2,7 @@ package com.meetmywagon23.projectdnd.core.init;
 
 import com.meetmywagon23.projectdnd.ProjectDnD;
 
-import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.TridentItem;
@@ -42,6 +42,8 @@ public final class ItemInit {
 			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD).stacksTo(50)));
 	public static final RegistryObject<Item> TEN_PLATINUM_COINS = ITEMS.register("ten_platinum_coins",
 			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD).stacksTo(50)));
+//Coin Pouches
+	
 
 //Sheaths
 	public static final RegistryObject<Item> LEATHER_SHEATH = ITEMS.register("leather_sheath",
@@ -90,6 +92,8 @@ public final class ItemInit {
 			() -> new Item(new Item.Properties().tab(ProjectDnD.DnD).stacksTo(1)));
 	public static final RegistryObject<Item> NETHERITE_SHEATH = ITEMS.register("netherite_sheath",
 			() -> new Item(new Item.Properties().fireResistant().tab(ProjectDnD.DnD).stacksTo(1)));
+//ARMOR
+
 //Dagger Sheaths Please use leather_dagger_sheath.png as a working ground for these textures.
 	public static final RegistryObject<Item> LEATHER_DAGGER_SHEATH = ITEMS.register("leather_dagger_sheath",
 			() -> new Item(new Item.Properties().tab(ProjectDnD.DnD).stacksTo(1)));
