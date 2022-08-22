@@ -15,7 +15,7 @@ public final class ItemInit {
 	
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ProjectDnD.MODID);
 	
-
+//REMINDER FOR WAGON------organize the .json files into folders & Textures into folders.
 
 	//Coins (currency)
 	public static final RegistryObject<Item> COPPER_COIN = ITEMS.register("copper_coin",
@@ -92,9 +92,9 @@ public final class ItemInit {
 			() -> new Item(new Item.Properties().tab(ProjectDnD.DnD).stacksTo(1)));
 	public static final RegistryObject<Item> NETHERITE_SHEATH = ITEMS.register("netherite_sheath",
 			() -> new Item(new Item.Properties().fireResistant().tab(ProjectDnD.DnD).stacksTo(1)));
-//ARMOR
+//ARMOR Steel-> Silver-> Adamantine-> Itanium.
 
-//Dagger Sheaths Please use leather_dagger_sheath.png as a working ground for these textures.
+//Dagger Sheaths Please use leather_dagger_sheath.png as a working ground for the colored wool textures.
 	public static final RegistryObject<Item> LEATHER_DAGGER_SHEATH = ITEMS.register("leather_dagger_sheath",
 			() -> new Item(new Item.Properties().tab(ProjectDnD.DnD).stacksTo(1)));
 	public static final RegistryObject<Item> WHITE_DAGGER_SHEATH = ITEMS.register("white_dagger_sheath",
@@ -199,11 +199,36 @@ public final class ItemInit {
 			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
 	//                 C
 	
-	
-	
-	
-	//Gemstone / Jewel Dusts
-	
+	//Gemstone / Jewel Dusts. please refer to the wiki for the list of dusts to include.
+	//Raw ores, Ingots, Nuggets
+	public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> STEEL_NUGGET = ITEMS.register("steel_nugget",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> SILVER_NUGGET = ITEMS.register("silver_nugget",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> PLATINUM_INGOT = ITEMS.register("platinum_ingot",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> PLATINUM_NUGGET = ITEMS.register("platinum_nugget",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> ADAMANT_INGOT = ITEMS.register("adamant_ingot",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> ADAMANT_NUGGET = ITEMS.register("adamant_nugget",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> ADAMANTINE_INGOT = ITEMS.register("adamantine_ingot",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> ADAMANTINE_NUGGET = ITEMS.register("adamantine_nugget",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> ITANIUM_INGOT = ITEMS.register("itanium_ingot",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> ITANIUM_NUGGET = ITEMS.register("itanium_nugget",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> MYTHRIL_INGOT = ITEMS.register("mythril_ingot",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> MYTHRIL_NUGGET = ITEMS.register("mythril_nugget",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
 	//Misc Daggers Damage needs to be adjusted, and Speed needs to be adjusted. not sure how to change it. i think a few tool materials will need to be used.
 	public static final RegistryObject<TridentItem> WOOD_DAGGER = ITEMS.register("wood_dagger",
 			() -> new TridentItem((new Item.Properties()).durability(59).tab(ProjectDnD.DnD)));
@@ -219,7 +244,7 @@ public final class ItemInit {
 			() -> new TridentItem((new Item.Properties()).durability(1561).tab(ProjectDnD.DnD)));
 	public static final RegistryObject<TridentItem> NETHERITE_DAGGER = ITEMS.register("netherite_dagger",
 			() -> new TridentItem((new Item.Properties().fireResistant()).durability(2031).tab(ProjectDnD.DnD)));
-	//GreatSwords ToolMaterials need to be changed to their proper materials
+	//GreatSwords ToolMaterials will be changed to their proper materials Might adjust the texutre of these and change these to longswords, i would like Greatswords to ACTUALLY BE GREAT SWORDS, these are too puny to be great.
 	public static final RegistryObject<SwordItem> WOOD_GREATSWORD = ITEMS.register("wood_greatsword",
 			() -> new SwordItem(ToolMaterialInit.STEEL, 4, -3.2f, new Item.Properties().tab(ProjectDnD.DnD)));
 	public static final RegistryObject<SwordItem> STONE_GREATSWORD = ITEMS.register("stone_greatsword",
@@ -235,8 +260,6 @@ public final class ItemInit {
 	public static final RegistryObject<SwordItem> NETHERITE_GREATSWORD = ITEMS.register("netherite_greatsword",
 			() -> new SwordItem(ToolMaterialInit.STEEL, 8, -3.2f, new Item.Properties().tab(ProjectDnD.DnD)));
 	//ALL STEEL STUFF-----------------TO BE MOVED TO PROPER CATAGORIES ORGANIZED----------------------------------------These are only temporarily here
-	public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
-			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
 	public static final RegistryObject<SwordItem> STEEL_SWORD = ITEMS.register("steel_sword",
 			() -> new SwordItem(ToolMaterialInit.STEEL, 4, -2.4f, new Item.Properties().tab(ProjectDnD.DnD)));
 

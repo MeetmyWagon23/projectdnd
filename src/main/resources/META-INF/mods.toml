@@ -1,13 +1,13 @@
-modLoader="javafml" #mandatory
-loaderVersion="[41,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+modLoader="javafml"
+loaderVersion="[41,)" 
 license="All rights reserved"
-[[mods]] #mandatory
-    modId="projectdnd" #mandatory
-    version="${file.jarVersion}" #mandatory
-    displayName="Project D&D" #mandatory
-    logoFile="modlogo.png" #optional
-    credits="N/A" #optional
-    authors="Wagon, BoonelDanForever, Vik" #optional
+[[mods]]
+    modId="projectdnd"
+    version="${file.jarVersion}"
+    displayName="Project D&D"
+    logoFile="modlogo.png"
+    credits="N/A"
+    authors="Wagon, BoonelDanForever, Vik, AnonMine"
     description='''
 Descriptor
 

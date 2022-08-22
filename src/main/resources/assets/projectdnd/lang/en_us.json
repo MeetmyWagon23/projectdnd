@@ -1,5 +1,7 @@
 {
+//creative tab name
 	"itemGroup.projectdnd": "D&D",
+//Coins (currency)
 	"item.projectdnd.copper_coin": "Copper Coin",
 	"item.projectdnd.silver_coin": "Silver Coin",
 	"item.projectdnd.gold_coin": "Gold Coin",
@@ -61,6 +63,21 @@
 	"item.projectdnd.steel_dagger_sheath": "Steel Dagger Sheath",
 	"item.projectdnd.diamond_dagger_sheath": "Diamond Dagger Sheath",
 	"item.projectdnd.netherite_dagger_sheath": "Netherite Dagger Sheath",
+//Raw ores, Ingots, Nuggets
+	"item.projectdnd.steel_ingot": "Steel Ingot",
+	"item.projectdnd.steel_nugget": "Steel Nugget",
+	"item.projectdnd.silver_ingot": "Silver Ingot",
+	"item.projectdnd.silver_nugget": "Silver Nugget",
+	"item.projectdnd.platinum_ingot": "Platinum Ingot",
+	"item.projectdnd.platinum_nugget": "Platinum Nugget",
+	"item.projectdnd.adamant_ingot": "Adamant Ingot",
+	"item.projectdnd.adamant_nugget": "Adamant Nugget",
+	"item.projectdnd.adamantine_ingot": "Adamantine Ingot",
+	"item.projectdnd.adamantine_nugget": "Adamantine Nugget",
+	"item.projectdnd.itanium_ingot": "Itanium Ingot",
+	"item.projectdnd.itanium_nugget": "Itanium Nugget",
+	"item.projectdnd.mythril_ingot": "Mythril Ingot",
+	"item.projectdnd.mythril_nugget": "Mythril Nugget",
 //GREATSWORDS
 	"item.projectdnd.wood_greatsword": "Wood GreatSword",
 	"item.projectdnd.stone_greatsword": "Stone GreatSword",
@@ -69,8 +86,7 @@
 	"item.projectdnd.steel_greatsword": "Steel GreatSword",
 	"item.projectdnd.diamond_greatsword": "Diamond GreatSword",
 	"item.projectdnd.netherite_greatsword": "Netherite GreatSword",
-//STEEL STUFF
-	"item.projectdnd.steel_ingot": "Steel Ingot",
+//STEEL STUFF----TO BE MOVED TO PROPER CATAGORIES ORGANIZED----This are only temporarily here
 	"item.projectdnd.steel_sword": "Steel Sword",
 //DAGGERS
 	"item.projectdnd.wood_dagger": "Wood Dagger",
