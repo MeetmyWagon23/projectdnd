@@ -1,5 +1,6 @@
 package com.meetmywagon23.projectdnd.core.init;
 
+import com.ibm.icu.impl.locale.XCldrStub.ImmutableMultimap;
 import com.meetmywagon23.projectdnd.ProjectDnD;
 
 import net.minecraft.world.item.ArmorItem;
@@ -14,6 +15,7 @@ public final class ItemInit {
 	private ItemInit() {}
 	
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ProjectDnD.MODID);
+	
 	
 //REMINDER FOR WAGON------organize the .json files into folders & Textures into folders.
 
@@ -244,7 +246,22 @@ public final class ItemInit {
 			() -> new TridentItem((new Item.Properties()).durability(1561).tab(ProjectDnD.DnD)));
 	public static final RegistryObject<TridentItem> NETHERITE_DAGGER = ITEMS.register("netherite_dagger",
 			() -> new TridentItem((new Item.Properties().fireResistant()).durability(2031).tab(ProjectDnD.DnD)));
-	//GreatSwords ToolMaterials will be changed to their proper materials Might adjust the texutre of these and change these to longswords, i would like Greatswords to ACTUALLY BE GREAT SWORDS, these are too puny to be great.
+	//longswords ToolMaterials will be changed to their proper materials Might adjust the texutre of these and change these to longswords, i would like longswords to ACTUALLY BE GREAT SWORDS, these are too puny to be great.
+	public static final RegistryObject<SwordItem> WOOD_LONGSWORD = ITEMS.register("wood_longsword",
+			() -> new SwordItem(ToolMaterialInit.STEEL, 4, -3.2f, new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<SwordItem> STONE_LONGSWORD = ITEMS.register("stone_longsword",
+			() -> new SwordItem(ToolMaterialInit.STEEL, 5, -3.2f, new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<SwordItem> GOLD_LONGSWORD = ITEMS.register("gold_longsword",
+			() -> new SwordItem(ToolMaterialInit.STEEL, 4, -3.2f, new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<SwordItem> IRON_LONGSWORD = ITEMS.register("iron_longsword",
+			() -> new SwordItem(ToolMaterialInit.STEEL, 6, -3.2f, new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<SwordItem> STEEL_LONGSWORD = ITEMS.register("steel_longsword",
+			() -> new SwordItem(ToolMaterialInit.STEEL, 7, -3.2f, new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<SwordItem> DIAMOND_LONGSWORD = ITEMS.register("diamond_longsword",
+			() -> new SwordItem(ToolMaterialInit.STEEL, 7, -3.2f, new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<SwordItem> NETHERITE_LONGSWORD = ITEMS.register("netherite_longsword",
+			() -> new SwordItem(ToolMaterialInit.STEEL, 8, -3.2f, new Item.Properties().tab(ProjectDnD.DnD)));
+	//GREATSWORDS
 	public static final RegistryObject<SwordItem> WOOD_GREATSWORD = ITEMS.register("wood_greatsword",
 			() -> new SwordItem(ToolMaterialInit.STEEL, 4, -3.2f, new Item.Properties().tab(ProjectDnD.DnD)));
 	public static final RegistryObject<SwordItem> STONE_GREATSWORD = ITEMS.register("stone_greatsword",
@@ -254,7 +271,7 @@ public final class ItemInit {
 	public static final RegistryObject<SwordItem> IRON_GREATSWORD = ITEMS.register("iron_greatsword",
 			() -> new SwordItem(ToolMaterialInit.STEEL, 6, -3.2f, new Item.Properties().tab(ProjectDnD.DnD)));
 	public static final RegistryObject<SwordItem> STEEL_GREATSWORD = ITEMS.register("steel_greatsword",
-			() -> new SwordItem(ToolMaterialInit.STEEL, 7, -3.2f, new Item.Properties().tab(ProjectDnD.DnD)));
+					() -> new SwordItem(ToolMaterialInit.STEEL, 7, -3.2f, new Item.Properties().tab(ProjectDnD.DnD)));
 	public static final RegistryObject<SwordItem> DIAMOND_GREATSWORD = ITEMS.register("diamond_greatsword",
 			() -> new SwordItem(ToolMaterialInit.STEEL, 7, -3.2f, new Item.Properties().tab(ProjectDnD.DnD)));
 	public static final RegistryObject<SwordItem> NETHERITE_GREATSWORD = ITEMS.register("netherite_greatsword",
