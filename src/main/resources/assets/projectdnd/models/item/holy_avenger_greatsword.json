@@ -1,0 +1,47 @@
+{
+
+    "parent": "item/handheld",
+
+    "textures": {
+
+        "layer0": "projectdnd:items/holy_avenger_greatsword"
+
+    },
+    
+    "display": {
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0],
+            "scale":[ 1.6, 1.6, 1.2 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 1.6, 1.6, 1.2 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [-115, -45, -65 ],
+            "translation": [ 3, 7, 1 ],
+            "scale": [ 1.6, 1.6, 1.2 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [-115, -45, -65 ],
+            "translation": [ 3, 7, 1 ],
+            "scale": [ 1.6, 1.6, 1.2 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 90, -40 ],
+            "translation": [ 0, 8, 1 ],
+            "scale": [ 1.6, 1.6, 1.2 ]
+        },
+        "thirdperson_lefthand": {
+        	"rotation": [ 0, 90, -40 ],
+        	"translation": [0, 8, 1 ],
+        	"scale": [ 1.6, 1.6, 1.2]
+        }
+    }
+
+}
+
+
+

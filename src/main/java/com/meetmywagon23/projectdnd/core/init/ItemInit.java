@@ -202,6 +202,8 @@ public final class ItemInit {
 	//                 C
 	
 	//Gemstone / Jewel Dusts. please refer to the wiki for the list of dusts to include.
+	
+	//Ore Dusts
 	//Raw ores, Ingots, Nuggets
 	public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
 			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
@@ -231,6 +233,13 @@ public final class ItemInit {
 			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
 	public static final RegistryObject<Item> MYTHRIL_NUGGET = ITEMS.register("mythril_nugget",
 			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	
+	
+	
+	
+	
+	
+	
 	//Misc Daggers Damage needs to be adjusted, and Speed needs to be adjusted. not sure how to change it. i think a few tool materials will need to be used.
 	public static final RegistryObject<TridentItem> WOOD_DAGGER = ITEMS.register("wood_dagger",
 			() -> new TridentItem((new Item.Properties()).durability(59).tab(ProjectDnD.DnD)));
@@ -246,7 +255,7 @@ public final class ItemInit {
 			() -> new TridentItem((new Item.Properties()).durability(1561).tab(ProjectDnD.DnD)));
 	public static final RegistryObject<TridentItem> NETHERITE_DAGGER = ITEMS.register("netherite_dagger",
 			() -> new TridentItem((new Item.Properties().fireResistant()).durability(2031).tab(ProjectDnD.DnD)));
-	//longswords ToolMaterials will be changed to their proper materials Might adjust the texutre of these and change these to longswords, i would like longswords to ACTUALLY BE GREAT SWORDS, these are too puny to be great.
+	//longswords ToolMaterials will be changed to their proper materials Might adjust the texture of these and change these to longswords, i would like longswords to ACTUALLY BE GREAT SWORDS, these are too puny to be great.
 	public static final RegistryObject<SwordItem> WOOD_LONGSWORD = ITEMS.register("wood_longsword",
 			() -> new SwordItem(ToolMaterialInit.STEEL, 4, -3.2f, new Item.Properties().tab(ProjectDnD.DnD)));
 	public static final RegistryObject<SwordItem> STONE_LONGSWORD = ITEMS.register("stone_longsword",
@@ -276,6 +285,12 @@ public final class ItemInit {
 			() -> new SwordItem(ToolMaterialInit.STEEL, 7, -3.2f, new Item.Properties().tab(ProjectDnD.DnD)));
 	public static final RegistryObject<SwordItem> NETHERITE_GREATSWORD = ITEMS.register("netherite_greatsword",
 			() -> new SwordItem(ToolMaterialInit.STEEL, 8, -3.2f, new Item.Properties().tab(ProjectDnD.DnD)));
+	
+//Legendary Greatswords
+	public static final RegistryObject<SwordItem> HOLY_AVENGER_GREATSWORD = ITEMS.register("holy_avenger_greatsword",
+			() -> new SwordItem(ToolMaterialInit.STEEL, 8, -3.2f, new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<SwordItem> HAZIRAWN_GREATSWORD = ITEMS.register("hazirawn_greatsword",
+			() -> new SwordItem(ToolMaterialInit.STEEL, 9, -3.2f, new Item.Properties().tab(ProjectDnD.DnD)));
 	//ALL STEEL STUFF-----------------TO BE MOVED TO PROPER CATAGORIES ORGANIZED----------------------------------------These are only temporarily here
 	public static final RegistryObject<SwordItem> STEEL_SWORD = ITEMS.register("steel_sword",
 			() -> new SwordItem(ToolMaterialInit.STEEL, 4, -2.4f, new Item.Properties().tab(ProjectDnD.DnD)));

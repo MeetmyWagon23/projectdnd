@@ -23,7 +23,7 @@ java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 println('Java: ' + System.getProperty('java.version') + ' JVM: ' + System.getProperty('java.vm.version') + '(' + System.getProperty('java.vendor') + ') Arch: ' + System.getProperty('os.arch'))
 minecraft {
 
-    mappings channel: 'official', version: '1.19'
+    mappings channel: 'official', version: '1.19.2'
 
     // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg') // Currently, this location cannot be changed from the default.
 
@@ -68,19 +68,24 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
 
+	//maven { url "https://www.cursemaven.com" }
+	maven { url "https://maven.shedaniel.me/" }
+    maven { url 'https://maven.kosmx.dev/'}
 
-    maven {
-        url "https://www.cursemaven.com"
-    }
 }
 
 dependencies {
 
-    minecraft 'net.minecraftforge:forge:1.19-41.1.0'
+    minecraft 'net.minecraftforge:forge:1.19.2-43.1.3'
 
+	//annotationProcessor 'org.spongepowered:mixin:0.8.4:processor' grabbed this from another thing, hasnt been useful as of yet.
+  //  compileOnly fg.deobf("curse.maven:bettercombat-639842:3961030")
+  //  modImplimentation("curse.maven:bendylib-6233733930015") an optional mod that we may use later.
+	modImplementation ("dev.kosmx.player-anim:player-animation-lib-forge:${project.player_anim}")
+   	implementation fg.deobf("me.shedaniel.cloth:cloth-config-forge:8.0.75")
+    modImplimentation ("curse.maven:bettercombat-639842:3961030")
 
-  //  compileOnly fg.deobf("")
-    //runtimeOnly fg.deobf("")
+    
 
 }
 
@@ -90,7 +95,7 @@ jar {
         attributes([
                 "Specification-Title"     : "Project D&D",
                 "Specification-Vendor"    : "Wagon & Group",
-                "Specification-Version"   : "0.0.1", // We are version 1 of ourselves
+                "Specification-Version"   : "0.0.2",
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
                 "Implementation-Vendor"   : "MeetmyWagon23",
