@@ -70,7 +70,7 @@ repositories {
 
 	//maven { url "https://www.cursemaven.com" }
 	//maven { url "https://maven.shedaniel.me/" }
-  //  maven { url 'https://maven.kosmx.dev/'}
+  //maven { url 'https://maven.kosmx.dev/'}
 
 }
 
