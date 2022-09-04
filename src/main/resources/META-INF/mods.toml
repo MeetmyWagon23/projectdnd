@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[43,)" 
+loaderVersion="[42,)" 
 license="All rights reserved"
 [[mods]]
     modId="projectdnd"
@@ -16,6 +16,6 @@ Descriptor
 [[dependencies.projectdnd]]
     modId="forge"
     mandatory=false
-    versionRange="[43,)"
+    versionRange="[42,)"
     ordering="BEFORE"
     side="BOTH"
