@@ -205,40 +205,92 @@ public final class ItemInit {
 	
 	//Ore Dusts
 	//Raw ores, Ingots, Nuggets
-	public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
+	
+	//flesh
+	//wood
+	//bone
+	//stone
+	public static final RegistryObject<Item> LEAD_INGOT = ITEMS.register("lead_ingot",
 			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
-	public static final RegistryObject<Item> STEEL_NUGGET = ITEMS.register("steel_nugget",
+	public static final RegistryObject<Item> LEAD_NUGGET = ITEMS.register("lead_nugget",
 			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> TIN_INGOT = ITEMS.register("tin_ingot",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> TIN_NUGGET = ITEMS.register("tin_nugget",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> ZINC_INGOT = ITEMS.register("zinc_ingot",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> ZINC_NUGGET = ITEMS.register("zinc_nugget",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	//gold ingot
+	//gold nugget
 	public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot",
 			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
 	public static final RegistryObject<Item> SILVER_NUGGET = ITEMS.register("silver_nugget",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> ALUMINUM_INGOT = ITEMS.register("aluminum_ingot",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> ALUMINUM_NUGGET = ITEMS.register("aluminum_nugget",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> ELECTRUM_INGOT = ITEMS.register("electrum_ingot",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> ELECTRUM_NUGGET = ITEMS.register("electrum_nugget",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	//copper ingot
+	public static final RegistryObject<Item> COPPER_NUGGET = ITEMS.register("copper_nugget",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> BRASS_INGOT = ITEMS.register("brass_ingot",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> BRASS_NUGGET = ITEMS.register("brass_nugget",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> BRONZE_NUGGET = ITEMS.register("bronze_nugget",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> NICKEL_INGOT = ITEMS.register("nickel_ingot",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> NICKEL_NUGGET = ITEMS.register("nickel_nugget",
 			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
 	public static final RegistryObject<Item> PLATINUM_INGOT = ITEMS.register("platinum_ingot",
 			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
 	public static final RegistryObject<Item> PLATINUM_NUGGET = ITEMS.register("platinum_nugget",
 			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	//iron ingot
+	//iron nugget
+	public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> STEEL_NUGGET = ITEMS.register("steel_nugget",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> PALLADIUM_INGOT = ITEMS.register("palladium_ingot",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> PALLADIUM_NUGGET = ITEMS.register("palladium_nugget",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> TITANIUM_INGOT = ITEMS.register("titanium_ingot",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> TITANIUM_NUGGET = ITEMS.register("titanium_nugget",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	//Diamond
+	//Netherite
+	public static final RegistryObject<Item> TUNGSTEN_INGOT = ITEMS.register("tungsten_ingot",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> TUNGSTEN_NUGGET = ITEMS.register("tungsten_nugget",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> MITHRIL_INGOT = ITEMS.register("mithril_ingot",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
+	public static final RegistryObject<Item> MITHRIL_NUGGET = ITEMS.register("mithril_nugget",
+			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
 	public static final RegistryObject<Item> ADAMANT_INGOT = ITEMS.register("adamant_ingot",
 			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
 	public static final RegistryObject<Item> ADAMANT_NUGGET = ITEMS.register("adamant_nugget",
-			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
-	public static final RegistryObject<Item> ADAMANTINE_INGOT = ITEMS.register("adamantine_ingot",
-			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
-	public static final RegistryObject<Item> ADAMANTINE_NUGGET = ITEMS.register("adamantine_nugget",
 			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
 	public static final RegistryObject<Item> ITANIUM_INGOT = ITEMS.register("itanium_ingot",
 			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
 	public static final RegistryObject<Item> ITANIUM_NUGGET = ITEMS.register("itanium_nugget",
 			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
-	public static final RegistryObject<Item> MYTHRIL_INGOT = ITEMS.register("mythril_ingot",
+	public static final RegistryObject<Item> ADAMANTINE_INGOT = ITEMS.register("adamantine_ingot",
 			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
-	public static final RegistryObject<Item> MYTHRIL_NUGGET = ITEMS.register("mythril_nugget",
+	public static final RegistryObject<Item> ADAMANTINE_NUGGET = ITEMS.register("adamantine_nugget",
 			()-> new Item(new Item.Properties().tab(ProjectDnD.DnD)));
-	
-	
-	
-	
-	
-	
 	
 	//Misc Daggers Damage needs to be adjusted, and Speed needs to be adjusted. not sure how to change it. i think a few tool materials will need to be used.
 	public static final RegistryObject<TridentItem> WOOD_DAGGER = ITEMS.register("wood_dagger",
