@@ -1,5 +1,6 @@
 {
 //creative tab name
+	"itemGroup.projectdnd.group": "D&D",
 	"itemGroup.projectdnd": "D&D",
 //Coins (currency)
 	"item.projectdnd.copper_coin": "Copper Coin",
