@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+#issueTrackerURL = ""
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "projectdnd"
+version = "${version}"
+displayName = "Project D&D"
+authors = "Wagon, BoonelDanForever, Vik, AnonMine"
+description = '''
+This is an example description! Tell everyone what your mod is about!
+'''
+logoFile = "modlogo.png"
+
+[[dependencies.projectdnd]]
+modId = "forge"
+mandatory = false
+versionRange = "[43,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.projectdnd]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.projectdnd]]
+modId = "architectury"
+mandatory = true
+versionRange = "[6.2.43,)"
+ordering = "AFTER"
+side = "BOTH"
