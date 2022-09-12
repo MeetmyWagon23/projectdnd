@@ -1,10 +1,12 @@
 package com.meetmywagon23.projectdnd;
 
 import com.meetmywagon23.projectdnd.init.ItemsInit;
+import com.meetmywagon23.projectdnd.init.ToolsInit;
 import com.meetmywagon23.projectdnd.init.WeaponsInit;
 import dev.architectury.registry.CreativeTabRegistry;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.PickaxeItem;
 import net.minecraft.util.Identifier;
 
 public class ProjectDnD {
@@ -18,6 +20,7 @@ public class ProjectDnD {
     public static void init() {
         ItemsInit.init();
         WeaponsInit.init();
+        ToolsInit.init();
         
         System.out.println(ProjectDnDExpectPlatform.getConfigDirectory().toAbsolutePath().normalize().toString());
     }
