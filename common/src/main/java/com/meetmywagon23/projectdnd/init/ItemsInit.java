@@ -85,8 +85,6 @@ public class ItemsInit {
     public static final RegistrySupplier<Item> NETHERITE_SHEATH = ITEMS.register("netherite_sheath",
             () -> new Item(new Item.Settings().fireproof().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
 
-    //ARMOR Steel-> Silver-> Adamantine-> Itanium.
-
     //Dagger Sheaths Please use leather_dagger_sheath.png as a working ground for the colored wool textures.
     public static final RegistrySupplier<Item> LEATHER_DAGGER_SHEATH = ITEMS.register("leather_dagger_sheath",
             () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
