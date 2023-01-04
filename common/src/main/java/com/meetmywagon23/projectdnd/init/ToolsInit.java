@@ -25,7 +25,7 @@ public class ToolsInit {
     public static final RegistrySupplier<PickaxeItem> BONE_PICKAXE = PICKAXES.register("bone_pickaxe",
             () -> new PickaxeItem(ToolMaterialsInit.BONE, 1, -2.8f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<AxeItem> BONE_AXE = AXES.register("bone_axe",
-            () -> new AxeItem(ToolMaterialsInit.BONE, 1f, -2.8f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+            () -> new AxeItem(ToolMaterialsInit.BONE, 2f, -2.8f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<ShovelItem> BONE_shovel = SHOVELS.register("bone_shovel",
             () -> new ShovelItem(ToolMaterialsInit.BONE, 1f, 0.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<HoeItem> BONE_HOE = HOES.register("bone_hoe",

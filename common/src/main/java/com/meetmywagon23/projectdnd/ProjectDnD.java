@@ -1,5 +1,6 @@
 package com.meetmywagon23.projectdnd;
 
+import com.meetmywagon23.projectdnd.init.ArmorsInit;
 import com.meetmywagon23.projectdnd.init.ItemsInit;
 import com.meetmywagon23.projectdnd.init.ToolsInit;
 import com.meetmywagon23.projectdnd.init.WeaponsInit;
@@ -20,6 +21,7 @@ public class ProjectDnD {
         ItemsInit.init();
         WeaponsInit.init();
         ToolsInit.init();
+     //   ArmorsInit.init();
         
         System.out.println(ProjectDnDExpectPlatform.getConfigDirectory().toAbsolutePath().normalize().toString());
     }
