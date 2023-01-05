@@ -63,6 +63,7 @@ public class WeaponsInit {
             () -> new SwordItem(ToolMaterialsInit.STEEL, 8, -3.2f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> HAZIRAWN_GREATSWORD = WEAPONS.register("hazirawn_greatsword",
             () -> new SwordItem(ToolMaterialsInit.STEEL, 9, -3.2f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    //Hazirawn Greatsword uses a geckolib model at the moment, so it wont load just yet.
     //ALL STEEL STUFF-----------------TO BE MOVED TO PROPER CATAGORIES ORGANIZED----------------------------------------These are only temporarily here
     public static final RegistrySupplier<SwordItem> STEEL_SWORD = WEAPONS.register("steel_sword",
             () -> new SwordItem(ToolMaterialsInit.STEEL, 4, -2.4f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
