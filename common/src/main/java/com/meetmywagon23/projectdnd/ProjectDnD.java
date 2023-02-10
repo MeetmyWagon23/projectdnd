@@ -21,7 +21,7 @@ public class ProjectDnD {
         ItemsInit.init();
         WeaponsInit.init();
         ToolsInit.init();
-     //   ArmorsInit.init();
+        ArmorsInit.init();
         
         System.out.println(ProjectDnDExpectPlatform.getConfigDirectory().toAbsolutePath().normalize().toString());
     }

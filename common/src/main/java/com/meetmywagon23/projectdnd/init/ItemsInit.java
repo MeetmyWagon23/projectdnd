@@ -4,12 +4,18 @@ import com.meetmywagon23.projectdnd.ProjectDnD;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.item.Item;
+import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
+import org.apache.commons.compress.compressors.lz77support.LZ77Compressor;
 
 public class ItemsInit {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ProjectDnD.MOD_ID, Registry.ITEM_KEY);
 
-    //Coins (currency)
+    /*
+
+    Coins (currency) in the future i would like to reach out to the team who made the stackable and puchable coins to improve our system. for now this will have to suffice.
+
+    */
     public static final RegistrySupplier<Item> COPPER_COIN = ITEMS.register("copper_coin",
             () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(50)));
     public static final RegistrySupplier<Item> SILVER_COIN = ITEMS.register("silver_coin",
@@ -34,10 +40,21 @@ public class ItemsInit {
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(50)));
     public static final RegistrySupplier<Item> TEN_PLATINUM_COINS = ITEMS.register("ten_platinum_coins",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(50)));
+/*
+LEGENDARY REPAIRING
+ */
+public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("legendary_core",
+        () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1).rarity(Rarity.EPIC)));
+    /*--------------------------
 
-    //Coin Pouches
+        Coin Pouches registry
 
-    //Sheaths
+    ----------------------------
+    ----------------------------
+
+        Sheath Registry
+
+    --------------------------*/
     public static final RegistrySupplier<Item> LEATHER_SHEATH = ITEMS.register("leather_sheath",
             () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
     public static final RegistrySupplier<Item> WHITE_SHEATH = ITEMS.register("white_sheath",
@@ -188,18 +205,28 @@ public class ItemsInit {
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> BRANDEEN = ITEMS.register("brandeen",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
-    // C
+    /* C
 
-    //Gemstone / Jewel Dusts. please refer to the wiki for the list of dusts to include.
+    Gemstone / Jewel Dusts. please refer to the wiki for the list of dusts to include.
 
-    //Raw ores, Ingots, Nuggets
+    Raw ores, Ingots, Nuggets
+
+    Ores are organized using the MOHS Hardness Scale, I wanted to keep things realistic as much as possible.
+
+     */
+    public static final RegistrySupplier<Item> RAW_LEAD = ITEMS.register("raw_lead",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> LEAD_INGOT = ITEMS.register("lead_ingot",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> LEAD_NUGGET = ITEMS.register("lead_nugget",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> RAW_TIN = ITEMS.register("raw_tin",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> TIN_INGOT = ITEMS.register("tin_ingot",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> TIN_NUGGET = ITEMS.register("tin_nugget",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> RAW_ZINC = ITEMS.register("raw_zinc",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> ZINC_INGOT = ITEMS.register("zinc_ingot",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
@@ -207,32 +234,47 @@ public class ItemsInit {
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     //Gold Ingot
     //Gold Nugget
+    public static final RegistrySupplier<Item> RAW_SILVER = ITEMS.register("raw_silver",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> SILVER_INGOT = ITEMS.register("silver_ingot",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> SILVER_NUGGET = ITEMS.register("silver_nugget",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> RAW_ALUMINUM = ITEMS.register("raw_aluminum",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> ALUMINUM_INGOT = ITEMS.register("aluminum_ingot",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> ALUMINUM_NUGGET = ITEMS.register("aluminum_nugget",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> RAW_ELECTRUM = ITEMS.register("raw_electrum",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> ELECTRUM_INGOT = ITEMS.register("electrum_ingot",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> ELECTRUM_NUGGET = ITEMS.register("electrum_nugget",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     //Copper Ingot
+
     public static final RegistrySupplier<Item> COPPER_NUGGET = ITEMS.register("copper_nugget",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> RAW_BRASS = ITEMS.register("raw_brass",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> BRASS_INGOT = ITEMS.register("brass_ingot",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> BRASS_NUGGET = ITEMS.register("brass_nugget",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> RAW_BRONZE = ITEMS.register("raw_bronze",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> BRONZE_NUGGET = ITEMS.register("bronze_nugget",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> RAW_NICKEL = ITEMS.register("raw_nickel",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> NICKEL_INGOT = ITEMS.register("nickel_ingot",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> NICKEL_NUGGET = ITEMS.register("nickel_nugget",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> RAW_PLATINUM = ITEMS.register("raw_platinum",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> PLATINUM_INGOT = ITEMS.register("platinum_ingot",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
@@ -240,13 +282,19 @@ public class ItemsInit {
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     //Iron Ingot
     //Iron Nugget
+    public static final RegistrySupplier<Item> RAW_STEEL = ITEMS.register("raw_steel",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> STEEL_NUGGET = ITEMS.register("steel_nugget",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> RAW_PALLADIUM = ITEMS.register("raw_palladium",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> PALLADIUM_INGOT = ITEMS.register("palladium_ingot",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> PALLADIUM_NUGGET = ITEMS.register("palladium_nugget",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> RAW_TITANIUM = ITEMS.register("raw_titanium",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> TITANIUM_INGOT = ITEMS.register("titanium_ingot",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
@@ -254,21 +302,28 @@ public class ItemsInit {
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     //Diamond
     //Netherite
+    public static final RegistrySupplier<Item> RAW_TUNGSTEN = ITEMS.register("raw_tungsten",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> TUNGSTEN_INGOT = ITEMS.register("tungsten_ingot",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> TUNGSTEN_NUGGET = ITEMS.register("tungsten_nugget",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> RAW_MITHRIL = ITEMS.register("raw_mithril",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> MITHRIL_INGOT = ITEMS.register("mithril_ingot",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> MITHRIL_NUGGET = ITEMS.register("mithril_nugget",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> ADAMANT_INGOT = ITEMS.register("adamant_ingot",
+    //adamant is used only to craft Adamantine. there is lore relation to this reasoning in the D&D world.
+    public static final RegistrySupplier<Item> RAW_ADAMANT = ITEMS.register("raw_adamant",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> ADAMANT_NUGGET = ITEMS.register("adamant_nugget",
+    public static final RegistrySupplier<Item> RAW_ITANIUM = ITEMS.register("raw_itanium",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> ITANIUM_INGOT = ITEMS.register("itanium_ingot",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> ITANIUM_NUGGET = ITEMS.register("itanium_nugget",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> RAW_ADAMANTINE = ITEMS.register("raw_adamantine",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> ADAMANTINE_INGOT = ITEMS.register("adamantine_ingot",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));

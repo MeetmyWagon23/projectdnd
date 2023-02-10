@@ -12,7 +12,7 @@ public class ToolsInit {
     public static final DeferredRegister<Item> AXES = DeferredRegister.create(ProjectDnD.MOD_ID, Registry.ITEM_KEY);
     public static final DeferredRegister<Item> SHOVELS = DeferredRegister.create(ProjectDnD.MOD_ID, Registry.ITEM_KEY);
     public static final DeferredRegister<Item> HOES = DeferredRegister.create(ProjectDnD.MOD_ID, Registry.ITEM_KEY);
-
+    //Tools are organized using the MOHS Hardness Scale.
     public static final RegistrySupplier<PickaxeItem> FLESH_PICKAXE = PICKAXES.register("flesh_pickaxe",
             () -> new PickaxeItem(ToolMaterialsInit.FLESH, 1, -2.8f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<AxeItem> FLESH_AXE = AXES.register("flesh_axe",
@@ -21,7 +21,10 @@ public class ToolsInit {
             () -> new ShovelItem(ToolMaterialsInit.FLESH, 1f, 0.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<HoeItem> FLESH_HOE = HOES.register("flesh_hoe",
             () -> new HoeItem(ToolMaterialsInit.FLESH, 1, -2.8f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
-
+    /*
+    bone is actually a 5 on the MOHS hardness scale, making it stronger than Platinum
+    but not Steel. So this will need to be disgussed with the team as bone is easy to get.
+    */
     public static final RegistrySupplier<PickaxeItem> BONE_PICKAXE = PICKAXES.register("bone_pickaxe",
             () -> new PickaxeItem(ToolMaterialsInit.BONE, 1, -2.8f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<AxeItem> BONE_AXE = AXES.register("bone_axe",
