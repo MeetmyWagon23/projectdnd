@@ -208,16 +208,15 @@ public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("lege
     /* C
 
     Gemstone / Jewel Dusts. please refer to the wiki for the list of dusts to include.
+    Ores are organized using the MOHS Hardness Scale, I wanted to keep things realistic as much as possible.
 
     Raw ores, Ingots, Nuggets
-
-    Ores are organized using the MOHS Hardness Scale, I wanted to keep things realistic as much as possible.
 
      */
     public static final RegistrySupplier<Item> RAW_LEAD = ITEMS.register("raw_lead",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> LEAD_INGOT = ITEMS.register("lead_ingot",
-            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));//--------------------------------------------------
     public static final RegistrySupplier<Item> LEAD_NUGGET = ITEMS.register("lead_nugget",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> RAW_TIN = ITEMS.register("raw_tin",
@@ -315,7 +314,7 @@ public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("lege
     public static final RegistrySupplier<Item> MITHRIL_NUGGET = ITEMS.register("mithril_nugget",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     //adamant is used only to craft Adamantine. there is lore relation to this reasoning in the D&D world.
-    public static final RegistrySupplier<Item> RAW_ADAMANT = ITEMS.register("raw_adamant",
+    public static final RegistrySupplier<Item> RAW_ADAMANT_FRAGMENT = ITEMS.register("raw_adamant_fragment",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> RAW_ITANIUM = ITEMS.register("raw_itanium",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
@@ -332,7 +331,5 @@ public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("lege
 
     //Ore Dusts
 
-    public static void init() {
-        ITEMS.register();
-    }
+
 }

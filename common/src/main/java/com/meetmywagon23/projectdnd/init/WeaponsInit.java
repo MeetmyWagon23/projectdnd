@@ -13,7 +13,7 @@ public class WeaponsInit {
     mohs hardness order
     wood------------------------vanilla
     stone-----------------------vanilla
-    bone - placeholder----------
+
     lead------------------------
     tin-------------------------
     gold------------------------vanilla
@@ -26,6 +26,7 @@ public class WeaponsInit {
     bronze----------------------
     nickel----------------------
     platinum--------------------
+    bone - placeholder------------------------DURABILITY WILL BE LOWER, BUT I FEEL THIS FITS BETTER HERE USING THE MOHS HARDNESS SCALE.
     iron------------------------vanilla
     steel-----------------------
     diamond---------------------vanilla
@@ -211,7 +212,7 @@ public static final RegistrySupplier<SwordItem> STEEL_GLAIVE = WEAPONS.register(
 /*----------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------SCIMITARS---------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------*/
-public static final RegistrySupplier<SwordItem> WOOD_SCIMITAR = WEAPONS.register("wood_scimitar",
+    public static final RegistrySupplier<SwordItem> WOOD_SCIMITAR = WEAPONS.register("wood_scimitar",
         () -> new SwordItem(ToolMaterials.WOOD, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> STONE_SCIMITAR = WEAPONS.register("stone_scimitar",
             () -> new SwordItem(ToolMaterials.STONE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
@@ -264,22 +265,22 @@ public static final RegistrySupplier<SwordItem> WOOD_SCIMITAR = WEAPONS.register
 /*----------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------QUARTERSTAFFS-----------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------*/
-public static final RegistrySupplier<SwordItem> STEEL_QUARTERSTAFF = WEAPONS.register("steel_quarterstaff",
+    public static final RegistrySupplier<SwordItem> STEEL_QUARTERSTAFF = WEAPONS.register("steel_quarterstaff",
         () -> new SwordItem(ToolMaterialsInit.STEEL, 4, -2.4f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
 /*----------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------HALBERDS----------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------*/
-public static final RegistrySupplier<SwordItem> STEEL_HALBERD = WEAPONS.register("steel_halberd",
+    public static final RegistrySupplier<SwordItem> STEEL_HALBERD = WEAPONS.register("steel_halberd",
         () -> new SwordItem(ToolMaterialsInit.STEEL, 4, -2.4f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
 /*----------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------TRIDENTS----------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------*/
-public static final RegistrySupplier<SwordItem> STEEL_TRIDENT = WEAPONS.register("steel_trident",
+    public static final RegistrySupplier<SwordItem> STEEL_TRIDENT = WEAPONS.register("steel_trident",
         () -> new SwordItem(ToolMaterialsInit.STEEL, 4, -2.4f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
 /*----------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------BATTLEAXES--------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------*/
-public static final RegistrySupplier<AxeItem> BONE_BATTLEAXE = WEAPONS.register("bone_battleaxe",
+    public static final RegistrySupplier<AxeItem> BONE_BATTLEAXE = WEAPONS.register("bone_battleaxe",
         () -> new AxeItem(ToolMaterialsInit.BONE, 2f, -2.8f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
 /*----------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------FLAILS------------------------------------------------------------
@@ -430,7 +431,5 @@ public static final RegistrySupplier<SwordItem> STEEL_LONGSPEAR = WEAPONS.regist
             () -> new SwordItem(ToolMaterialsInit.LEGENDARY_CORE, 12, -3.2f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> HAZIRAWN_GREATSWORD = WEAPONS.register("hazirawn_greatsword",
             () -> new SwordItem(ToolMaterialsInit.LEGENDARY_CORE, 12, -3.2f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectDnD.CREATIVE_TAB)));
-    public static void init() {
-        WEAPONS.register();
-    }
+
 }
