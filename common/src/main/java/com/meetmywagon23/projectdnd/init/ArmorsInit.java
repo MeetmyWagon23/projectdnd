@@ -8,6 +8,12 @@ import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.util.registry.Registry;
 
+import java.util.List;
+import java.util.Locale;
+
+import static com.meetmywagon23.projectdnd.armormaterials.ArmorSetMaterials.*;
+import static net.minecraft.entity.EquipmentSlot.*;
+
 public class ArmorsInit {
     public static final DeferredRegister<Item> ARMOR = DeferredRegister.create(ProjectDnD.MOD_ID, Registry.ITEM_KEY);
 
