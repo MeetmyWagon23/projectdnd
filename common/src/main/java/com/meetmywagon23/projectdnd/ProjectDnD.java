@@ -18,10 +18,10 @@ public class ProjectDnD {
             new ItemStack(ItemsInit.PLATINUM_COIN.get()));
 
     public static void init() {
-        ItemsInit.ITEMS.register();
-        ToolsInit.init();
-        ArmorsInit.ARMOR.register();
-        WeaponsInit.WEAPONS.register();
+      ItemsInit.ITEMS.register();
+      ToolsInit.init();
+      ArmorsInit.ARMOR.register();
+      WeaponsInit.WEAPONS.register();
 
         System.out.println(ProjectDnDExpectPlatform.getConfigDirectory().toAbsolutePath().normalize().toString());
     }

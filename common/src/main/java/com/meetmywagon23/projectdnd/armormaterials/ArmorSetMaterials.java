@@ -13,33 +13,34 @@ import net.minecraft.sound.SoundEvents;
 import java.util.function.Supplier;
 
 public enum ArmorSetMaterials implements ArmorMaterial {
-    FLESH("flesh", 2, new int[]{1, 2, 3, 1}, 1, SoundEvents.ENTITY_ZOMBIE_INFECT, 0.0F, 0.0F, Items.ROTTEN_FLESH),//<---I NEED TO BE A COMMA TO WORK
+    FLESH("flesh", 1, new int[]{1, 1, 2, 1}, 1, SoundEvents.ENTITY_ZOMBIE_INFECT, 0.0F, 0.0F, Items.ROTTEN_FLESH),//<---I NEED TO BE A COMMA TO WORK
     //wood
-    //stone  //ItemsInit.LEAD_INGOT.get()
-    LEAD("lead", 2, new int[]{1,2,3,1}, 1, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.0f, 0.0f, Items.BONE),
-    TIN("tin", 2, new int[]{1,2,3,1}, 8, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, ItemsInit.TIN_NUGGET.get()),
-    ZINC("zinc", 2, new int[]{1,2,3,1}, 8, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.0f, 0.0f, ItemsInit.ZINC_INGOT.get()),
-    SILVER("silver", 2, new int[]{1,2,3,1}, 20, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.0f, 0.0f, ItemsInit.SILVER_INGOT.get()),
-    ALUMINUM("aluminum", 2, new int[]{1,2,3,1},8, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.0f, 0.0f, ItemsInit.ALUMINUM_INGOT.get()),
-    ELECTRUM("electrum", 2, new int[]{1,2,3,1}, 20, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.0f, 0.0f, ItemsInit.ELECTRUM_INGOT.get()),
-    COPPER("copper", 2, new int[]{1,2,3,1}, 8, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, Items.COPPER_INGOT),
-    BRASS("brass", 2, new int[]{1,2,3,1}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, ItemsInit.BRASS_INGOT.get()),
-    BRONZE("bronze", 2, new int[]{1,2,3,1}, 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, ItemsInit.BRONZE_INGOT.get()),
-    NICKEL("nickel", 2, new int[]{1,2,3,1}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, ItemsInit.NICKEL_INGOT.get()),
-    PLATINUM("platinum", 2, new int[]{1,2,3,1}, 22, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.0f, 0.0f, ItemsInit.PLATINUM_INGOT.get()),
-    BONE("bone", 2, new int[]{1,2,3,1}, 1, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.0f, 0.0f, Items.BONE),
+    //stone
+    LEAD("lead", 1, new int[]{1,2,3,1}, 1, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.0f, 0.0f, ItemsInit.LEAD_INGOT.get()),
+    TIN("tin", 1, new int[]{1,2,3,1}, 8, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, ItemsInit.TIN_NUGGET.get()),
+    ZINC("zinc", 1, new int[]{1,2,3,1}, 8, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.0f, 0.0f, ItemsInit.ZINC_INGOT.get()),
+    SILVER("silver", 1, new int[]{1,2,3,1}, 20, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.0f, 0.0f, ItemsInit.SILVER_INGOT.get()),
+    ALUMINUM("aluminum", 1, new int[]{1,2,3,1},8, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.0f, 0.0f, ItemsInit.ALUMINUM_INGOT.get()),
+    ELECTRUM("electrum", 1, new int[]{1,2,3,1}, 20, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.0f, 0.0f, ItemsInit.ELECTRUM_INGOT.get()),
+    COPPER("copper", 1, new int[]{1,2,3,1}, 8, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, Items.COPPER_INGOT),
+    BRASS("brass", 1, new int[]{1,2,3,1}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 2.0f, ItemsInit.BRASS_INGOT.get()),
+    BRONZE("bronze", 1, new int[]{1,2,3,1}, 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, ItemsInit.BRONZE_INGOT.get()),
+    NICKEL("nickel", 1, new int[]{1,2,3,1}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, ItemsInit.NICKEL_INGOT.get()),
+    PLATINUM("platinum", 1, new int[]{1,2,3,1}, 22, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.0f, 0.0f, ItemsInit.PLATINUM_INGOT.get()),
+    BONE("bone", 1, new int[]{1,2,3,1}, 1, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,2.0f, 0.0f, Items.BONE),
     //iron
-    STEEL("steel", 2, new int[]{1,2,3,1}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, ItemsInit.STEEL_INGOT.get()),
+    STEEL("steel", 1, new int[]{1,2,3,1}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, ItemsInit.STEEL_INGOT.get()),
     //diamond
     //netherite
-    PALLADIUM("palladium", 2, new int[]{1,2,3,1}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.0f, 0.0f, ItemsInit.PALLADIUM_INGOT.get()),
-    TITANIUM("titanium", 2, new int[]{1,2,3,1}, 20, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, ItemsInit.TITANIUM_INGOT.get()),
-    TUNGSTEN("tungsten", 2, new int[]{1,2,3,1}, 24, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, ItemsInit.TUNGSTEN_INGOT.get()),
-    MITHRIL("mithril", 2, new int[]{1,2,3,1}, 30, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, ItemsInit.MITHRIL_INGOT.get()),
-    ITANIUM("itanium", 2, new int[]{1,2,3,1}, 50, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, ItemsInit.ITANIUM_INGOT.get()),
-    ADAMANTINE("adamantine", 2, new int[]{1,2,3,1}, 50, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 6.0f, ItemsInit.ADAMANTINE_INGOT.get()),
-    LEGENDARY("legendary", 2, new int[]{1,2,3,1}, 50, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.0f, 6.0f, ItemsInit.LEGENDARY_CORE.get());
-
+    PALLADIUM("palladium", 1, new int[]{1,2,3,1}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.0f, 0.0f, ItemsInit.PALLADIUM_INGOT.get()),
+    TITANIUM("titanium", 1, new int[]{1,2,3,1}, 20, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, ItemsInit.TITANIUM_INGOT.get()),
+    TUNGSTEN("tungsten", 1, new int[]{1,2,3,1}, 24, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, ItemsInit.TUNGSTEN_INGOT.get()),
+    MITHRIL("mithril", 1, new int[]{1,2,3,1}, 30, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, ItemsInit.MITHRIL_INGOT.get()),
+    ITANIUM("itanium", 1, new int[]{14,16,17,3}, 50, SoundEvents.ITEM_ARMOR_EQUIP_IRON,6.0f, 0.6f, ItemsInit.ITANIUM_INGOT.get()),
+    ADAMANTINE("adamantine", 123, new int[]{14,16,17,13}, 50, SoundEvents.ITEM_ARMOR_EQUIP_IRON,6.0f, 0.6f, ItemsInit.ADAMANTINE_INGOT.get()),
+    LEGENDARY("legendary", 153, new int[]{15,17,18,14}, 50, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,7.0f, 0.7f, ItemsInit.LEGENDARY_CORE.get());
+//more legendary equipment to be added, mostly will be used for Legendary Boss Armors - Legendary Crafted Items from bosses.
+    //Legendary is a placeholder name.
 
 
 

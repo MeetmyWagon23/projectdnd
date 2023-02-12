@@ -6,7 +6,6 @@ import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.item.Item;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
-import org.apache.commons.compress.compressors.lz77support.LZ77Compressor;
 
 public class ItemsInit {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ProjectDnD.MOD_ID, Registry.ITEM_KEY);
