@@ -20,8 +20,9 @@ public class ProjectDnD {
     public static void init() {
       ItemsInit.ITEMS.register();
       ToolsInit.init();
-      ArmorsInit.ARMOR.register();
       WeaponsInit.WEAPONS.register();
+      ArmorsInit.ARMOR.register();
+
 
         System.out.println(ProjectDnDExpectPlatform.getConfigDirectory().toAbsolutePath().normalize().toString());
     }
