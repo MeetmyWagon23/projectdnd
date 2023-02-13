@@ -313,8 +313,8 @@ public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("lege
     public static final RegistrySupplier<Item> MITHRIL_NUGGET = ITEMS.register("mithril_nugget",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     //adamant is used only to craft Adamantine. there is lore relation to this reasoning in the D&D world.
-    public static final RegistrySupplier<Item> RAW_ADAMANT_FRAGMENT = ITEMS.register("raw_adamant_fragment",
-            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> RAW_ADAMANT_FRAGMENT = ITEMS.register("adamant_fragment",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.EPIC)));
     public static final RegistrySupplier<Item> RAW_ITANIUM = ITEMS.register("raw_itanium",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> ITANIUM_INGOT = ITEMS.register("itanium_ingot",
