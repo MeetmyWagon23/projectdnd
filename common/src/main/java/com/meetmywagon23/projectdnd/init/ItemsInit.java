@@ -315,6 +315,7 @@ public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("lege
     //adamant is used only to craft Adamantine. there is lore relation to this reasoning in the D&D world.
     public static final RegistrySupplier<Item> RAW_ADAMANT_FRAGMENT = ITEMS.register("adamant_fragment",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.EPIC)));
+    //Itanium needs to go, will be removed later.
     public static final RegistrySupplier<Item> RAW_ITANIUM = ITEMS.register("raw_itanium",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> ITANIUM_INGOT = ITEMS.register("itanium_ingot",
@@ -322,11 +323,19 @@ public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("lege
     public static final RegistrySupplier<Item> ITANIUM_NUGGET = ITEMS.register("itanium_nugget",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> RAW_ADAMANTINE = ITEMS.register("raw_adamantine",
-            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.EPIC)));
     public static final RegistrySupplier<Item> ADAMANTINE_INGOT = ITEMS.register("adamantine_ingot",
-            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.EPIC)));
     public static final RegistrySupplier<Item> ADAMANTINE_NUGGET = ITEMS.register("adamantine_nugget",
-            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.EPIC)));
+    public static final RegistrySupplier<Item> RAW_BLACK_ADAMANTINE = ITEMS.register("raw_black_adamantine",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.EPIC)));
+    public static final RegistrySupplier<Item> BLACK_ADAMANTINE_INGOT = ITEMS.register("black_adamantine_ingot",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.EPIC)));
+    public static final RegistrySupplier<Item> BLACK_ADAMANTINE_NUGGET = ITEMS.register("black_adamantine_nugget",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.EPIC)));
+    public static final RegistrySupplier<Item> DRAGONHIDE = ITEMS.register("dragonhide",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.EPIC)));
 
     //Ore Dusts
 

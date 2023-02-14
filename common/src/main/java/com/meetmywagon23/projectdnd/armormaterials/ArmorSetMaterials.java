@@ -13,14 +13,14 @@ import net.minecraft.sound.SoundEvents;
 import java.util.function.Supplier;
 
 public enum ArmorSetMaterials implements ArmorMaterial {
-    FLESH("flesh", 2, new int[]{1, 1, 2, 1}, 1, SoundEvents.ITEM_ARMOR_EQUIP_TURTLE, 0.0F, 0.0F, Items.ROTTEN_FLESH),//<---I NEED TO BE A COMMA TO WORK
+    FLESH("flesh", 2, new int[]{1, 1, 2, 1}, 1, SoundEvents.ITEM_ARMOR_EQUIP_TURTLE, 0.0F, 0.0F, Items.ROTTEN_FLESH),
     //leather                           5, new int[]{1, 2, 3, 1}
-    LEAD("lead", 4, new int[]{1,1,2,1}, 1, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,1.5f, 0.2f, ItemsInit.LEAD_INGOT.get()),
-    TIN("tin", 5, new int[]{1,1,2,1}, 8, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, ItemsInit.TIN_NUGGET.get()),
-    ZINC("zinc", 6, new int[]{1,2,3,1}, 8, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.0f, 0.0f, ItemsInit.ZINC_INGOT.get()),
+    LEAD("lead", 4, new int[]{1,1,2,1}, 1, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,1.5f, 0.2f, ItemsInit.LEAD_INGOT.get()), //unused
+    TIN("tin", 5, new int[]{1,1,2,1}, 8, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, ItemsInit.TIN_NUGGET.get()), //unused
+    ZINC("zinc", 6, new int[]{1,2,3,1}, 8, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.0f, 0.0f, ItemsInit.ZINC_INGOT.get()), //unused
     SILVER("silver", 7, new int[]{1,2,3,1}, 20, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.5f, 0.0f, ItemsInit.SILVER_INGOT.get()),
-    ALUMINUM("aluminum", 8, new int[]{1,2,2,1},8, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.0f, 0.0f, ItemsInit.ALUMINUM_INGOT.get()),
-    ELECTRUM("electrum", 9, new int[]{2,2,3,2}, 20, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.0f, 0.0f, ItemsInit.ELECTRUM_INGOT.get()),
+    ALUMINUM("aluminum", 8, new int[]{1,2,2,1},8, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.0f, 0.0f, ItemsInit.ALUMINUM_INGOT.get()), //unused
+    ELECTRUM("electrum", 9, new int[]{2,2,3,2}, 20, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.0f, 0.0f, ItemsInit.ELECTRUM_INGOT.get()), //unused
     COPPER("copper", 10, new int[]{2,2,3,2}, 8, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, Items.COPPER_INGOT),
     BRASS("brass", 11, new int[]{2,2,3,2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.4f, ItemsInit.BRASS_INGOT.get()),
     BRONZE("bronze", 12, new int[]{2,2,3,2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, ItemsInit.BRONZE_INGOT.get()),
@@ -37,8 +37,12 @@ public enum ArmorSetMaterials implements ArmorMaterial {
     MITHRIL("mithril", 107, new int[]{11,13,14,11}, 30, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,5.0f, 0.4f, ItemsInit.MITHRIL_INGOT.get()),
     ITANIUM("itanium", 107, new int[]{13,15,16,13}, 50, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,6.0f, 0.5f, ItemsInit.ITANIUM_INGOT.get()),
     ADAMANTINE("adamantine", 123, new int[]{13,15,16,14}, 50, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 6.0f, 0.5f, ItemsInit.ADAMANTINE_INGOT.get()),
-    LEGENDARY("legendary", 153, new int[]{15,17,18,15}, 50, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,7.0f, 0.6f, ItemsInit.LEGENDARY_CORE.get());
-//more legendary equipment to be added, mostly will be used for Legendary Boss Armors - Legendary Crafted Items from bosses.
+//-------------------------------------------------------------------------Legendary Armors Below Here---------------------------------------------------------------------------------------------
+    BLACK_ADAMANTINE("black_adamantine", 123, new int[]{13,15,16,14}, 50, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 6.0f, 0.5f, ItemsInit.BLACK_ADAMANTINE_INGOT.get()),
+    LEGENDARY("legendary", 153, new int[]{15,17,18,15}, 50, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,7.0f, 0.6f, ItemsInit.LEGENDARY_CORE.get()),
+    DRAGONHIDE("dragonhide", 123, new int[]{13,15,16,14}, 50, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 6.0f, 0.2f, ItemsInit.ADAMANTINE_INGOT.get());
+
+    //more legendary equipment to be added, mostly will be used for Legendary Boss Armors - Legendary Crafted Items from bosses.
     //Legendary is a placeholder name. meant to be replaced & duplicated with different set names.
 
 
@@ -46,8 +50,8 @@ public enum ArmorSetMaterials implements ArmorMaterial {
    /* EXAMPLE
    BONE("netherite", 37, new int[]{3, 6, 8, 3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.NETHERITE_INGOT});
-    });                                  Alternate sound.event for flesh could be Turtle armor sound.
-                                                                                                         \/ due to how we set this up, we can mave as many repair
+    });
+                                                                                                         \/ due to how we set this up, we can have as many repair
                                                                                                             ingredients as we want for any armor.
     FLESH("flesh", 2, new int[]{1, 2, 3, 1}, 1, SoundEvents.ENTITY_ZOMBIE_INFECT, 0.0F, 0.0F, Items.ROTTEN_FLESH, Items.BONE)
 
