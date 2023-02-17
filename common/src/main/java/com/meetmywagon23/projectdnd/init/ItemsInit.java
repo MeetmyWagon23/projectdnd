@@ -286,6 +286,12 @@ public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("lege
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> STEEL_NUGGET = ITEMS.register("steel_nugget",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> RAW_ELVEN_STEEL = ITEMS.register("raw_elven_steel",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> ELVEN_STEEL_INGOT = ITEMS.register("elven_steel_ingot",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB))); //elven steel is half the weight of steel
+    public static final RegistrySupplier<Item> ELVEN_STEEL_NUGGET = ITEMS.register("steel_nugget",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> RAW_PALLADIUM = ITEMS.register("raw_palladium",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> PALLADIUM_INGOT = ITEMS.register("palladium_ingot",
@@ -328,13 +334,13 @@ public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("lege
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.EPIC)));
     public static final RegistrySupplier<Item> ADAMANTINE_NUGGET = ITEMS.register("adamantine_nugget",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.EPIC)));
-    public static final RegistrySupplier<Item> RAW_BLACK_ADAMANTINE = ITEMS.register("raw_black_adamantine",
+    public static final RegistrySupplier<Item> RAW_SHADOW_ADAMANTINE = ITEMS.register("raw_shadow_adamantine",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.EPIC)));
-    public static final RegistrySupplier<Item> BLACK_ADAMANTINE_INGOT = ITEMS.register("black_adamantine_ingot",
+    public static final RegistrySupplier<Item> SHADOW_ADAMANTINE_INGOT = ITEMS.register("shadow_adamantine_ingot",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.EPIC)));
-    public static final RegistrySupplier<Item> BLACK_ADAMANTINE_NUGGET = ITEMS.register("black_adamantine_nugget",
+    public static final RegistrySupplier<Item> SHADOW_ADAMANTINE_NUGGET = ITEMS.register("shadow_adamantine_nugget",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.EPIC)));
-    public static final RegistrySupplier<Item> DRAGONHIDE = ITEMS.register("dragonhide",
+    public static final RegistrySupplier<Item> DRAGON_SCALE = ITEMS.register("dragon_scale",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.EPIC)));
 
     //Ore Dusts

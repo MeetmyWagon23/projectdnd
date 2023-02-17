@@ -17,6 +17,49 @@ import static net.minecraft.entity.EquipmentSlot.*;
 
 public class ArmorsInit {
     public static final DeferredRegister<Item> ARMOR = DeferredRegister.create(ProjectDnD.MOD_ID, Registry.ITEM_KEY);
+        /*
+    mohs hardness order
+    wood------------------------vanilla
+    stone-----------------------vanilla
+    ------lead------------------------NO TOOLS/ARMOR                                                                    REMOVED
+    ------tin-------------------------NO TOOLS/ARMOR                                                                    REMOVED
+    gold------------------------vanilla
+    ------zinc------------------------NO TOOLS/ARMOR                                                                    REMOVED
+    silver----------------------
+    ------aluminum--------------------NO TOOLS/ARMOR                                                                    REMOVED
+    ------electrum--------------------NO TOOLS/ARMOR                                                                    REMOVED
+    copper----------------------
+    brass-----------------------
+    bronze----------------------
+    ------nickel----------------------NO TOOLS/ARMOR                                                                    REMOVED
+    platinum--------------------
+    bone------------------------
+    iron------------------------vanilla
+    Infernal Iron---------------Nether Equivalent of Iron, Natural Fire Aspect                                          | *NEW*
+    Cold Iron------------------- Cooked at a lower Temp than Iron,
+    steel-----------------------
+    elven steel-----------------               LIGHTWEIGHT                                                              | *NEW*
+    Dark Steel------------------ Dwarvan steel Alloy using Star Metal, lightweight, magic resistant | Very Enchantable  | *NEW*
+    diamond---------------------vanilla
+    netherite-------------------vanilla
+    dragon scale----------------
+    palladium-------------------
+    titanium--------------------
+    tungsten--------------------
+    mithril---------------------
+    itanium---------------------to be renamed/removed
+    adamantine------------------
+    dragon hide-----------------
+
+    Metal Working Metals.
+    Arandur--------------------- not to be used for armors or weapons, only alloy work                                  | *NEW*
+    Lead
+    Tin
+    Zinc
+    Aluminum
+    Electrum
+    Nickel
+     */
 
 //flesh
     public static final RegistrySupplier<Item> FLESH_HELMET     = registerArmor(FLESH, HEAD);
@@ -69,10 +112,10 @@ public class ArmorsInit {
     public static final RegistrySupplier<Item> BRONZE_LEGGINGS   = registerArmor(BRONZE, LEGS);
     public static final RegistrySupplier<Item> BRONZE_BOOTS      = registerArmor(BRONZE, FEET);
 //Nickel
-    public static final RegistrySupplier<Item> NICKEL_HELMET     = registerArmor(NICKEL, HEAD);
-    public static final RegistrySupplier<Item> NICKEL_CHESTPLATE = registerArmor(NICKEL, CHEST);
-    public static final RegistrySupplier<Item> NICKEL_LEGGINGS   = registerArmor(NICKEL, LEGS);
-    public static final RegistrySupplier<Item> NICKEL_BOOTS      = registerArmor(NICKEL, FEET);
+// public static final RegistrySupplier<Item> NICKEL_HELMET     = registerArmor(NICKEL, HEAD);
+// public static final RegistrySupplier<Item> NICKEL_CHESTPLATE = registerArmor(NICKEL, CHEST);
+// public static final RegistrySupplier<Item> NICKEL_LEGGINGS   = registerArmor(NICKEL, LEGS);
+// public static final RegistrySupplier<Item> NICKEL_BOOTS      = registerArmor(NICKEL, FEET);
 //Platinum
     public static final RegistrySupplier<Item> PLATINUM_HELMET     = registerArmor(PLATINUM, HEAD);
     public static final RegistrySupplier<Item> PLATINUM_CHESTPLATE = registerArmor(PLATINUM, CHEST);
@@ -121,15 +164,15 @@ public class ArmorsInit {
     public static final RegistrySupplier<Item> ADAMANTIUM_LEGGINGS   = registerArmor(ADAMANTINE, LEGS);
     public static final RegistrySupplier<Item> ADAMANTIUM_BOOTS      = registerArmor(ADAMANTINE, FEET);
 //Black Adamantine
-    public static final RegistrySupplier<Item> BLACK_ADAMANTIUM_HELMET     = registerArmor(BLACK_ADAMANTINE, HEAD);
-    public static final RegistrySupplier<Item> BLACK_ADAMANTIUM_CHESTPLATE = registerArmor(BLACK_ADAMANTINE, CHEST);
-    public static final RegistrySupplier<Item> BLACK_ADAMANTIUM_LEGGINGS   = registerArmor(BLACK_ADAMANTINE, LEGS);
-    public static final RegistrySupplier<Item> BLACK_ADAMANTIUM_BOOTS      = registerArmor(BLACK_ADAMANTINE, FEET);
-//DRAGONHIDE
-    public static final RegistrySupplier<Item> DRAGONHIDE_HELMET     = registerArmor(DRAGONHIDE, HEAD);
-    public static final RegistrySupplier<Item> DRAGONHIDE_CHESTPLATE = registerArmor(DRAGONHIDE, CHEST);
-    public static final RegistrySupplier<Item> DRAGONHIDE_LEGGINGS   = registerArmor(DRAGONHIDE, LEGS);
-    public static final RegistrySupplier<Item> DRAGONHIDE_BOOTS      = registerArmor(DRAGONHIDE, FEET);
+    public static final RegistrySupplier<Item> SHADOW_ADAMANTIUM_HELMET     = registerArmor(SHADOW_ADAMANTINE, HEAD);
+    public static final RegistrySupplier<Item> SHADOW_ADAMANTIUM_CHESTPLATE = registerArmor(SHADOW_ADAMANTINE, CHEST);
+    public static final RegistrySupplier<Item> SHADOW_ADAMANTIUM_LEGGINGS   = registerArmor(SHADOW_ADAMANTINE, LEGS);
+    public static final RegistrySupplier<Item> SHADOW_ADAMANTIUM_BOOTS      = registerArmor(SHADOW_ADAMANTINE, FEET);
+//DRAGON_SCALE
+    public static final RegistrySupplier<Item> DRAGON_SCALE_HELMET     = registerArmor(DRAGON_SCALE, HEAD);
+    public static final RegistrySupplier<Item> DRAGON_SCALE_CHESTPLATE = registerArmor(DRAGON_SCALE, CHEST);
+    public static final RegistrySupplier<Item> DRAGON_SCALE_LEGGINGS   = registerArmor(DRAGON_SCALE, LEGS);
+    public static final RegistrySupplier<Item> DRAGON_SCALE_BOOTS      = registerArmor(DRAGON_SCALE, FEET);
 //LEGENDARY
     public static final RegistrySupplier<Item> LEGENDARY_HELMET     = registerArmor(LEGENDARY, HEAD);
     public static final RegistrySupplier<Item> LEGENDARY_CHESTPLATE = registerArmor(LEGENDARY, CHEST);
@@ -146,7 +189,7 @@ public class ArmorsInit {
         registerArmor(armorMaterial.toString().toLowerCase(Locale.ROOT) + "_" + slotName(slot), armorMaterial, slot);
     }
 }*/
-private static String slotName(EquipmentSlot slot) {
+    private static String slotName(EquipmentSlot slot) {
     return switch (slot) {
         case HEAD -> "helmet";
         case CHEST -> "chestplate";
