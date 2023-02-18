@@ -19,6 +19,7 @@ public class ArmorsInit {
     public static final DeferredRegister<Item> ARMOR = DeferredRegister.create(ProjectDnD.MOD_ID, Registry.ITEM_KEY);
         /*
     mohs hardness order
+    flesh-----------------------
     wood------------------------vanilla
     stone-----------------------vanilla
     ------lead------------------------NO TOOLS/ARMOR                                                                    REMOVED
@@ -49,7 +50,8 @@ public class ArmorsInit {
     mithril---------------------
     itanium---------------------to be renamed/removed
     adamantine------------------
-    dragon hide-----------------
+    shadow adamantine------------------
+
 
     Metal Working Metals.
     Arandur--------------------- not to be used for armors or weapons, only alloy work                                  | *NEW*
@@ -126,13 +128,38 @@ public class ArmorsInit {
     public static final RegistrySupplier<Item> BONE_CHESTPLATE = registerArmor(BONE, CHEST);
     public static final RegistrySupplier<Item> BONE_LEGGINGS   = registerArmor(BONE, LEGS);
     public static final RegistrySupplier<Item> BONE_BOOTS      = registerArmor(BONE, FEET);
+//Infernal Iron
+    public static final RegistrySupplier<Item> INFERNAL_IRON_HELMET     = registerArmor(INFERNAL_IRON, HEAD);
+    public static final RegistrySupplier<Item> INFERNAL_IRON_CHESTPLATE = registerArmor(INFERNAL_IRON, CHEST);
+    public static final RegistrySupplier<Item> INFERNAL_IRON_LEGGINGS   = registerArmor(INFERNAL_IRON, LEGS);
+    public static final RegistrySupplier<Item> INFERNAL_IRON_BOOTS      = registerArmor(INFERNAL_IRON, FEET);
+//Cold Iron
+    public static final RegistrySupplier<Item> COLD_IRON_HELMET     = registerArmor(COLD_IRON, HEAD);
+    public static final RegistrySupplier<Item> COLD_IRON_CHESTPLATE = registerArmor(COLD_IRON, CHEST);
+    public static final RegistrySupplier<Item> COLD_IRON_LEGGINGS   = registerArmor(COLD_IRON, LEGS);
+    public static final RegistrySupplier<Item> COLD_IRON_BOOTS      = registerArmor(COLD_IRON, FEET);
 //Steel
     public static final RegistrySupplier<Item> STEEL_HELMET     = registerArmor(STEEL, HEAD);
     public static final RegistrySupplier<Item> STEEL_CHESTPLATE = registerArmor(STEEL, CHEST);
     public static final RegistrySupplier<Item> STEEL_LEGGINGS   = registerArmor(STEEL, LEGS);
     public static final RegistrySupplier<Item> STEEL_BOOTS      = registerArmor(STEEL, FEET);
+//Elven Steel
+    public static final RegistrySupplier<Item> ELVEN_STEEL_HELMET     = registerArmor(ELVEN_STEEL, HEAD);
+    public static final RegistrySupplier<Item> ELVEN_STEEL_CHESTPLATE = registerArmor(ELVEN_STEEL, CHEST);
+    public static final RegistrySupplier<Item> ELVEN_STEEL_LEGGINGS   = registerArmor(ELVEN_STEEL, LEGS);
+    public static final RegistrySupplier<Item> ELVEN_STEEL_BOOTS      = registerArmor(ELVEN_STEEL, FEET);
+//Dark Steel
+    public static final RegistrySupplier<Item> DARK_STEEL_HELMET     = registerArmor(DARK_STEEL, HEAD);
+    public static final RegistrySupplier<Item> DARK_STEEL_CHESTPLATE = registerArmor(DARK_STEEL, CHEST);
+    public static final RegistrySupplier<Item> DARK_STEEL_LEGGINGS   = registerArmor(DARK_STEEL, LEGS);
+    public static final RegistrySupplier<Item> DARK_STEEL_BOOTS      = registerArmor(DARK_STEEL, FEET);
 //Diamond
 //Netherite
+//DRAGON_SCALE
+    public static final RegistrySupplier<Item> DRAGON_SCALE_HELMET     = registerArmor(DRAGON_SCALE, HEAD);
+    public static final RegistrySupplier<Item> DRAGON_SCALE_CHESTPLATE = registerArmor(DRAGON_SCALE, CHEST);
+    public static final RegistrySupplier<Item> DRAGON_SCALE_LEGGINGS   = registerArmor(DRAGON_SCALE, LEGS);
+    public static final RegistrySupplier<Item> DRAGON_SCALE_BOOTS      = registerArmor(DRAGON_SCALE, FEET);
 //Palladium
     public static final RegistrySupplier<Item> PALLADIUM_HELMET     = registerArmor(PALLADIUM, HEAD);
     public static final RegistrySupplier<Item> PALLADIUM_CHESTPLATE = registerArmor(PALLADIUM, CHEST);
@@ -168,11 +195,6 @@ public class ArmorsInit {
     public static final RegistrySupplier<Item> SHADOW_ADAMANTIUM_CHESTPLATE = registerArmor(SHADOW_ADAMANTINE, CHEST);
     public static final RegistrySupplier<Item> SHADOW_ADAMANTIUM_LEGGINGS   = registerArmor(SHADOW_ADAMANTINE, LEGS);
     public static final RegistrySupplier<Item> SHADOW_ADAMANTIUM_BOOTS      = registerArmor(SHADOW_ADAMANTINE, FEET);
-//DRAGON_SCALE
-    public static final RegistrySupplier<Item> DRAGON_SCALE_HELMET     = registerArmor(DRAGON_SCALE, HEAD);
-    public static final RegistrySupplier<Item> DRAGON_SCALE_CHESTPLATE = registerArmor(DRAGON_SCALE, CHEST);
-    public static final RegistrySupplier<Item> DRAGON_SCALE_LEGGINGS   = registerArmor(DRAGON_SCALE, LEGS);
-    public static final RegistrySupplier<Item> DRAGON_SCALE_BOOTS      = registerArmor(DRAGON_SCALE, FEET);
 //LEGENDARY
     public static final RegistrySupplier<Item> LEGENDARY_HELMET     = registerArmor(LEGENDARY, HEAD);
     public static final RegistrySupplier<Item> LEGENDARY_CHESTPLATE = registerArmor(LEGENDARY, CHEST);

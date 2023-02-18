@@ -215,7 +215,7 @@ public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("lege
     public static final RegistrySupplier<Item> RAW_LEAD = ITEMS.register("raw_lead",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> LEAD_INGOT = ITEMS.register("lead_ingot",
-            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));//--------------------------------------------------
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> LEAD_NUGGET = ITEMS.register("lead_nugget",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> RAW_TIN = ITEMS.register("raw_tin",
@@ -230,8 +230,7 @@ public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("lege
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> ZINC_NUGGET = ITEMS.register("zinc_nugget",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
-    //Gold Ingot
-    //Gold Nugget
+    //Gold
     public static final RegistrySupplier<Item> RAW_SILVER = ITEMS.register("raw_silver",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> SILVER_INGOT = ITEMS.register("silver_ingot",
@@ -250,8 +249,7 @@ public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("lege
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> ELECTRUM_NUGGET = ITEMS.register("electrum_nugget",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
-    //Copper Ingot
-
+    //Copper
     public static final RegistrySupplier<Item> COPPER_NUGGET = ITEMS.register("copper_nugget",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> RAW_BRASS = ITEMS.register("raw_brass",
@@ -278,8 +276,19 @@ public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("lege
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> PLATINUM_NUGGET = ITEMS.register("platinum_nugget",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
-    //Iron Ingot
-    //Iron Nugget
+    //Iron
+    public static final RegistrySupplier<Item> RAW_INFERNAL_IRON = ITEMS.register("raw_infernal_iron",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.UNCOMMON)));
+    public static final RegistrySupplier<Item> INFERNAL_IRON_INGOT = ITEMS.register("infernal_iron_ingot",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.UNCOMMON)));
+    public static final RegistrySupplier<Item> INFERNAL_IRON_NUGGET = ITEMS.register("infernal_iron_nugget",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.UNCOMMON)));
+    public static final RegistrySupplier<Item> RAW_COLD_IRON = ITEMS.register("raw_cold_iron",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.UNCOMMON)));
+    public static final RegistrySupplier<Item> COLD_IRON_INGOT = ITEMS.register("cold_iron_ingot",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.UNCOMMON)));
+    public static final RegistrySupplier<Item> COLD_IRON_NUGGET = ITEMS.register("cold_iron_nugget",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.UNCOMMON)));
     public static final RegistrySupplier<Item> RAW_STEEL = ITEMS.register("raw_steel",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
@@ -287,11 +296,17 @@ public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("lege
     public static final RegistrySupplier<Item> STEEL_NUGGET = ITEMS.register("steel_nugget",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> RAW_ELVEN_STEEL = ITEMS.register("raw_elven_steel",
-            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.UNCOMMON)));
     public static final RegistrySupplier<Item> ELVEN_STEEL_INGOT = ITEMS.register("elven_steel_ingot",
-            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB))); //elven steel is half the weight of steel
-    public static final RegistrySupplier<Item> ELVEN_STEEL_NUGGET = ITEMS.register("steel_nugget",
-            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.UNCOMMON))); //elven steel is half the weight of steel
+    public static final RegistrySupplier<Item> ELVEN_STEEL_NUGGET = ITEMS.register("elven_steel_nugget",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.UNCOMMON)));
+    public static final RegistrySupplier<Item> RAW_DARK_STEEL = ITEMS.register("raw_dark_steel",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.UNCOMMON)));
+    public static final RegistrySupplier<Item> DARK_STEEL_INGOT = ITEMS.register("dark_steel_ingot",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.UNCOMMON))); //elven steel is half the weight of steel
+    public static final RegistrySupplier<Item> DARK_STEEL_NUGGET = ITEMS.register("dark_steel_nugget",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.UNCOMMON)));
     public static final RegistrySupplier<Item> RAW_PALLADIUM = ITEMS.register("raw_palladium",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> PALLADIUM_INGOT = ITEMS.register("palladium_ingot",
@@ -306,6 +321,8 @@ public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("lege
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     //Diamond
     //Netherite
+    public static final RegistrySupplier<Item> DRAGON_SCALE = ITEMS.register("dragon_scale",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.EPIC)));
     public static final RegistrySupplier<Item> RAW_TUNGSTEN = ITEMS.register("raw_tungsten",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> TUNGSTEN_INGOT = ITEMS.register("tungsten_ingot",
@@ -340,9 +357,6 @@ public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("lege
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.EPIC)));
     public static final RegistrySupplier<Item> SHADOW_ADAMANTINE_NUGGET = ITEMS.register("shadow_adamantine_nugget",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.EPIC)));
-    public static final RegistrySupplier<Item> DRAGON_SCALE = ITEMS.register("dragon_scale",
-            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.EPIC)));
-
     //Ore Dusts
 
 
