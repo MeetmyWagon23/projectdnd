@@ -71,12 +71,12 @@ public enum ArmorSetMaterials implements ArmorMaterial {
     PLATINUM("platinum", 14, new int[]{2,4,5,2}, 22, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.0f, 0.0f, ItemsInit.PLATINUM_INGOT.get()),
     BONE("bone", 4, new int[]{2,5,6,2}, 1, SoundEvents.ENTITY_SKELETON_AMBIENT,1.5f, 0.0f, Items.BONE),
     //iron                             15, new int[]{2, 5, 6, 2}
-    INFERNAL_IRON("infernal_iron", 15, new int[]{2,5,6,2}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON,2.0f, 0.1f, ItemsInit.INFERNAL_IRON_INGOT.get()),
-    COLD_IRON("cold_iron", 15, new int[]{2,5,6,2}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON,2.0f, 0.1f, ItemsInit.COLD_IRON_INGOT.get()),
+    INFERNAL_IRON("infernal_iron", 15, new int[]{2,5,6,2}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1.5f, 0.1f, ItemsInit.INFERNAL_IRON_INGOT.get()),
+    COLD_IRON("cold_iron", 15, new int[]{2,5,6,2}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1.5f, 0.1f, ItemsInit.COLD_IRON_INGOT.get()),
     STEEL("steel", 21, new int[]{2,5,6,2}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON,2.0f, 0.1f, ItemsInit.STEEL_INGOT.get()),
+    //diamond                                   25, new int[]{2, 5, 6, 2}
     ELVEN_STEEL("steel", 21, new int[]{2,5,6,2}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON,2.0f, 0.0f, ItemsInit.ELVEN_STEEL_INGOT.get()),
     DARK_STEEL("steel", 21, new int[]{2,5,6,2}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON,2.0f, 0.0f, ItemsInit.DARK_STEEL_INGOT.get()),//half the weight of steel
-    //diamond                                   25, new int[]{2, 5, 6, 2}
     //netherite                                 37, new int[]{3, 6, 8, 3}
     DRAGON_SCALE("dragonhide", 41, new int[]{3,6,8,3}, 16, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 2.0f, 0.1f, ItemsInit.DRAGON_SCALE.get()),
     PALLADIUM("palladium", 64, new int[]{4,7,9,4}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,2.0f, 0.3f, ItemsInit.PALLADIUM_INGOT.get()),

@@ -323,6 +323,8 @@ public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("lege
     //Netherite
     public static final RegistrySupplier<Item> DRAGON_SCALE = ITEMS.register("dragon_scale",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.EPIC)));
+    public static final RegistrySupplier<Item> DRAGON_BONE = ITEMS.register("dragon_bone",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.EPIC)));
     public static final RegistrySupplier<Item> RAW_TUNGSTEN = ITEMS.register("raw_tungsten",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> TUNGSTEN_INGOT = ITEMS.register("tungsten_ingot",

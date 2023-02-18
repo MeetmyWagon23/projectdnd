@@ -143,17 +143,17 @@ public class ArmorsInit {
     public static final RegistrySupplier<Item> STEEL_CHESTPLATE = registerArmor(STEEL, CHEST);
     public static final RegistrySupplier<Item> STEEL_LEGGINGS   = registerArmor(STEEL, LEGS);
     public static final RegistrySupplier<Item> STEEL_BOOTS      = registerArmor(STEEL, FEET);
+//Diamond
 //Elven Steel
     public static final RegistrySupplier<Item> ELVEN_STEEL_HELMET     = registerArmor(ELVEN_STEEL, HEAD);
     public static final RegistrySupplier<Item> ELVEN_STEEL_CHESTPLATE = registerArmor(ELVEN_STEEL, CHEST);
     public static final RegistrySupplier<Item> ELVEN_STEEL_LEGGINGS   = registerArmor(ELVEN_STEEL, LEGS);
     public static final RegistrySupplier<Item> ELVEN_STEEL_BOOTS      = registerArmor(ELVEN_STEEL, FEET);
-//Dark Steel
+    //Dark Steel
     public static final RegistrySupplier<Item> DARK_STEEL_HELMET     = registerArmor(DARK_STEEL, HEAD);
     public static final RegistrySupplier<Item> DARK_STEEL_CHESTPLATE = registerArmor(DARK_STEEL, CHEST);
     public static final RegistrySupplier<Item> DARK_STEEL_LEGGINGS   = registerArmor(DARK_STEEL, LEGS);
     public static final RegistrySupplier<Item> DARK_STEEL_BOOTS      = registerArmor(DARK_STEEL, FEET);
-//Diamond
 //Netherite
 //DRAGON_SCALE
     public static final RegistrySupplier<Item> DRAGON_SCALE_HELMET     = registerArmor(DRAGON_SCALE, HEAD);
