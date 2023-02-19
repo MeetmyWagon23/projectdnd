@@ -377,8 +377,56 @@ public class WeaponsInit {
 /*----------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------GLAIVES-----------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------*/
-public static final RegistrySupplier<SwordItem> STEEL_GLAIVE = WEAPONS.register("steel_glaive",
-        () -> new SwordItem(ToolMaterialsInit.STEEL, 4, -2.4f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> WOOD_GLAIVED = WEAPONS.register("wood_glaive",
+        () -> new SwordItem(ToolMaterials.WOOD, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> STONE_GLAIVE = WEAPONS.register("stone_glaive",
+            () -> new SwordItem(ToolMaterials.STONE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> GOLD_GLAIVE = WEAPONS.register("gold_glaive",
+            () -> new SwordItem(ToolMaterials.GOLD, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> SILVER_GLAIVE = WEAPONS.register("silver_glaive",
+            () -> new SwordItem(ToolMaterialsInit.SILVER, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> COPPER_GLAIVE = WEAPONS.register("copper_glaive",
+            () -> new SwordItem(ToolMaterialsInit.COPPER, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> BRASS_GLAIVE = WEAPONS.register("brass_glaive",
+            () -> new SwordItem(ToolMaterialsInit.BRASS, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> BRONZE_GLAIVE = WEAPONS.register("bronze_glaive",
+            () -> new SwordItem(ToolMaterialsInit.BRONZE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> PLATINUM_GLAIVE = WEAPONS.register("platinum_glaive",
+            () -> new SwordItem(ToolMaterialsInit.PLATINUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> BONE_GLAIVE = WEAPONS.register("bone_glaive",
+            () -> new SwordItem(ToolMaterialsInit.BONE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> IRON_GLAIVE = WEAPONS.register("iron_glaive",
+            () -> new SwordItem(ToolMaterials.IRON, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> INFERNAL_GLAIVE = WEAPONS.register("infernal_iron_glaive",
+            () -> new SwordItem(ToolMaterialsInit.INFERLAN_IRON, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> COLD_IRON_GLAIVE = WEAPONS.register("cold_iron_glaive",
+            () -> new SwordItem(ToolMaterialsInit.COLD_IRON, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> STEEL_GLAIVE = WEAPONS.register("steel_glaive",
+            () -> new SwordItem(ToolMaterialsInit.STEEL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> DIAMOND_GLAIVE = WEAPONS.register("diamond_glaive",
+            () -> new SwordItem(ToolMaterials.DIAMOND, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> ELVEN_STEEL_GLAIVE = WEAPONS.register("elven_steel_glaive",
+            () -> new SwordItem(ToolMaterialsInit.ELVEN_STEEL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> DARK_STEEL_GLAIVE = WEAPONS.register("dark_steel_glaive",
+            () -> new SwordItem(ToolMaterialsInit.DARK_STEEL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> NETHERITE_GLAIVE = WEAPONS.register("netherite_glaive",
+            () -> new SwordItem(ToolMaterials.NETHERITE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> DRAGON_BONE_GLAIVE = WEAPONS.register("dragon_bone_glaive",
+            () -> new SwordItem(ToolMaterialsInit.DRAGON_BONE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> PALLADIUM_GLAIVE = WEAPONS.register("palladium_glaive",
+            () -> new SwordItem(ToolMaterialsInit.PALLADIUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> TITANIUM_GLAIVE = WEAPONS.register("titanium_glaive",
+            () -> new SwordItem(ToolMaterialsInit.TITANIUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> TUNGSTEN_GLAIVE = WEAPONS.register("tungsten_glaive",
+            () -> new SwordItem(ToolMaterialsInit.TUNGSTEN, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> MITHRIL_GLAIVE = WEAPONS.register("mithril_glaive",
+            () -> new SwordItem(ToolMaterialsInit.MITHRIL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> ITANIUM_GLAIVE = WEAPONS.register("itanium_glaive",
+            () -> new SwordItem(ToolMaterialsInit.ITANIUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> ADAMANTINE_GLAIVE = WEAPONS.register("adanamtine_glaive",
+            () -> new SwordItem(ToolMaterialsInit.ADAMANTINE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> SHADOW_ADAMANTINE_GLAIVE = WEAPONS.register("shadow_adanamtine_glaive",
+            () -> new SwordItem(ToolMaterialsInit.SHADOW_ADAMANTINE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
 /*----------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------SCIMITARS---------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------*/
@@ -398,38 +446,146 @@ public static final RegistrySupplier<SwordItem> STEEL_GLAIVE = WEAPONS.register(
             () -> new SwordItem(ToolMaterialsInit.BRONZE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> PLATINUM_SCIMITAR = WEAPONS.register("platinum_scimitar",
             () -> new SwordItem(ToolMaterialsInit.PLATINUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
-    public static final RegistrySupplier<SwordItem> BONE_SCIMITAR= WEAPONS.register("bone_scimitar",
+    public static final RegistrySupplier<SwordItem> BONE_SCIMITAR = WEAPONS.register("bone_scimitar",
             () -> new SwordItem(ToolMaterialsInit.BONE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> IRON_SCIMITAR = WEAPONS.register("iron_scimitar",
             () -> new SwordItem(ToolMaterials.IRON, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> INFERNAL_IRON_SCIMITAR = WEAPONS.register("infernal_iron_scimitar",
+            () -> new SwordItem(ToolMaterialsInit.INFERLAN_IRON, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> COLD_IRON_SCIMITAR = WEAPONS.register("cold_iron_scimitar",
+            () -> new SwordItem(ToolMaterialsInit.COLD_IRON, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> STEEL_SCIMITAR = WEAPONS.register("steel_scimitar",
             () -> new SwordItem(ToolMaterialsInit.STEEL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> DIAMOND_SCIMITAR = WEAPONS.register("diamond_scimitar",
             () -> new SwordItem(ToolMaterials.DIAMOND, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> ELVEN_STEEL_SCIMITAR = WEAPONS.register("elven_steel_scimitar",
+            () -> new SwordItem(ToolMaterialsInit.ELVEN_STEEL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> DARK_STEEL_SCIMITAR = WEAPONS.register("dark_steel_scimitar",
+            () -> new SwordItem(ToolMaterialsInit.DARK_STEEL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> NETHERITE_SCIMITAR = WEAPONS.register("netherite_scimitar",
             () -> new SwordItem(ToolMaterials.NETHERITE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> DRAGON_BONE_SCIMITAR = WEAPONS.register("dragon_bone_scimitar",
+            () -> new SwordItem(ToolMaterialsInit.DRAGON_BONE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> PALLADIUM_SCIMITAR = WEAPONS.register("palladium_scimitar",
             () -> new SwordItem(ToolMaterialsInit.PALLADIUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> TITANIUM_SCIMITAR = WEAPONS.register("titanium_scimitar",
             () -> new SwordItem(ToolMaterialsInit.TITANIUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> TUNGSTEN_SCIMITAR = WEAPONS.register("tungsten_scimitar",
             () -> new SwordItem(ToolMaterialsInit.TUNGSTEN, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
-    public static final RegistrySupplier<SwordItem> MITHRIL_SCIMITAR= WEAPONS.register("mithril_scimitar",
+    public static final RegistrySupplier<SwordItem> MITHRIL_SCIMITAR = WEAPONS.register("mithril_scimitar",
             () -> new SwordItem(ToolMaterialsInit.MITHRIL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> ITANIUM_SCIMITAR = WEAPONS.register("itanium_scimitar",
             () -> new SwordItem(ToolMaterialsInit.ITANIUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> ADAMANTINE_SCIMITAR = WEAPONS.register("adanamtine_scimitar",
             () -> new SwordItem(ToolMaterialsInit.ADAMANTINE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> SHADOW_ADAMANTINE_SCIMITAR = WEAPONS.register("shadow_adanamtine_scimitar",
+            () -> new SwordItem(ToolMaterialsInit.SHADOW_ADAMANTINE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
 /*----------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------QUARTERSTAFFS-----------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------*/
+    public static final RegistrySupplier<SwordItem> WOOD_QUARTERSTAFF = WEAPONS.register("wood_quarterstaff",
+        () -> new SwordItem(ToolMaterials.WOOD, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> STONE_QUARTERSTAFF = WEAPONS.register("stone_quarterstaff",
+            () -> new SwordItem(ToolMaterials.STONE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> GOLD_QUARTERSTAFF = WEAPONS.register("gold_quarterstaff",
+            () -> new SwordItem(ToolMaterials.GOLD, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> SILVER_QUARTERSTAFF = WEAPONS.register("silver_quarterstaff",
+            () -> new SwordItem(ToolMaterialsInit.SILVER, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> COPPER_QUARTERSTAFF = WEAPONS.register("copper_quarterstaff",
+            () -> new SwordItem(ToolMaterialsInit.COPPER, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> BRASS_QUARTERSTAFF = WEAPONS.register("brass_quarterstaff",
+            () -> new SwordItem(ToolMaterialsInit.BRASS, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> BRONZE_QUARTERSTAFF = WEAPONS.register("bronze_quarterstaff",
+            () -> new SwordItem(ToolMaterialsInit.BRONZE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> PLATINUM_QUARTERSTAFF = WEAPONS.register("platinum_quarterstaff",
+            () -> new SwordItem(ToolMaterialsInit.PLATINUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> BONE_QUARTERSTAFF = WEAPONS.register("bone_quarterstaff",
+            () -> new SwordItem(ToolMaterialsInit.BONE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> IRON_QUARTERSTAFF = WEAPONS.register("iron_quarterstaff",
+            () -> new SwordItem(ToolMaterials.IRON, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> INFERNAL_IRON_QUARTERSTAFF = WEAPONS.register("infernal_iron_quarterstaff",
+            () -> new SwordItem(ToolMaterialsInit.INFERLAN_IRON, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> COLD_IRON_QUARTERSTAFF = WEAPONS.register("cold_iron_quarterstaff",
+            () -> new SwordItem(ToolMaterialsInit.COLD_IRON, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> STEEL_QUARTERSTAFF = WEAPONS.register("steel_quarterstaff",
-        () -> new SwordItem(ToolMaterialsInit.STEEL, 4, -2.4f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+            () -> new SwordItem(ToolMaterialsInit.STEEL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> DIAMOND_QUARTERSTAFF = WEAPONS.register("diamond_quarterstaff",
+            () -> new SwordItem(ToolMaterials.DIAMOND, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> ELVEN_STEEL_QUARTERSTAFF = WEAPONS.register("elven_steel_quarterstaff",
+            () -> new SwordItem(ToolMaterialsInit.ELVEN_STEEL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> DARK_STEEL_QUARTERSTAFF = WEAPONS.register("dark_steel_quarterstaff",
+            () -> new SwordItem(ToolMaterialsInit.DARK_STEEL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> NETHERITE_QUARTERSTAFF = WEAPONS.register("netherite_quarterstaff",
+            () -> new SwordItem(ToolMaterials.NETHERITE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> DRAGON_BONE_QUARTERSTAFF = WEAPONS.register("dragon_bone_quarterstaff",
+            () -> new SwordItem(ToolMaterialsInit.DRAGON_BONE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> PALLADIUM_QUARTERSTAFF = WEAPONS.register("palladium_quarterstaff",
+            () -> new SwordItem(ToolMaterialsInit.PALLADIUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> TITANIUM_QUARTERSTAFF = WEAPONS.register("titanium_quarterstaff",
+            () -> new SwordItem(ToolMaterialsInit.TITANIUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> TUNGSTEN_QUARTERSTAFF = WEAPONS.register("tungsten_quarterstaff",
+            () -> new SwordItem(ToolMaterialsInit.TUNGSTEN, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> MITHRIL_QUARTERSTAFF = WEAPONS.register("mithril_quarterstaff",
+            () -> new SwordItem(ToolMaterialsInit.MITHRIL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> ITANIUM_QUARTERSTAFF = WEAPONS.register("itanium_quarterstaff",
+            () -> new SwordItem(ToolMaterialsInit.ITANIUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> ADAMANTINE_QUARTERSTAFF = WEAPONS.register("adanamtine_quarterstaff",
+            () -> new SwordItem(ToolMaterialsInit.ADAMANTINE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> SHADOW_ADAMANTINE_QUARTERSTAFF = WEAPONS.register("shadow_adanamtine_quarterstaff",
+            () -> new SwordItem(ToolMaterialsInit.SHADOW_ADAMANTINE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
 /*----------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------HALBERDS----------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------*/
+    public static final RegistrySupplier<SwordItem> WOOD_HALBERD = WEAPONS.register("wood_halberd",
+        () -> new SwordItem(ToolMaterials.WOOD, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> STONE_HALBERD = WEAPONS.register("stone_halberd",
+            () -> new SwordItem(ToolMaterials.STONE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> GOLD_HALBERD = WEAPONS.register("gold_halberd",
+            () -> new SwordItem(ToolMaterials.GOLD, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> SILVER_HALBERD = WEAPONS.register("silver_halberd",
+            () -> new SwordItem(ToolMaterialsInit.SILVER, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> COPPER_HALBERD = WEAPONS.register("copper_halberd",
+            () -> new SwordItem(ToolMaterialsInit.COPPER, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> BRASS_HALBERD = WEAPONS.register("brass_halberd",
+            () -> new SwordItem(ToolMaterialsInit.BRASS, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> BRONZE_HALBERD = WEAPONS.register("bronze_halberd",
+            () -> new SwordItem(ToolMaterialsInit.BRONZE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> PLATINUM_HALBERD = WEAPONS.register("platinum_halberd",
+            () -> new SwordItem(ToolMaterialsInit.PLATINUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> BONE_HALBERD = WEAPONS.register("bone_halberd",
+            () -> new SwordItem(ToolMaterialsInit.BONE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> IRON_HALBERD = WEAPONS.register("iron_halberd",
+            () -> new SwordItem(ToolMaterials.IRON, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> INFERNAL_IRON_HALBERD = WEAPONS.register("infernal_iron_halberd",
+            () -> new SwordItem(ToolMaterialsInit.INFERLAN_IRON, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> COLD_IRON_HALBERD = WEAPONS.register("cold_iron_halberd",
+            () -> new SwordItem(ToolMaterialsInit.COLD_IRON, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> STEEL_HALBERD = WEAPONS.register("steel_halberd",
-        () -> new SwordItem(ToolMaterialsInit.STEEL, 4, -2.4f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+            () -> new SwordItem(ToolMaterialsInit.STEEL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> DIAMOND_HALBERD = WEAPONS.register("diamond_halberd",
+            () -> new SwordItem(ToolMaterials.DIAMOND, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> ELVEN_STEEL_HALBERD = WEAPONS.register("elven_steel_halberd",
+            () -> new SwordItem(ToolMaterialsInit.ELVEN_STEEL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> DARK_STEEL_HALBERD = WEAPONS.register("dark_steel_halberd",
+            () -> new SwordItem(ToolMaterialsInit.DARK_STEEL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> NETHERITE_HALBERD = WEAPONS.register("netherite_halberd",
+            () -> new SwordItem(ToolMaterials.NETHERITE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> DRAGON_BONE_HALBERD = WEAPONS.register("dragon_bone_halberd",
+            () -> new SwordItem(ToolMaterialsInit.DRAGON_BONE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> PALLADIUM_HALBERD = WEAPONS.register("palladium_halberd",
+            () -> new SwordItem(ToolMaterialsInit.PALLADIUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> TITANIUM_HALBERD = WEAPONS.register("titanium_halberd",
+            () -> new SwordItem(ToolMaterialsInit.TITANIUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> TUNGSTEN_HALBERD = WEAPONS.register("tungsten_halberd",
+            () -> new SwordItem(ToolMaterialsInit.TUNGSTEN, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> MITHRIL_HALBERD = WEAPONS.register("mithril_halberd",
+            () -> new SwordItem(ToolMaterialsInit.MITHRIL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> ITANIUM_HALBERD = WEAPONS.register("itanium_halberd",
+            () -> new SwordItem(ToolMaterialsInit.ITANIUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> ADAMANTINE_HALBERD = WEAPONS.register("adanamtine_halberd",
+            () -> new SwordItem(ToolMaterialsInit.ADAMANTINE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> SHADOW_ADAMANTINE_HALBERD = WEAPONS.register("shadow_adanamtine_halberd",
+            () -> new SwordItem(ToolMaterialsInit.SHADOW_ADAMANTINE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
 /*----------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------TRIDENTS----------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------*/
@@ -466,28 +622,76 @@ public static final RegistrySupplier<SwordItem> STEEL_GLAIVE = WEAPONS.register(
     public static final RegistrySupplier<TridentItem> DARK_STEEL_TRIDENT = WEAPONS.register("dark_steel_trident",
             () -> new TridentItem((new Item.Settings()).maxDamage(131).group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<TridentItem> NETHERITE_TRIDENT = WEAPONS.register("netherite_trident",
-            () -> new TridentItem((new Item.Settings().fireproof().maxDamage(2031).group(ProjectDnD.CREATIVE_TAB))));
+            () -> new TridentItem((new Item.Settings().fireproof().maxDamage(2341).group(ProjectDnD.CREATIVE_TAB))));
     public static final RegistrySupplier<TridentItem> DRAGON_BONE_TRIDENT = WEAPONS.register("dragon_bone_trident",
-            () -> new TridentItem((new Item.Settings()).maxDamage(131).group(ProjectDnD.CREATIVE_TAB)));
+            () -> new TridentItem((new Item.Settings()).maxDamage(2341).group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<TridentItem> PALLADIUM_TRIDENT = WEAPONS.register("palladium_trident",
-            () -> new TridentItem((new Item.Settings()).maxDamage(131).group(ProjectDnD.CREATIVE_TAB)));
+            () -> new TridentItem((new Item.Settings()).maxDamage(2651).group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<TridentItem> TITANIUM_TRIDENT = WEAPONS.register("titanium_trident",
-            () -> new TridentItem((new Item.Settings()).maxDamage(131).group(ProjectDnD.CREATIVE_TAB)));
+            () -> new TridentItem((new Item.Settings()).maxDamage(2961).group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<TridentItem> TUNGSTEN_TRIDENT = WEAPONS.register("tungsten_trident",
-            () -> new TridentItem((new Item.Settings()).maxDamage(131).group(ProjectDnD.CREATIVE_TAB)));
+            () -> new TridentItem((new Item.Settings()).maxDamage(3271).group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<TridentItem> MITHRIL_TRIDENT = WEAPONS.register("mithril_trident",
-            () -> new TridentItem((new Item.Settings()).maxDamage(131).group(ProjectDnD.CREATIVE_TAB)));
+            () -> new TridentItem((new Item.Settings()).maxDamage(3581).group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<TridentItem> ITANIUM_TRIDENT = WEAPONS.register("itanuim_trident",
-            () -> new TridentItem((new Item.Settings()).maxDamage(131).group(ProjectDnD.CREATIVE_TAB)));
+            () -> new TridentItem((new Item.Settings()).maxDamage(3891).group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<TridentItem> ADAMANTINE_TRIDENT = WEAPONS.register("adamantine_trident",
-            () -> new TridentItem((new Item.Settings()).maxDamage(131).group(ProjectDnD.CREATIVE_TAB)));
+            () -> new TridentItem((new Item.Settings()).maxDamage(4101).group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<TridentItem> SHADOW_ADAMANTINE_TRIDENT = WEAPONS.register("shadow_adamantine_trident",
-            () -> new TridentItem((new Item.Settings()).maxDamage(131).group(ProjectDnD.CREATIVE_TAB)));
+            () -> new TridentItem((new Item.Settings()).maxDamage(4101).group(ProjectDnD.CREATIVE_TAB)));
 /*----------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------BATTLEAXES--------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------*/
+    public static final RegistrySupplier<AxeItem> WOOD_BATTLEAXE = WEAPONS.register("wood_battleaxe",
+        () -> new AxeItem(ToolMaterials.WOOD, 4, -3.2f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<AxeItem> STONE_BATTLEAXE = WEAPONS.register("stone_battleaxe",
+            () -> new AxeItem(ToolMaterials.STONE, 4, -3.2f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<AxeItem> GOLD_BATTLEAXE = WEAPONS.register("gold_battleaxe",
+            () -> new AxeItem(ToolMaterials.GOLD, 4, -3.2f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<AxeItem> SILVER_BATTLEAXE = WEAPONS.register("silver_battleaxe",
+            () -> new AxeItem(ToolMaterialsInit.SILVER, 4, -3.2f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<AxeItem> COPPER_BATTLEAXE = WEAPONS.register("copper_battleaxe",
+            () -> new AxeItem(ToolMaterialsInit.COPPER, 4, -3.2f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<AxeItem> BRASS_BATTLEAXE = WEAPONS.register("brass_battleaxe",
+            () -> new AxeItem(ToolMaterialsInit.BRASS, 4, -3.2f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<AxeItem> BRONZE_BATTLEAXE = WEAPONS.register("bronze_battleaxe",
+            () -> new AxeItem(ToolMaterialsInit.BRONZE, 4, -3.2f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<AxeItem> PLATINUM_BATTLEAXE = WEAPONS.register("platinum_battleaxe",
+            () -> new AxeItem(ToolMaterialsInit.PLATINUM, 4, -3.2f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<AxeItem> BONE_BATTLEAXE = WEAPONS.register("bone_battleaxe",
-        () -> new AxeItem(ToolMaterialsInit.BONE, 2f, -2.8f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+            () -> new AxeItem(ToolMaterialsInit.BONE, 4, -3.2f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<AxeItem> IRON_BATTLEAXE = WEAPONS.register("iron_battleaxe",
+            () -> new AxeItem(ToolMaterials.IRON, 4, -3.2f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<AxeItem> INFERNAL_IRON_BATTLEAXE = WEAPONS.register("infernal_iron_battleaxe",
+            () -> new AxeItem(ToolMaterialsInit.INFERLAN_IRON, 4, -3.2f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<AxeItem> COLD_IRON_BATTLEAXE = WEAPONS.register("cold_iron_battleaxe",
+            () -> new AxeItem(ToolMaterialsInit.COLD_IRON, 4, -3.2f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<AxeItem> STEEL_BATTLEAXE = WEAPONS.register("steel_battleaxe",
+            () -> new AxeItem(ToolMaterialsInit.STEEL, 4, -3.2f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<AxeItem> DIAMOND_BATTLEAXE = WEAPONS.register("diamond_battleaxe",
+            () -> new AxeItem(ToolMaterials.DIAMOND, 4, -3.2f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<AxeItem> ELVEN_STEEL_BATTLEAXE = WEAPONS.register("elven_steel_battleaxe",
+            () -> new AxeItem(ToolMaterialsInit.ELVEN_STEEL, 4, -3.2f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<AxeItem> DARK_STEEL_BATTLEAXE = WEAPONS.register("dark_steel_battleaxe",
+            () -> new AxeItem(ToolMaterialsInit.DARK_STEEL, 4, -3.2f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<AxeItem> NETHERITE_BATTLEAXE = WEAPONS.register("netherite_battleaxe",
+            () -> new AxeItem(ToolMaterials.NETHERITE, 4, -3.2f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<AxeItem> DRAGON_BONE_BATTLEAXE = WEAPONS.register("dragon_bone_battleaxe",
+            () -> new AxeItem(ToolMaterialsInit.DRAGON_BONE, 4, -3.2f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<AxeItem> PALLADIUM_BATTLEAXE = WEAPONS.register("palladium_battleaxe",
+            () -> new AxeItem(ToolMaterialsInit.PALLADIUM, 4, -3.2f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<AxeItem> TITANIUM_BATTLEAXE = WEAPONS.register("titanium_battleaxe",
+            () -> new AxeItem(ToolMaterialsInit.TITANIUM, 4, -3.2f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<AxeItem> TUNGSTEN_BATTLEAXE = WEAPONS.register("tungsten_battleaxe",
+            () -> new AxeItem(ToolMaterialsInit.TUNGSTEN, 4, -3.2f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<AxeItem> MITHRIL_BATTLEAXE = WEAPONS.register("mithril_battleaxe",
+            () -> new AxeItem(ToolMaterialsInit.MITHRIL, 4, -3.2f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<AxeItem> ITANIUM_BATTLEAXE = WEAPONS.register("itanium_battleaxe",
+            () -> new AxeItem(ToolMaterialsInit.ITANIUM, 4, -3.2f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<AxeItem> ADAMANTINE_BATTLEAXE = WEAPONS.register("adanamtine_battleaxe",
+            () -> new AxeItem(ToolMaterialsInit.ADAMANTINE, 4, -3.2f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<AxeItem> SHADOW_ADAMANTINE_BATTLEAXE = WEAPONS.register("shadow_adanamtine_battleaxe",
+            () -> new AxeItem(ToolMaterialsInit.SHADOW_ADAMANTINE, 4, -3.2f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
 /*----------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------FLAILS------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------*/
@@ -496,8 +700,56 @@ public static final RegistrySupplier<SwordItem> STEEL_FLAIL = WEAPONS.register("
 /*----------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------WARHAMMERS--------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------*/
-public static final RegistrySupplier<SwordItem> STEEL_WARHAMMER = WEAPONS.register("steel_warhammer",
-        () -> new SwordItem(ToolMaterialsInit.STEEL, 4, -2.4f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> WOOD_WARHAMMER = WEAPONS.register("wood_warhammer",
+        () -> new SwordItem(ToolMaterials.WOOD, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> STONE_WARHAMMER = WEAPONS.register("stone_warhammer",
+            () -> new SwordItem(ToolMaterials.STONE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> GOLD_WARHAMMER = WEAPONS.register("gold_warhammer",
+            () -> new SwordItem(ToolMaterials.GOLD, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> SILVER_WARHAMMER = WEAPONS.register("silver_warhammer",
+            () -> new SwordItem(ToolMaterialsInit.SILVER, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> COPPER_WARHAMMER = WEAPONS.register("copper_warhammer",
+            () -> new SwordItem(ToolMaterialsInit.COPPER, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> BRASS_WARHAMMER = WEAPONS.register("brass_warhammer",
+            () -> new SwordItem(ToolMaterialsInit.BRASS, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> BRONZE_WARHAMMER = WEAPONS.register("bronze_warhammer",
+            () -> new SwordItem(ToolMaterialsInit.BRONZE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> PLATINUM_WARHAMMER = WEAPONS.register("platinum_warhammer",
+            () -> new SwordItem(ToolMaterialsInit.PLATINUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> BONE_WARHAMMER = WEAPONS.register("bone_warhammer",
+            () -> new SwordItem(ToolMaterialsInit.BONE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> IRON_WARHAMMER = WEAPONS.register("iron_warhammer",
+            () -> new SwordItem(ToolMaterials.IRON, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> INFERNAL_IRON_WARHAMMER = WEAPONS.register("infernal_iron_warhammer",
+            () -> new SwordItem(ToolMaterialsInit.INFERLAN_IRON, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> COLD_IRON_WARHAMMER = WEAPONS.register("cold_iron_warhammer",
+            () -> new SwordItem(ToolMaterialsInit.COLD_IRON, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> STEEL_WARHAMMER = WEAPONS.register("steel_warhammer",
+            () -> new SwordItem(ToolMaterialsInit.STEEL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> DIAMOND_WARHAMMER = WEAPONS.register("diamond_warhammer",
+            () -> new SwordItem(ToolMaterials.DIAMOND, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> ELVEN_STEEL_WARHAMMER = WEAPONS.register("elven_steel_warhammer",
+            () -> new SwordItem(ToolMaterialsInit.ELVEN_STEEL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> DARK_STEEL_WARHAMMER = WEAPONS.register("dark_steel_warhammer",
+            () -> new SwordItem(ToolMaterialsInit.DARK_STEEL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> NETHERITE_WARHAMMER = WEAPONS.register("netherite_warhammer",
+            () -> new SwordItem(ToolMaterials.NETHERITE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> DRAGON_BONE_WARHAMMER = WEAPONS.register("dragon_bone_warhammer",
+            () -> new SwordItem(ToolMaterialsInit.DRAGON_BONE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> PALLADIUM_WARHAMMER = WEAPONS.register("palladium_warhammer",
+            () -> new SwordItem(ToolMaterialsInit.PALLADIUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> TITANIUM_WARHAMMER = WEAPONS.register("titanium_warhammer",
+            () -> new SwordItem(ToolMaterialsInit.TITANIUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> TUNGSTEN_WARHAMMER = WEAPONS.register("tungsten_warhammer",
+            () -> new SwordItem(ToolMaterialsInit.TUNGSTEN, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> MITHRIL_WARHAMMER = WEAPONS.register("mithril_warhammer",
+            () -> new SwordItem(ToolMaterialsInit.MITHRIL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> ITANIUM_WARHAMMER = WEAPONS.register("itanium_warhammer",
+            () -> new SwordItem(ToolMaterialsInit.ITANIUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> ADAMANTINE_WARHAMMER = WEAPONS.register("adanamtine_warhammer",
+            () -> new SwordItem(ToolMaterialsInit.ADAMANTINE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> SHADOW_ADAMANTINE_WARHAMMER = WEAPONS.register("shadow_adanamtine_warhammer",
+            () -> new SwordItem(ToolMaterialsInit.SHADOW_ADAMANTINE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
 /*----------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------SICKLES-----------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------*/
@@ -521,12 +773,22 @@ public static final RegistrySupplier<SwordItem> STEEL_WARHAMMER = WEAPONS.regist
             () -> new SwordItem(ToolMaterialsInit.BONE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> IRON_SICKLE = WEAPONS.register("iron_sickle",
             () -> new SwordItem(ToolMaterials.IRON, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> INFERNAL_IRON_SICKLE = WEAPONS.register("infernal_iron_sickle",
+            () -> new SwordItem(ToolMaterialsInit.INFERLAN_IRON, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> COLD_IRON_SICKLE = WEAPONS.register("cold_iron_sickle",
+            () -> new SwordItem(ToolMaterialsInit.COLD_IRON, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> STEEL_SICKLE = WEAPONS.register("steel_sickle",
             () -> new SwordItem(ToolMaterialsInit.STEEL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> DIAMOND_SICKLE = WEAPONS.register("diamond_sickle",
             () -> new SwordItem(ToolMaterials.DIAMOND, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> ELVEN_STEEL_SICKLE = WEAPONS.register("elven_steel_sickle",
+            () -> new SwordItem(ToolMaterialsInit.ELVEN_STEEL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> DARK_STEEL_SICKLE = WEAPONS.register("dark_steel_sickle",
+            () -> new SwordItem(ToolMaterialsInit.DARK_STEEL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> NETHERITE_SICKLE = WEAPONS.register("netherite_sickle",
             () -> new SwordItem(ToolMaterials.NETHERITE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> DRAGON_BONE_SICKLE = WEAPONS.register("dragon_bone_sickle",
+            () -> new SwordItem(ToolMaterialsInit.DRAGON_BONE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> PALLADIUM_SICKLE = WEAPONS.register("palladium_sickle",
             () -> new SwordItem(ToolMaterialsInit.PALLADIUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> TITANIUM_SICKLE = WEAPONS.register("titanium_sickle",
@@ -539,35 +801,114 @@ public static final RegistrySupplier<SwordItem> STEEL_WARHAMMER = WEAPONS.regist
             () -> new SwordItem(ToolMaterialsInit.ITANIUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> ADAMANTINE_SICKLE = WEAPONS.register("adanamtine_sickle",
             () -> new SwordItem(ToolMaterialsInit.ADAMANTINE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> SHADOW_ADAMANTINE_SICKLE = WEAPONS.register("shadow_adanamtine_sickle",
+            () -> new SwordItem(ToolMaterialsInit.SHADOW_ADAMANTINE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+/*----------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------SYTHES-----------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------*/
+    public static final RegistrySupplier<SwordItem> WOOD_SYTHE = WEAPONS.register("wood_sythe",
+        () -> new SwordItem(ToolMaterials.WOOD, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> STONE_SYTHE = WEAPONS.register("stone_sythe",
+            () -> new SwordItem(ToolMaterials.STONE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> GOLD_SYTHE = WEAPONS.register("gold_sythe",
+            () -> new SwordItem(ToolMaterials.GOLD, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> SILVER_SYTHE = WEAPONS.register("silver_sythe",
+            () -> new SwordItem(ToolMaterialsInit.SILVER, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> COPPER_SYTHE = WEAPONS.register("copper_sythe",
+            () -> new SwordItem(ToolMaterialsInit.COPPER, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> BRASS_SYTHE = WEAPONS.register("brass_sythe",
+            () -> new SwordItem(ToolMaterialsInit.BRASS, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> BRONZE_SYTHE = WEAPONS.register("bronze_sythe",
+            () -> new SwordItem(ToolMaterialsInit.BRONZE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> PLATINUM_SYTHE = WEAPONS.register("platinum_sythe",
+            () -> new SwordItem(ToolMaterialsInit.PLATINUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> BONE_SYTHE = WEAPONS.register("bone_sythe",
+            () -> new SwordItem(ToolMaterialsInit.BONE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> IRON_SYTHE = WEAPONS.register("iron_sythe",
+            () -> new SwordItem(ToolMaterials.IRON, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> INFERNAL_IRON_SYTHE = WEAPONS.register("infernal_iron_sythe",
+            () -> new SwordItem(ToolMaterialsInit.INFERLAN_IRON, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> COLD_IRON_SYTHE = WEAPONS.register("cold_iron_sythe",
+            () -> new SwordItem(ToolMaterialsInit.COLD_IRON, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> STEEL_SYTHE = WEAPONS.register("steel_sythe",
+            () -> new SwordItem(ToolMaterialsInit.STEEL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> DIAMOND_SYTHE = WEAPONS.register("diamond_sythe",
+            () -> new SwordItem(ToolMaterials.DIAMOND, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> ELVEN_STEEL_SYTHE = WEAPONS.register("elven_steel_sythe",
+            () -> new SwordItem(ToolMaterialsInit.ELVEN_STEEL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> DARK_STEEL_SYTHE = WEAPONS.register("dark_steel_sythe",
+            () -> new SwordItem(ToolMaterialsInit.DARK_STEEL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> NETHERITE_SYTHE = WEAPONS.register("netherite_sythe",
+            () -> new SwordItem(ToolMaterials.NETHERITE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> DRAGON_BONE_SYTHE = WEAPONS.register("dragon_bone_sythe",
+            () -> new SwordItem(ToolMaterialsInit.DRAGON_BONE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> PALLADIUM_SYTHE = WEAPONS.register("palladium_sythe",
+            () -> new SwordItem(ToolMaterialsInit.PALLADIUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> TITANIUM_SYTHE = WEAPONS.register("titanium_sythe",
+            () -> new SwordItem(ToolMaterialsInit.TITANIUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> TUNGSTEN_SYTHE = WEAPONS.register("tungsten_sythe",
+            () -> new SwordItem(ToolMaterialsInit.TUNGSTEN, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> MITHRIL_SYTHE = WEAPONS.register("mithril_sythe",
+            () -> new SwordItem(ToolMaterialsInit.MITHRIL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> ITANIUM_SYTHE = WEAPONS.register("itanium_sythe",
+            () -> new SwordItem(ToolMaterialsInit.ITANIUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> ADAMANTINE_SYTHE = WEAPONS.register("adanamtine_sythe",
+            () -> new SwordItem(ToolMaterialsInit.ADAMANTINE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> SHADOW_ADAMANTINE_SYTHE = WEAPONS.register("shadow_adanamtine_sythe",
+            () -> new SwordItem(ToolMaterialsInit.SHADOW_ADAMANTINE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
 /*----------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------SWORDS------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------*/
-    public static final RegistrySupplier<SwordItem> SILVER_SWORD  = WEAPONS.register("silver_sword",
+    public static final RegistrySupplier<SwordItem> WOOD_SWORD = WEAPONS.register("wood_sword",
+        () -> new SwordItem(ToolMaterials.WOOD, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> STONE_SWORD = WEAPONS.register("stone_sword",
+            () -> new SwordItem(ToolMaterials.STONE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> GOLD_SWORD = WEAPONS.register("gold_sword",
+            () -> new SwordItem(ToolMaterials.GOLD, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> SILVER_SWORD = WEAPONS.register("silver_sword",
             () -> new SwordItem(ToolMaterialsInit.SILVER, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
-    public static final RegistrySupplier<SwordItem> COPPER_SWORD  = WEAPONS.register("copper_sword",
+    public static final RegistrySupplier<SwordItem> COPPER_SWORD = WEAPONS.register("copper_sword",
             () -> new SwordItem(ToolMaterialsInit.COPPER, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
-    public static final RegistrySupplier<SwordItem> BRASS_SWORD  = WEAPONS.register("brass_sword",
+    public static final RegistrySupplier<SwordItem> BRASS_SWORD = WEAPONS.register("brass_sword",
             () -> new SwordItem(ToolMaterialsInit.BRASS, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
-    public static final RegistrySupplier<SwordItem> BRONZE_SWORD  = WEAPONS.register("bronze_sword",
+    public static final RegistrySupplier<SwordItem> BRONZE_SWORD = WEAPONS.register("bronze_sword",
             () -> new SwordItem(ToolMaterialsInit.BRONZE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
-    public static final RegistrySupplier<SwordItem> PLATINUM_SWORD  = WEAPONS.register("platinum_sword",
+    public static final RegistrySupplier<SwordItem> PLATINUM_SWORD = WEAPONS.register("platinum_sword",
             () -> new SwordItem(ToolMaterialsInit.PLATINUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> BONE_SWORD = WEAPONS.register("bone_sword",
             () -> new SwordItem(ToolMaterialsInit.BONE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
-    public static final RegistrySupplier<SwordItem> STEEL_SWORD  = WEAPONS.register("steel_sword",
+    public static final RegistrySupplier<SwordItem> IRON_SWORD = WEAPONS.register("iron_sword",
+            () -> new SwordItem(ToolMaterials.IRON, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> INFERNAL_IRON_SWORD = WEAPONS.register("infernal_iron_sword",
+            () -> new SwordItem(ToolMaterialsInit.INFERLAN_IRON, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> COLD_IRON_SWORD = WEAPONS.register("cold_iron_sword",
+            () -> new SwordItem(ToolMaterialsInit.COLD_IRON, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> STEEL_SWORD = WEAPONS.register("steel_sword",
             () -> new SwordItem(ToolMaterialsInit.STEEL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
-    public static final RegistrySupplier<SwordItem> PALLADIUM_SWORD  = WEAPONS.register("palladium_sword",
+    public static final RegistrySupplier<SwordItem> DIAMOND_SWORD = WEAPONS.register("diamond_sword",
+            () -> new SwordItem(ToolMaterials.DIAMOND, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> ELVEN_STEEL_SWORD = WEAPONS.register("elven_steel_sword",
+            () -> new SwordItem(ToolMaterialsInit.ELVEN_STEEL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> DARK_STEEL_SWORD = WEAPONS.register("dark_steel_sword",
+            () -> new SwordItem(ToolMaterialsInit.DARK_STEEL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> NETHERITE_SWORD = WEAPONS.register("netherite_sword",
+            () -> new SwordItem(ToolMaterials.NETHERITE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> DRAGON_BONE_SWORD = WEAPONS.register("dragon_bone_ssword",
+            () -> new SwordItem(ToolMaterialsInit.DRAGON_BONE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> PALLADIUM_SWORD = WEAPONS.register("palladium_sword",
             () -> new SwordItem(ToolMaterialsInit.PALLADIUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
-    public static final RegistrySupplier<SwordItem> TITANIUM_SWORD  = WEAPONS.register("titanium_sword",
+    public static final RegistrySupplier<SwordItem> TITANIUM_SWORD = WEAPONS.register("titanium_sword",
             () -> new SwordItem(ToolMaterialsInit.TITANIUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
-    public static final RegistrySupplier<SwordItem> TUNGSTEN_SWORD  = WEAPONS.register("tungsten_sword",
+    public static final RegistrySupplier<SwordItem> TUNGSTEN_SWORD = WEAPONS.register("tungsten_sword",
             () -> new SwordItem(ToolMaterialsInit.TUNGSTEN, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> MITHRIL_SWORD = WEAPONS.register("mithril_sword",
             () -> new SwordItem(ToolMaterialsInit.MITHRIL, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
-    public static final RegistrySupplier<SwordItem> ITANIUM_SWORD  = WEAPONS.register("itanium_sword",
+    public static final RegistrySupplier<SwordItem> ITANIUM_SWORD = WEAPONS.register("itanium_sword",
             () -> new SwordItem(ToolMaterialsInit.ITANIUM, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
-    public static final RegistrySupplier<SwordItem> ADAMANTINE_SWORD  = WEAPONS.register("adanamtine_sword",
+    public static final RegistrySupplier<SwordItem> ADAMANTINE_SWORD = WEAPONS.register("adanamtine_sword",
             () -> new SwordItem(ToolMaterialsInit.ADAMANTINE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> SHADOW_ADAMANTINE_SWORD = WEAPONS.register("shadow_adanamtine_sword",
+            () -> new SwordItem(ToolMaterialsInit.SHADOW_ADAMANTINE, 4, -3.0f, new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
 /*----------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------MACES-------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------*/
@@ -613,4 +954,5 @@ public static final RegistrySupplier<SwordItem> STEEL_LONGSPEAR = WEAPONS.regist
             () -> new SwordItem(ToolMaterialsInit.LEGENDARY, 12, -3.2f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectDnD.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> HAZIRAWN_GREATSWORD = WEAPONS.register("hazirawn_greatsword",
             () -> new SwordItem(ToolMaterialsInit.LEGENDARY, 12, -3.2f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectDnD.CREATIVE_TAB)));
+    //Ravens Wing- Glaive, google it.
 }
