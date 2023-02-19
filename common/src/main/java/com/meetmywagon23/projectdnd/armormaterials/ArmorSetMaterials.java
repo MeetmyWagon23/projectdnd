@@ -69,25 +69,25 @@ public enum ArmorSetMaterials implements ArmorMaterial {
     BRONZE("bronze", 12, new int[]{2,2,3,2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, ItemsInit.BRONZE_INGOT.get()),
     NICKEL("nickel", 13, new int[]{2,3,4,2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, ItemsInit.NICKEL_INGOT.get()),
     PLATINUM("platinum", 14, new int[]{2,4,5,2}, 22, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.0f, 0.0f, ItemsInit.PLATINUM_INGOT.get()),
-    BONE("bone", 4, new int[]{2,5,6,2}, 1, SoundEvents.ENTITY_SKELETON_AMBIENT,1.5f, 0.0f, Items.BONE),
+    BONE("bone", 4, new int[]{2,5,6,2}, 1, SoundEvents.ENTITY_SKELETON_AMBIENT,1.0f, 0.0f, Items.BONE),
     //iron                             15, new int[]{2, 5, 6, 2}
     INFERNAL_IRON("infernal_iron", 15, new int[]{2,5,6,2}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1.5f, 0.1f, ItemsInit.INFERNAL_IRON_INGOT.get()),
     COLD_IRON("cold_iron", 15, new int[]{2,5,6,2}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1.5f, 0.1f, ItemsInit.COLD_IRON_INGOT.get()),
     STEEL("steel", 21, new int[]{2,5,6,2}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON,2.0f, 0.1f, ItemsInit.STEEL_INGOT.get()),
     //diamond                                   25, new int[]{2, 5, 6, 2}
-    ELVEN_STEEL("steel", 21, new int[]{2,5,6,2}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON,2.0f, 0.0f, ItemsInit.ELVEN_STEEL_INGOT.get()),
-    DARK_STEEL("steel", 21, new int[]{2,5,6,2}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON,2.0f, 0.0f, ItemsInit.DARK_STEEL_INGOT.get()),//half the weight of steel
+    ELVEN_STEEL("steel", 26, new int[]{2,5,6,2}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1.5f, 0.0f, ItemsInit.ELVEN_STEEL_INGOT.get()),
+    DARK_STEEL("steel", 26, new int[]{2,5,6,2}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON,2.0f, 0.2f, ItemsInit.DARK_STEEL_INGOT.get()),//half the weight of steel
     //netherite                                 37, new int[]{3, 6, 8, 3}
     DRAGON_SCALE("dragonhide", 41, new int[]{3,6,8,3}, 16, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 2.0f, 0.1f, ItemsInit.DRAGON_SCALE.get()),
-    PALLADIUM("palladium", 64, new int[]{4,7,9,4}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,2.0f, 0.3f, ItemsInit.PALLADIUM_INGOT.get()),
-    TITANIUM("titanium", 84, new int[]{7,9,10,7}, 20, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,3.0f, 0.3f, ItemsInit.TITANIUM_INGOT.get()),
-    TUNGSTEN("tungsten", 92, new int[]{9,11,12,9}, 24, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,4.0f, 0.4f, ItemsInit.TUNGSTEN_INGOT.get()),
-    MITHRIL("mithril", 107, new int[]{11,13,14,11}, 30, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,5.0f, 0.4f, ItemsInit.MITHRIL_INGOT.get()),
-    ITANIUM("itanium", 107, new int[]{13,15,16,13}, 50, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,6.0f, 0.5f, ItemsInit.ITANIUM_INGOT.get()),
-    ADAMANTINE("adamantine", 123, new int[]{13,15,16,14}, 50, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 6.0f, 0.5f, ItemsInit.ADAMANTINE_INGOT.get()),
-    SHADOW_ADAMANTINE("shadow_adamantine", 123, new int[]{13,15,16,14}, 50, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 6.0f, 0.5f, ItemsInit.SHADOW_ADAMANTINE_INGOT.get()),
+    PALLADIUM("palladium", 64, new int[]{4,7,9,4}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,2.0f, 0.1f, ItemsInit.PALLADIUM_INGOT.get()),
+    TITANIUM("titanium", 84, new int[]{7,9,10,7}, 20, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,2.5f, 0.2f, ItemsInit.TITANIUM_INGOT.get()),
+    TUNGSTEN("tungsten", 92, new int[]{9,11,12,9}, 22, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,3.0f, 0.3f, ItemsInit.TUNGSTEN_INGOT.get()),
+    MITHRIL("mithril", 107, new int[]{11,13,14,11}, 24, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,3.5f, 0.3f, ItemsInit.MITHRIL_INGOT.get()),
+    ITANIUM("itanium", 107, new int[]{13,15,16,13}, 26, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,4.0f, 0.4f, ItemsInit.ITANIUM_INGOT.get()),
+    ADAMANTINE("adamantine", 123, new int[]{13,15,16,14}, 26, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 4.0f, 0.4f, ItemsInit.ADAMANTINE_INGOT.get()),
+    SHADOW_ADAMANTINE("shadow_adamantine", 123, new int[]{13,15,16,14}, 26, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 4.0f, 0.4f, ItemsInit.SHADOW_ADAMANTINE_INGOT.get()),
     //-------------------------------------------------------------------------Legendary Armors Below Here---------------------------------------------------------------------------------------------
-    LEGENDARY("legendary", 153, new int[]{15,17,18,15}, 50, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,7.0f, 0.6f, ItemsInit.LEGENDARY_CORE.get());
+    LEGENDARY("legendary", 153, new int[]{15,17,18,15}, 32, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,4.0f, 0.4f, ItemsInit.LEGENDARY_CORE.get());
 
 
     //more legendary equipment to be added, mostly will be used for Legendary Boss Armors - Legendary Crafted Items from bosses.
