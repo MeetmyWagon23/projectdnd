@@ -78,7 +78,7 @@ public enum ArmorSetMaterials implements ArmorMaterial {
     ELVEN_STEEL("steel", 26, new int[]{2,5,6,2}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1.5f, 0.0f, ItemsInit.ELVEN_STEEL_INGOT.get()),
     DARK_STEEL("steel", 26, new int[]{2,5,6,2}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON,2.0f, 0.2f, ItemsInit.DARK_STEEL_INGOT.get()),//half the weight of steel
     //netherite                                 37, new int[]{3, 6, 8, 3}
-    DRAGON_SCALE("dragonhide", 41, new int[]{3,6,8,3}, 16, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 2.0f, 0.1f, ItemsInit.DRAGON_SCALE.get()),
+    DRAGON_SCALE("dragon_scale", 41, new int[]{3,6,8,3}, 16, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 2.0f, 0.1f, ItemsInit.DRAGON_SCALE.get()),
     PALLADIUM("palladium", 64, new int[]{4,7,9,4}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,2.0f, 0.1f, ItemsInit.PALLADIUM_INGOT.get()),
     TITANIUM("titanium", 84, new int[]{7,9,10,7}, 20, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,2.5f, 0.2f, ItemsInit.TITANIUM_INGOT.get()),
     TUNGSTEN("tungsten", 92, new int[]{9,11,12,9}, 22, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,3.0f, 0.3f, ItemsInit.TUNGSTEN_INGOT.get()),

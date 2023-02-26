@@ -92,14 +92,46 @@ public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("lege
             () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
     public static final RegistrySupplier<Item> GOLD_SHEATH = ITEMS.register("gold_sheath",
             () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> SILVER_SHEATH = ITEMS.register("silver_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> COPPER_SHEATH = ITEMS.register("copper_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> BRASS_SHEATH = ITEMS.register("brass_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> BRONZE_SHEATH = ITEMS.register("bronze_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> PLATINUM_SHEATH = ITEMS.register("platinum_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> BONE_SHEATH = ITEMS.register("bone_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
     public static final RegistrySupplier<Item> IRON_SHEATH = ITEMS.register("iron_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> INFERNAL_IRON_SHEATH = ITEMS.register("infernal_iron_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> COLD_IRON_SHEATH = ITEMS.register("cold_iron_sheath",
             () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
     public static final RegistrySupplier<Item> STEEL_SHEATH = ITEMS.register("steel_sheath",
             () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
     public static final RegistrySupplier<Item> DIAMOND_SHEATH = ITEMS.register("diamond_sheath",
             () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> ELVEN_STEEL_SHEATH = ITEMS.register("elven_steel_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> DARK_STEEL_SHEATH = ITEMS.register("dark_steel_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
     public static final RegistrySupplier<Item> NETHERITE_SHEATH = ITEMS.register("netherite_sheath",
             () -> new Item(new Item.Settings().fireproof().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> DRAGON_SCALE_SHEATH = ITEMS.register("dragon_scale_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> PALLADIUM_SHEATH = ITEMS.register("palladium_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> TITANIUM_SHEATH = ITEMS.register("titanium_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> TUNGSTEN_SHEATH = ITEMS.register("tungsten_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> MITHRIL_SHEATH = ITEMS.register("mithril_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> ADAMANTINE_SHEATH = ITEMS.register("adamantine_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
 
     //Dagger Sheaths Please use leather_dagger_sheath.png as a working ground for the colored wool textures.
     public static final RegistrySupplier<Item> LEATHER_DAGGER_SHEATH = ITEMS.register("leather_dagger_sheath",
@@ -140,15 +172,46 @@ public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("lege
             () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
     public static final RegistrySupplier<Item> GOLD_DAGGER_SHEATH = ITEMS.register("gold_dagger_sheath",
             () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> SILVER_DAGGER_SHEATH = ITEMS.register("silver_dagger_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> COPPER_DAGGER_SHEATH = ITEMS.register("copper_dagger_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> BRASS_DAGGER_SHEATH = ITEMS.register("brass_dagger_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> BRONZE_DAGGER_SHEATH = ITEMS.register("bronze_dagger_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> PLATINUM_DAGGER_SHEATH = ITEMS.register("platinum_dagger_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> BONE_DAGGER_SHEATH = ITEMS.register("bone_dagger_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
     public static final RegistrySupplier<Item> IRON_DAGGER_SHEATH = ITEMS.register("iron_dagger_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> INFERNAL_IRON_DAGGER_SHEATH = ITEMS.register("infernal_iron_dagger_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> COLD_IRON_DAGGER_SHEATH = ITEMS.register("cold_iron_dagger_sheath",
             () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
     public static final RegistrySupplier<Item> STEEL_DAGGER_SHEATH = ITEMS.register("steel_dagger_sheath",
             () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
     public static final RegistrySupplier<Item> DIAMOND_DAGGER_SHEATH = ITEMS.register("diamond_dagger_sheath",
             () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> ELVEN_STEEL_DAGGER_SHEATH = ITEMS.register("elven_steel_dagger_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> DARK_STEEL_DAGGER_SHEATH = ITEMS.register("dark_steel_dagger_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
     public static final RegistrySupplier<Item> NETHERITE_DAGGER_SHEATH = ITEMS.register("netherite_dagger_sheath",
             () -> new Item(new Item.Settings().fireproof().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
-
+    public static final RegistrySupplier<Item> DRAGON_SCALE_DAGGER_SHEATH = ITEMS.register("dragon_scale_dagger_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> PALLADIUM_DAGGER_SHEATH = ITEMS.register("palladium_dagger_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> TITANIUM_DAGGER_SHEATH = ITEMS.register("titanium_dagger_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> TUNGSTEN_DAGGER_SHEATH = ITEMS.register("tungsten_dagger_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> MITHRIL_DAGGER_SHEATH = ITEMS.register("mithril_dagger_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> ADAMANTINE_DAGGER_SHEATH = ITEMS.register("adamantine_dagger_sheath",
+            () -> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).maxCount(1)));
     //Gemstones A-Z
     // A
     public static final RegistrySupplier<Item> AGNI_MANI = ITEMS.register("agni_mani",
@@ -359,7 +422,67 @@ public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("lege
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.EPIC)));
     public static final RegistrySupplier<Item> SHADOW_ADAMANTINE_NUGGET = ITEMS.register("shadow_adamantine_nugget",
             ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.EPIC)));
+    public static final RegistrySupplier<Item> RAW_STARFALL_ORE = ITEMS.register("raw_starfall_ore",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.EPIC)));
+    public static final RegistrySupplier<Item> STARFALL_INGOT = ITEMS.register("starfall_ingot",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB).rarity(Rarity.EPIC)));
     //Ore Dusts
-
-
+    public static final RegistrySupplier<Item> COAL_DUST = ITEMS.register("coal_dust",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> LEAD_DUST = ITEMS.register("lead_dust",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> TIN_DUST = ITEMS.register("tin_dust",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> GOLD_DUST = ITEMS.register("gold_dust",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> ZINC_DUST = ITEMS.register("zinc_dust",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> SILVER_DUST = ITEMS.register("silver_dust",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> ALUMINUM_DUST = ITEMS.register("aluminum_dust",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> ELECTRUM_DUST = ITEMS.register("electrum_dust",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> COPPER_DUST = ITEMS.register("copper_dust",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> BRASS_DUST = ITEMS.register("brass_dust",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> BRONZE_DUST = ITEMS.register("bronze_dust",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> NICKEL_DUST = ITEMS.register("nickel_dust",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> PLATINUM_DUST = ITEMS.register("platinum_dust",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> IRON_DUST = ITEMS.register("iron_dust",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> INFERNAL_IRON_DUST = ITEMS.register("infernal_iron_dust",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> COLD_IRON_DUST = ITEMS.register("cold_iron_dust",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> STEEL_DUST = ITEMS.register("steel_dust",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> DIAMOND_DUST = ITEMS.register("diamond_dust",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> ELVEN_STEEL_DUST = ITEMS.register("elven_steel_dust",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> DARK_STEEL_DUST = ITEMS.register("dark_steel_dust",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> NETHERITE_DUST = ITEMS.register("netherite_dust",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> PALLADIUM_DUST = ITEMS.register("palladium_dust",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> TITANIUM_DUST = ITEMS.register("titanium_dust",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> TUNGSTEN_DUST = ITEMS.register("tungsten_dust",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> MITHRIL_DUST = ITEMS.register("mithril_dust",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> ADAMANT_DUST = ITEMS.register("adamant_dust",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> ADAMANTINE_DUST = ITEMS.register("adamantine_dust",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> ARANDUR_DUST = ITEMS.register("arandur_dust",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> STARFALL_DUST = ITEMS.register("stallfall_dust",
+            ()-> new Item(new Item.Settings().group(ProjectDnD.CREATIVE_TAB)));
 }
