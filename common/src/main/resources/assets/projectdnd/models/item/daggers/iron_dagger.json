@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "projectrpg:items/daggers/iron_dagger"
+  }
+}

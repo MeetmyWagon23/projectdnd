@@ -14,8 +14,8 @@ loom {
         convertAccessWideners = true
         extraAccessWideners.add loom.accessWidenerPath.get().asFile.name
 
-        mixinConfig "projectdnd-common.mixins.json"
-        mixinConfig "projectdnd.mixins.json"
+        mixinConfig "projectrpg-common.mixins.json"
+        mixinConfig "projectrpg.mixins.json"
     }
 }
 

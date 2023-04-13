@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "projectdnd:items/leather_dagger_sheath"
+    "layer0": "projectrpg:items/leather_dagger_sheath"
   }
 }

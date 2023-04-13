@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "projectdnd:items/netherite_dagger"
+    "layer0": "projectrpg:items/netherite_dagger"
   }
 }

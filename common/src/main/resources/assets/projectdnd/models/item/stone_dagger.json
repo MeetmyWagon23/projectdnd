@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "projectdnd:items/stone_dagger"
+    "layer0": "projectrpg:items/stone_dagger"
   }
 }

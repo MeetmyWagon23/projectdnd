@@ -4,30 +4,30 @@ loaderVersion = "[43,)"
 license = "All Rights Reserved"
 
 [[mods]]
-modId = "projectdnd"
+modId = "projectrpg"
 version = "${version}"
-displayName = "Project D&D"
+displayName = "Project RPG"
 authors = "Wagon, BoonelDanForever, Vik, AnonMine"
 description = '''
 This is an example description! Tell everyone what your mod is about!
 '''
 logoFile = "modlogo.png"
 
-[[dependencies.projectdnd]]
+[[dependencies.projectrpg]]
 modId = "forge"
 mandatory = false
 versionRange = "[43,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.projectdnd]]
+[[dependencies.projectrpg]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.19,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.projectdnd]]
+[[dependencies.projectrpg]]
 modId = "architectury"
 mandatory = true
 versionRange = "[6.2.43,)"
