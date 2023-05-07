@@ -1,7 +1,7 @@
 {
 //creative tab name
-	"itemGroup.projectrpg.group": "D&D",
-	"itemGroup.projectrpg": "D&D",
+	"itemGroup.projectrpg.group": "Project RPG",
+	"itemGroup.projectrpg": "Project RPG",
 //Coins (currency)
 	"item.projectrpg.copper_coin": "Copper Coin",
 	"item.projectrpg.silver_coin": "Silver Coin",

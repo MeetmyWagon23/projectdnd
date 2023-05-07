@@ -12,7 +12,7 @@ public class ItemsInit {
 
     /*
 
-    Coins (currency) in the future i would like to reach out to the team who made the stackable and puchable coins to improve our system. for now this will have to suffice.
+    Coins (currency) in the future, i would like to reach out to the team who made the stackable and pouchable coins to improve our system. for now this will have to suffice.
 
     */
     public static final RegistrySupplier<Item> COPPER_COIN = ITEMS.register("copper_coin",
@@ -44,11 +44,32 @@ LEGENDARY REPAIRING
  */
 public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("legendary_core",
         () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1).rarity(Rarity.EPIC)));
+    /*------------------------------
+        Armor Type Ingredients
+     -----------------------------*/
+    public static final RegistrySupplier<Item> LIGHT_ARMOR_MESH = ITEMS.register("light_armor_mesh",
+            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.UNCOMMON)));
+    public static final RegistrySupplier<Item> WITHER_BONE = ITEMS.register("wither_bone",
+            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB))); //   \/--from Wither Bone
+    public static final RegistrySupplier<Item> BONE_BLIGHT = ITEMS.register("bone_blight",
+            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB))); //only turn poppy's into wither rose. all else dead bush.
+    public static final RegistrySupplier<Item> SKELETON_RIBCAGE = ITEMS.register("skeleton_ribcage",
+            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> WITHER_SKELETON_RIBCAGE = ITEMS.register("wither_skeleton_ribcage",
+            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> SKELETON_PELVIS = ITEMS.register("skeleton_pelvis",
+            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> WITHER_SKELETON_PELVIS = ITEMS.register("wither_skeleton_pelvis",
+            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+    //Heavy armor will increase Noticablity, and decrease swimming (harder to swim, slower swim speed) in the future.
     /*--------------------------
 
         Coin Pouches registry
 
     ----------------------------
+
+
+
     ----------------------------
 
         Sheath Registry
@@ -212,67 +233,67 @@ public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("lege
             () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
     public static final RegistrySupplier<Item> ADAMANTINE_DAGGER_SHEATH = ITEMS.register("adamantine_dagger_sheath",
             () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    //Gemstones A-Z
+    //Gemstones A-Z haven't finished as they aren't used just yet.
     // A
-    public static final RegistrySupplier<Item> AGNI_MANI = ITEMS.register("agni_mani",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> ALAMANDINE = ITEMS.register("alamandine",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> ALESTONE = ITEMS.register("alestone",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> ALEXANDRITE = ITEMS.register("alexandrite",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> ALGAE = ITEMS.register("algae",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> AMARANTHA = ITEMS.register("amarantha",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> AMBER = ITEMS.register("amber",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> ANDAR = ITEMS.register("andar",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> AQUAMARINE = ITEMS.register("aquamarine",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> ARADITE = ITEMS.register("aradite",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> AUGELITE = ITEMS.register("augelite",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> AVENTURINE = ITEMS.register("aventurine",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> AZURITE = ITEMS.register("azurite",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    // B
-    public static final RegistrySupplier<Item> BANDED_AGATE = ITEMS.register("banded_agate",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> BELJURIL = ITEMS.register("beljuril",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> BERYL = ITEMS.register("beryl",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> BLACK_OPAL = ITEMS.register("black_opal",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> BLACK_PEARL = ITEMS.register("black_pearl",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> BLACK_SAPPHIRE = ITEMS.register("black_sapphire",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> BLOODSTONE = ITEMS.register("bloodstone",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> BLUE_QUARTZ = ITEMS.register("blue_quartz",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> BLUE_SAPPHIRE = ITEMS.register("blue_sapphire",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> BLUE_SPINEL = ITEMS.register("blue_spinel",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> BLUESTONE = ITEMS.register("bluestone",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> BOAKHAR = ITEMS.register("boakhar",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> BRANDEEN = ITEMS.register("brandeen",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//   public static final RegistrySupplier<Item> AGNI_MANI = ITEMS.register("agni_mani",
+//           ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//   public static final RegistrySupplier<Item> ALAMANDINE = ITEMS.register("alamandine",
+//           ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//   public static final RegistrySupplier<Item> ALESTONE = ITEMS.register("alestone",
+//           ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//   public static final RegistrySupplier<Item> ALEXANDRITE = ITEMS.register("alexandrite",
+//           ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//   public static final RegistrySupplier<Item> ALGAE = ITEMS.register("algae",
+//           ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//   public static final RegistrySupplier<Item> AMARANTHA = ITEMS.register("amarantha",
+//           ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//   public static final RegistrySupplier<Item> AMBER = ITEMS.register("amber",
+//           ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//   public static final RegistrySupplier<Item> ANDAR = ITEMS.register("andar",
+//           ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//   public static final RegistrySupplier<Item> AQUAMARINE = ITEMS.register("aquamarine",
+//           ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//   public static final RegistrySupplier<Item> ARADITE = ITEMS.register("aradite",
+//           ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//   public static final RegistrySupplier<Item> AUGELITE = ITEMS.register("augelite",
+//           ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//   public static final RegistrySupplier<Item> AVENTURINE = ITEMS.register("aventurine",
+//           ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//   public static final RegistrySupplier<Item> AZURITE = ITEMS.register("azurite",
+//           ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//   // B
+//   public static final RegistrySupplier<Item> BANDED_AGATE = ITEMS.register("banded_agate",
+//           ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//   public static final RegistrySupplier<Item> BELJURIL = ITEMS.register("beljuril",
+//           ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//   public static final RegistrySupplier<Item> BERYL = ITEMS.register("beryl",
+//           ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//   public static final RegistrySupplier<Item> BLACK_OPAL = ITEMS.register("black_opal",
+//           ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//   public static final RegistrySupplier<Item> BLACK_PEARL = ITEMS.register("black_pearl",
+//           ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//   public static final RegistrySupplier<Item> BLACK_SAPPHIRE = ITEMS.register("black_sapphire",
+//           ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//   public static final RegistrySupplier<Item> BLOODSTONE = ITEMS.register("bloodstone",
+//           ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//   public static final RegistrySupplier<Item> BLUE_QUARTZ = ITEMS.register("blue_quartz",
+//           ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//   public static final RegistrySupplier<Item> BLUE_SAPPHIRE = ITEMS.register("blue_sapphire",
+//           ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//   public static final RegistrySupplier<Item> BLUE_SPINEL = ITEMS.register("blue_spinel",
+//           ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//   public static final RegistrySupplier<Item> BLUESTONE = ITEMS.register("bluestone",
+//           ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//   public static final RegistrySupplier<Item> BOAKHAR = ITEMS.register("boakhar",
+//           ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//   public static final RegistrySupplier<Item> BRANDEEN = ITEMS.register("brandeen",
+//           ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
     /* C
 
     Gemstone / Jewel Dusts. please refer to the wiki for the list of dusts to include.
     Ores are organized using the MOHS Hardness Scale, I wanted to keep things realistic as much as possible.
 
-    Raw ores, Ingots, Nuggets
+    Raw ores, Ingots, Nuggets | needs to be CULLED of raw ores that dont need to exist. I.E Alloys
 
      */
     public static final RegistrySupplier<Item> RAW_LEAD = ITEMS.register("raw_lead",
@@ -428,7 +449,7 @@ public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("lege
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.EPIC)));
     public static final RegistrySupplier<Item> STARFALL_INGOT = ITEMS.register("starfall_ingot",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.EPIC)));
-    //Ore Dusts
+    //Ore Dusts | used for other mods when Dusts are needed.
     public static final RegistrySupplier<Item> COAL_DUST = ITEMS.register("coal_dust",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> LEAD_DUST = ITEMS.register("lead_dust",
@@ -482,6 +503,8 @@ public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("lege
     public static final RegistrySupplier<Item> ADAMANT_DUST = ITEMS.register("adamant_dust",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> ADAMANTINE_DUST = ITEMS.register("adamantine_dust",
+            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> ITANIUM_DUST = ITEMS.register("itanium_dust",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> ARANDUR_DUST = ITEMS.register("arandur_dust",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
