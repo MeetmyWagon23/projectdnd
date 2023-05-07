@@ -98,8 +98,8 @@ public enum ArmorSetMaterials implements WagonsArmorMaterial {
     SHADOW_ADAMANTINE("shadow_adamantine", 62, new double[]{10,12,14,11}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 4.0f, 0.4f, ItemsInit.SHADOW_ADAMANTINE_INGOT.get()),
     LIGHT_SHADOW_ADAMANTINE("light_shadow_adamantine", 50, new double[]{7,8.4,9.8,7}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0f, 0.2f, ItemsInit.SHADOW_ADAMANTINE_INGOT.get()),
     //-------------------------------------------------------------------------Legendary Armors Below Here---------------------------------------------------------------------------------------------
-    LEGENDARY("legendary", 153, new double[]{11,13,15,12}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,6.0f, 0.4f, ItemsInit.LEGENDARY_CORE.get()),
-    LIGHT_LEGENDARY("light_legendary", 153, new double[]{7.7,9.1,10.5,8.4}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,3.0f, 0.2f, ItemsInit.LEGENDARY_CORE.get());
+    LEGENDARY("legendary", 69, new double[]{11,13,15,12}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,6.0f, 0.4f, ItemsInit.LEGENDARY_CORE.get()),
+    LIGHT_LEGENDARY("light_legendary", 69, new double[]{7.7,9.1,10.5,8.4}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,3.0f, 0.2f, ItemsInit.LEGENDARY_CORE.get());
 
     //more legendary equipment to be added, mostly will be used for Legendary Boss Armors - Legendary Crafted Items from bosses.
     //Legendary is a placeholder name. meant to be replaced & duplicated with different set names.
