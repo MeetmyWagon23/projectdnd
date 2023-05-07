@@ -28,22 +28,22 @@ public class ToolMaterialsInit {
     //        return Ingredient.fromTag(ItemTags.STONE_TOOL_MATERIALS);
     //Gold     GOLD              (attackdamag 0.0f, enchant 22, mininglvl 1, miningspeed 12.0f, durability 32)
     protected static final ToolMaterial SILVER =
-            new BaseToolMaterial(0f, 20, 1, 4f, 161,
+            new BaseToolMaterial(0f, 15, 1, 4f, 161,
             () -> Ingredient.ofItems(ItemsInit.SILVER_INGOT.get()));
     protected static final ToolMaterial COPPER =
-            new BaseToolMaterial(0f, 8, 1, 4.5f, 181,
+            new BaseToolMaterial(0f, 3, 1, 4.5f, 181,
     		() -> Ingredient.ofItems(Items.COPPER_INGOT));
     protected static final ToolMaterial BRASS =
-            new BaseToolMaterial(0f, 10, 1, 4.5f, 201,
+            new BaseToolMaterial(0f, 5, 1, 4.5f, 201,
             () -> Ingredient.ofItems(ItemsInit.BRASS_INGOT.get()));
     protected static final ToolMaterial BRONZE =
-            new BaseToolMaterial(0f, 12, 1, 4.5f, 221,
+            new BaseToolMaterial(0f, 4, 1, 4.5f, 221,
             () -> Ingredient.ofItems(ItemsInit.BRONZE_INGOT.get()));
     protected static final ToolMaterial PLATINUM =
-            new BaseToolMaterial(0f, 22, 1, 5.5f, 241,
+            new BaseToolMaterial(0f, 18, 1, 5.5f, 241,
             () -> Ingredient.ofItems(ItemsInit.PLATINUM_INGOT.get()));
     protected static final ToolMaterial BONE =
-            new BaseToolMaterial(0f, 1, 2, 7f, 32,
+            new BaseToolMaterial(0f, 2, 2, 7f, 32,
                     () -> Ingredient.ofItems(Items.BONE));
     //iron    IRON               (attackdamag 2.0f, enchant 14, mininglvl 2, miningspeed 6.0f, durability 250)
     protected static final ToolMaterial INFERNAL_IRON =
@@ -57,37 +57,37 @@ public class ToolMaterialsInit {
             () -> Ingredient.ofItems(ItemsInit.STEEL_INGOT.get()));
     //diamond    DIAMOND         (attackdamag 3.0f, enchant 10, mininglvl 3, miningspeed 8.0f, durability 1561)
     protected static final ToolMaterial ELVEN_STEEL =
-            new BaseToolMaterial(0f, 16, 3, 8f, 1791,
+            new BaseToolMaterial(0f, 18, 3, 8f, 1791,
                     () -> Ingredient.ofItems(ItemsInit.ELVEN_STEEL_INGOT.get()));
     protected static final ToolMaterial DARK_STEEL =
-            new BaseToolMaterial(0f, 16, 3, 8f, 1791,
+            new BaseToolMaterial(0f, 18, 3, 8f, 1791,
                     () -> Ingredient.ofItems(ItemsInit.DARK_STEEL_INGOT.get()));
     //netherite    NETHERITE     (attackdamag 4.0f, enchant 15, mininglvl 4, miningspeed 9.0f, durability 2031)
     protected static final ToolMaterial DRAGON_BONE =
-            new BaseToolMaterial(0f, 16, 3, 9f, 2341,
+            new BaseToolMaterial(0f, 18, 3, 9f, 2341,
                     () -> Ingredient.ofItems(ItemsInit.DRAGON_BONE.get()));
     protected static final ToolMaterial PALLADIUM =
-            new BaseToolMaterial(0f, 18, 4, 10f, 2651,
+            new BaseToolMaterial(0f, 22, 4, 10f, 2651,
             () -> Ingredient.ofItems(ItemsInit.PALLADIUM_INGOT.get()));
     protected static final ToolMaterial TITANIUM =
-            new BaseToolMaterial(0f, 20, 4, 10f, 2961,
+            new BaseToolMaterial(0f, 24, 4, 10f, 2961,
             () -> Ingredient.ofItems(ItemsInit.TITANIUM_INGOT.get()));
     protected static final ToolMaterial TUNGSTEN =
-            new BaseToolMaterial(0f, 22, 4, 11f, 3271,
+            new BaseToolMaterial(0f, 15, 4, 11f, 3271,
             () -> Ingredient.ofItems(ItemsInit.TUNGSTEN_INGOT.get()));
     protected static final ToolMaterial MITHRIL =
-            new BaseToolMaterial(0f, 24, 4, 11f, 3581,
+            new BaseToolMaterial(0f, 15, 4, 11f, 3581,
             () -> Ingredient.ofItems(ItemsInit.MITHRIL_INGOT.get()));
     protected static final ToolMaterial ITANIUM =
-            new BaseToolMaterial(0f, 26, 4, 12f, 3891,
+            new BaseToolMaterial(0f, 16, 4, 12f, 3891,
             () -> Ingredient.ofItems(ItemsInit.ITANIUM_INGOT.get()));
     protected static final ToolMaterial ADAMANTINE =
-            new BaseToolMaterial(0f, 26, 4, 12f, 4101,
+            new BaseToolMaterial(0f, 18, 4, 12f, 4101,
             () -> Ingredient.ofItems(ItemsInit.ADAMANTINE_INGOT.get()));
     protected static final ToolMaterial SHADOW_ADAMANTINE =
-            new BaseToolMaterial(0f, 26, 4, 12f, 4101,
+            new BaseToolMaterial(0f, 18, 4, 12f, 4101,
                     () -> Ingredient.ofItems(ItemsInit.SHADOW_ADAMANTINE_INGOT.get()));
     protected static final ToolMaterial LEGENDARY =
-            new BaseToolMaterial(0f, 32, 4, 12f, 4421,
+            new BaseToolMaterial(0f, 18, 4, 12f, 4421,
                     () -> Ingredient.ofItems(ItemsInit.LEGENDARY_CORE.get()));
 }

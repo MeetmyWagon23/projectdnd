@@ -510,5 +510,4 @@ public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("lege
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> STARFALL_DUST = ITEMS.register("stallfall_dust",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-
 }

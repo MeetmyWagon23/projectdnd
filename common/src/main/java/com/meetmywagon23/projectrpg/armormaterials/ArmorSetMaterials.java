@@ -74,8 +74,8 @@ public enum ArmorSetMaterials implements WagonsArmorMaterial {
     BONE("bone", 4, new double[]{1.8,4.6,5.3,1.8}, 2, SoundEvents.ENTITY_SKELETON_AMBIENT,1.0f, 0.0f, Items.BONE),
     //iron                             15, new double[]{2, 5, 6, 2}
     LIGHT_IRON("light_iron", 12, new double[]{1.4,3.5,4.2,1.4}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.5f, 0.f, Items.IRON_INGOT),
-    INFERNAL_IRON("infernal_iron", 15, new double[]{2.2,5.2,6.2,2.2}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1.5f, 0.1f, ItemsInit.INFERNAL_IRON_INGOT.get()),
-    COLD_IRON_MAIL("cold_iron_mail", 12, new double[]{1.6,3.7,4.4,1.6}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1.5f, 0.1f, ItemsInit.COLD_IRON_INGOT.get()),
+    INFERNAL_IRON("infernal_iron", 15, new double[]{2.2,5.2,6.2,2.2}, 14, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1.5f, 0.1f, ItemsInit.INFERNAL_IRON_INGOT.get()),
+    COLD_IRON_MAIL("cold_iron_mail", 12, new double[]{1.6,3.7,4.4,1.6}, 14, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1.5f, 0.1f, ItemsInit.COLD_IRON_INGOT.get()),
     STEEL("steel", 21, new double[]{2.6,5.6,6.6,2.6}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON,2.0f, 0.1f, ItemsInit.STEEL_INGOT.get()),
     LIGHT_STEEL("light_steel", 17, new double[]{2,4,5,2}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1.0f, 0.0f, ItemsInit.STEEL_INGOT.get()),
     ELVEN_STEEL("elven_steel", 26, new double[]{2.8,5.8,6.8,2.8}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1.5f, 0.0f, ItemsInit.ELVEN_STEEL_INGOT.get()),
