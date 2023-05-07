@@ -42,6 +42,9 @@ public class ToolMaterialsInit {
     protected static final ToolMaterial PLATINUM =
             new BaseToolMaterial(0f, 18, 1, 5.5f, 241,
             () -> Ingredient.ofItems(ItemsInit.PLATINUM_INGOT.get()));
+    protected static final ToolMaterial GLACIAL =
+            new BaseToolMaterial(0f, 6, 2, 5.5f, 196,
+                    () -> Ingredient.ofItems(Items.PACKED_ICE));
     protected static final ToolMaterial BONE =
             new BaseToolMaterial(0f, 2, 2, 7f, 32,
                     () -> Ingredient.ofItems(Items.BONE));

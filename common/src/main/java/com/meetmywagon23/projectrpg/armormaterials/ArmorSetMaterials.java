@@ -44,6 +44,7 @@ public enum ArmorSetMaterials implements WagonsArmorMaterial {
     mithril---------------------
     itanium---------------------to be renamed/removed
     adamantine------------------
+    Starfall = Starmetal, Flavored for... reasons.
 
     Metal Working Metals.
     Arandur--------------------- not to be used for armors or weapons, only alloy work                                  | *NEW*
@@ -71,35 +72,38 @@ public enum ArmorSetMaterials implements WagonsArmorMaterial {
    //LIGHT_NICKEL("light_nickel", 13, new double[]{1,2,3,1}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, ItemsInit.NICKEL_INGOT.get()),
     PLATINUM("platinum", 14, new double[]{1.8,4.4,5.2,1.8}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.0f, 0.0f, ItemsInit.PLATINUM_INGOT.get()),
     LIGHT_PLATINUM("light_platinum", 11, new double[]{2,3,4,1}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.0f, 0.0f, ItemsInit.PLATINUM_INGOT.get()),
+    GLACIAL("glacial", 9, new double[]{1.6,4.2,5,1.6}, 6, SoundEvents.ITEM_ARMOR_EQUIP_IRON,2.0f, 0.1f, Items.PACKED_ICE),
     BONE("bone", 4, new double[]{1.8,4.6,5.3,1.8}, 2, SoundEvents.ENTITY_SKELETON_AMBIENT,1.0f, 0.0f, Items.BONE),
     //iron                             15, new double[]{2, 5, 6, 2}
     LIGHT_IRON("light_iron", 12, new double[]{1.4,3.5,4.2,1.4}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.5f, 0.f, Items.IRON_INGOT),
-    INFERNAL_IRON("infernal_iron", 15, new double[]{2.2,5.2,6.2,2.2}, 14, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1.5f, 0.1f, ItemsInit.INFERNAL_IRON_INGOT.get()),
-    COLD_IRON_MAIL("cold_iron_mail", 12, new double[]{1.6,3.7,4.4,1.6}, 14, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1.5f, 0.1f, ItemsInit.COLD_IRON_INGOT.get()),
-    STEEL("steel", 21, new double[]{2.6,5.6,6.6,2.6}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON,2.0f, 0.1f, ItemsInit.STEEL_INGOT.get()),
-    LIGHT_STEEL("light_steel", 17, new double[]{2,4,5,2}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1.0f, 0.0f, ItemsInit.STEEL_INGOT.get()),
-    ELVEN_STEEL("elven_steel", 26, new double[]{2.8,5.8,6.8,2.8}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1.5f, 0.0f, ItemsInit.ELVEN_STEEL_INGOT.get()),
-    ELVEN_STEEL_MAIL("elven_steel_mail", 21, new double[]{2.8,4.8,5.8,2.8}, 18, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.7f, 0.0f, ItemsInit.ELVEN_STEEL_INGOT.get()),
+    INFERNAL_IRON("infernal_iron", 15, new double[]{2.2,5.2,6.2,2.2}, 13, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1.5f, 0.1f, ItemsInit.INFERNAL_IRON_INGOT.get()),
+    COLD_IRON_MAIL("cold_iron_mail", 12, new double[]{1.6,3.7,4.4,1.6}, 13, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1.5f, 0.1f, ItemsInit.COLD_IRON_INGOT.get()),
+    WITHER_BONE("wither_bone", 12, new double[]{2.4,5.4,6.4,2.4}, 2, SoundEvents.ITEM_ARMOR_EQUIP_IRON,2.0f, 0.1f, ItemsInit.WITHER_BONE.get()),
+    STEEL("steel", 21, new double[]{2.6,5.6,6.6,2.6}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON,2.0f, 0.1f, ItemsInit.STEEL_INGOT.get()),
+    LIGHT_STEEL("light_steel", 17, new double[]{1.8,3.9,4.6,1.8}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1.0f, 0.0f, ItemsInit.STEEL_INGOT.get()),
+    ELVEN_STEEL("elven_steel", 26, new double[]{2.8,5.8,6.8,2.8}, 18, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1.5f, 0.0f, ItemsInit.ELVEN_STEEL_INGOT.get()),
+    ELVEN_STEEL_MAIL("elven_steel_mail", 21, new double[]{1.9,4,4.7,1.9}, 18, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.7f, 0.0f, ItemsInit.ELVEN_STEEL_INGOT.get()),
     DARK_STEEL("dark_steel", 26, new double[]{2.8,5.8,6.8,2.8}, 18, SoundEvents.ITEM_ARMOR_EQUIP_IRON,2.0f, 0.2f, ItemsInit.DARK_STEEL_INGOT.get()),//half the weight of steel
-    DARK_STEEL_MAIL("dark_steel_mail", 21, new double[]{1.9,4,4.7,1.4}, 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1.0f, 0.1f, ItemsInit.DARK_STEEL_INGOT.get()),//half the weight of steel
-    WITHER_BONE("wither_bone", 12, new double[]{2.4,5.2,5.9,2.4}, 2, SoundEvents.ITEM_ARMOR_EQUIP_IRON,2.0f, 0.1f, ItemsInit.WITHER_BONE.get()),
+    DARK_STEEL_MAIL("dark_steel_mail", 21, new double[]{1.9,4,4.7,1.9}, 18, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1.0f, 0.1f, ItemsInit.DARK_STEEL_INGOT.get()),//half the weight of steel
+
     //diamond                                   25, new double[]{3, 6, 8, 3}
     //netherite                                 37, new double[]{3, 6, 8, 3}
     DRAGON_SCALE_MAIL("dragon_scale_mail", 46, new double[]{3.5,6.5,8.5,3.5}, 18, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 1.0f, 0.0f, ItemsInit.DRAGON_SCALE.get()),
     PALLADIUM("palladium", 41, new double[]{4,7,9,4}, 22, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,2.0f, 0.1f, ItemsInit.PALLADIUM_INGOT.get()),
-    LIGHT_PALLADIUM("light_palladium", 32, new double[]{4,7,9,4}, 22, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,1.0f, 0.0f, ItemsInit.PALLADIUM_INGOT.get()),
-    TITANIUM("titanium", 48, new double[]{4.5,7.5,9.5,4.5}, 14, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,2.5f, 0.2f, ItemsInit.TITANIUM_INGOT.get()),
+    LIGHT_PALLADIUM("light_palladium", 32, new double[]{2.8,4.9,6.3,2.8}, 22, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,1.0f, 0.0f, ItemsInit.PALLADIUM_INGOT.get()),
+    TITANIUM("titanium", 48, new double[]{4.5,7.5,9.5,4.5}, 11, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,2.5f, 0.2f, ItemsInit.TITANIUM_INGOT.get()),
     LIGHT_TITANIUM("light_titanium", 39, new double[]{3.1,5.2,6.6,3.1}, 14, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,0.7f, 0.1f, ItemsInit.TITANIUM_INGOT.get()),
-    TUNGSTEN("tungsten", 55, new double[]{8,10,12,9}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,3.0f, 0.3f, ItemsInit.TUNGSTEN_INGOT.get()),
-    MITHRIL_MAIL("mithril_mail", 49, new double[]{7,8.4,9.8,7.7}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,1.7f, 0.1f, ItemsInit.MITHRIL_INGOT.get()),
-    ITANIUM_MAIL("itanium_mail", 50, new double[]{7,8.5,9.8,7.7}, 16, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,2.0f, 0.2f, ItemsInit.ITANIUM_INGOT.get()),
-    ADAMANTINE("adamantine", 62, new double[]{10,12,14,11}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 4.0f, 0.4f, ItemsInit.ADAMANTINE_INGOT.get()),
-    LIGHT_ADAMANTINE("light_adamantine", 50, new double[]{7,8.5,9.8,7.7}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 4.0f, 0.4f, ItemsInit.ADAMANTINE_INGOT.get()),
-    SHADOW_ADAMANTINE("shadow_adamantine", 62, new double[]{10,12,14,11}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 4.0f, 0.4f, ItemsInit.SHADOW_ADAMANTINE_INGOT.get()),
-    LIGHT_SHADOW_ADAMANTINE("light_shadow_adamantine", 50, new double[]{7,8.5,9.8,7}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0f, 0.2f, ItemsInit.SHADOW_ADAMANTINE_INGOT.get()),
+    TUNGSTEN("tungsten", 55, new double[]{5,8,10,5}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,3.0f, 0.3f, ItemsInit.TUNGSTEN_INGOT.get()),
+    MITHRIL_MAIL("mithril_mail", 49, new double[]{3.5,5.6,7,3.5}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,1.7f, 0.1f, ItemsInit.MITHRIL_INGOT.get()),
+    ITANIUM_MAIL("itanium_mail", 50, new double[]{4.2,7,8.4,4.2}, 16, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,2.0f, 0.2f, ItemsInit.ITANIUM_INGOT.get()),
+    ADAMANTINE("adamantine", 62, new double[]{6,10,12,6}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 4.0f, 0.4f, ItemsInit.ADAMANTINE_INGOT.get()),
+    LIGHT_ADAMANTINE("light_adamantine", 50, new double[]{4.2,7,8.2,4.2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 4.0f, 0.4f, ItemsInit.ADAMANTINE_INGOT.get()),
+    SHADOW_ADAMANTINE("shadow_adamantine", 62, new double[]{6,10,12,6}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 4.0f, 0.4f, ItemsInit.SHADOW_ADAMANTINE_INGOT.get()),
+    LIGHT_SHADOW_ADAMANTINE("light_shadow_adamantine", 50, new double[]{4.2,7,8.2,4.2}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0f, 0.2f, ItemsInit.SHADOW_ADAMANTINE_INGOT.get()),
     //-------------------------------------------------------------------------Legendary Armors Below Here---------------------------------------------------------------------------------------------
-    LEGENDARY("legendary", 69, new double[]{11,13,15,12}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,6.0f, 0.4f, ItemsInit.LEGENDARY_CORE.get()),
-    LIGHT_LEGENDARY("light_legendary", 69, new double[]{7.7,9.2,10.6,8.5}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,3.0f, 0.2f, ItemsInit.LEGENDARY_CORE.get());
+    LEGENDARY("legendary", 69, new double[]{7,11,13,7}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,6.0f, 0.4f, ItemsInit.LEGENDARY_CORE.get()),
+    LIGHT_LEGENDARY("light_legendary", 69, new double[]{4.9,7.7,9.1,4.9}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,3.0f, 0.2f, ItemsInit.LEGENDARY_CORE.get()),
+    STARFALL("starfall", 69, new double[]{7,11,13,7}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,6.0f, 0.4f, ItemsInit.LEGENDARY_CORE.get());
 
     //more legendary equipment to be added, mostly will be used for Legendary Boss Armors - Legendary Crafted Items from bosses.
     //Legendary is a placeholder name. meant to be replaced & duplicated with different set names, and keeping the BASE legendary armor stats.

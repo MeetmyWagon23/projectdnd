@@ -39,11 +39,6 @@ public class ItemsInit {
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(50)));
     public static final RegistrySupplier<Item> TEN_PLATINUM_COINS = ITEMS.register("ten_platinum_coins",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(50)));
-/*
-LEGENDARY REPAIRING
- */
-public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("legendary_core",
-        () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1).rarity(Rarity.EPIC)));
     /*------------------------------
         Armor Type Ingredients
      -----------------------------*/
@@ -54,14 +49,19 @@ public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("lege
     public static final RegistrySupplier<Item> BONE_BLIGHT = ITEMS.register("bone_blight",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB))); //only turn poppy's into wither rose. all else dead bush.
     public static final RegistrySupplier<Item> SKELETON_RIBCAGE = ITEMS.register("skeleton_ribcage",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.UNCOMMON)));
     public static final RegistrySupplier<Item> WITHER_SKELETON_RIBCAGE = ITEMS.register("wither_skeleton_ribcage",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.UNCOMMON)));
     public static final RegistrySupplier<Item> SKELETON_PELVIS = ITEMS.register("skeleton_pelvis",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.UNCOMMON)));
     public static final RegistrySupplier<Item> WITHER_SKELETON_PELVIS = ITEMS.register("wither_skeleton_pelvis",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    //Heavy armor will increase Noticablity, and decrease swimming (harder to swim, slower swim speed) in the future.
+            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.UNCOMMON)));
+    public static final RegistrySupplier<Item> DRAGON_SCALE = ITEMS.register("dragon_scale",
+            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.EPIC)));
+    public static final RegistrySupplier<Item> DRAGON_BONE = ITEMS.register("dragon_bone",
+            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.EPIC)));
+    public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("legendary_core",
+            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(8).rarity(Rarity.EPIC)));
     /*--------------------------
 
         Coin Pouches registry
@@ -407,10 +407,7 @@ public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("lege
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
     //Diamond
     //Netherite
-    public static final RegistrySupplier<Item> DRAGON_SCALE = ITEMS.register("dragon_scale",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.EPIC)));
-    public static final RegistrySupplier<Item> DRAGON_BONE = ITEMS.register("dragon_bone",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.EPIC)));
+
     public static final RegistrySupplier<Item> RAW_TUNGSTEN = ITEMS.register("raw_tungsten",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> TUNGSTEN_INGOT = ITEMS.register("tungsten_ingot",
@@ -448,6 +445,8 @@ public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("lege
     public static final RegistrySupplier<Item> RAW_STARFALL_ORE = ITEMS.register("raw_starfall_ore",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.EPIC)));
     public static final RegistrySupplier<Item> STARFALL_INGOT = ITEMS.register("starfall_ingot",
+            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.EPIC)));
+    public static final RegistrySupplier<Item> STARFALL_NUGGET = ITEMS.register("starfall_nugget",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.EPIC)));
     //Ore Dusts | used for other mods when Dusts are needed.
     public static final RegistrySupplier<Item> COAL_DUST = ITEMS.register("coal_dust",
