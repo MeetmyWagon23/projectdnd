@@ -89,20 +89,20 @@ public enum ArmorSetMaterials implements WagonsArmorMaterial {
     PALLADIUM("palladium", 41, new double[]{4,7,9,4}, 22, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,2.0f, 0.1f, ItemsInit.PALLADIUM_INGOT.get()),
     LIGHT_PALLADIUM("light_palladium", 32, new double[]{4,7,9,4}, 22, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,1.0f, 0.0f, ItemsInit.PALLADIUM_INGOT.get()),
     TITANIUM("titanium", 48, new double[]{4.5,7.5,9.5,4.5}, 14, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,2.5f, 0.2f, ItemsInit.TITANIUM_INGOT.get()),
-    LIGHT_TITANIUM("light_titanium", 39, new double[]{5,9,10,7}, 14, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,0.7f, 0.1f, ItemsInit.TITANIUM_INGOT.get()),
+    LIGHT_TITANIUM("light_titanium", 39, new double[]{3.1,5.2,6.6,3.1}, 14, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,0.7f, 0.1f, ItemsInit.TITANIUM_INGOT.get()),
     TUNGSTEN("tungsten", 55, new double[]{8,10,12,9}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,3.0f, 0.3f, ItemsInit.TUNGSTEN_INGOT.get()),
     MITHRIL_MAIL("mithril_mail", 49, new double[]{7,8.4,9.8,7.7}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,1.7f, 0.1f, ItemsInit.MITHRIL_INGOT.get()),
-    ITANIUM_MAIL("itanium_mail", 50, new double[]{7.2,8.6,10,7.9}, 16, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,2.0f, 0.2f, ItemsInit.ITANIUM_INGOT.get()),
+    ITANIUM_MAIL("itanium_mail", 50, new double[]{7,8.5,9.8,7.7}, 16, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,2.0f, 0.2f, ItemsInit.ITANIUM_INGOT.get()),
     ADAMANTINE("adamantine", 62, new double[]{10,12,14,11}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 4.0f, 0.4f, ItemsInit.ADAMANTINE_INGOT.get()),
-    LIGHT_ADAMANTINE("light_adamantine", 50, new double[]{7,8.4,9.8,7.7}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 4.0f, 0.4f, ItemsInit.ADAMANTINE_INGOT.get()),
+    LIGHT_ADAMANTINE("light_adamantine", 50, new double[]{7,8.5,9.8,7.7}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 4.0f, 0.4f, ItemsInit.ADAMANTINE_INGOT.get()),
     SHADOW_ADAMANTINE("shadow_adamantine", 62, new double[]{10,12,14,11}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 4.0f, 0.4f, ItemsInit.SHADOW_ADAMANTINE_INGOT.get()),
-    LIGHT_SHADOW_ADAMANTINE("light_shadow_adamantine", 50, new double[]{7,8.4,9.8,7}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0f, 0.2f, ItemsInit.SHADOW_ADAMANTINE_INGOT.get()),
+    LIGHT_SHADOW_ADAMANTINE("light_shadow_adamantine", 50, new double[]{7,8.5,9.8,7}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0f, 0.2f, ItemsInit.SHADOW_ADAMANTINE_INGOT.get()),
     //-------------------------------------------------------------------------Legendary Armors Below Here---------------------------------------------------------------------------------------------
     LEGENDARY("legendary", 69, new double[]{11,13,15,12}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,6.0f, 0.4f, ItemsInit.LEGENDARY_CORE.get()),
-    LIGHT_LEGENDARY("light_legendary", 69, new double[]{7.7,9.1,10.5,8.4}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,3.0f, 0.2f, ItemsInit.LEGENDARY_CORE.get());
+    LIGHT_LEGENDARY("light_legendary", 69, new double[]{7.7,9.2,10.6,8.5}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,3.0f, 0.2f, ItemsInit.LEGENDARY_CORE.get());
 
     //more legendary equipment to be added, mostly will be used for Legendary Boss Armors - Legendary Crafted Items from bosses.
-    //Legendary is a placeholder name. meant to be replaced & duplicated with different set names.
+    //Legendary is a placeholder name. meant to be replaced & duplicated with different set names, and keeping the BASE legendary armor stats.
 
    /* EXAMPLE
    BONE("netherite", 37, new double[]{3, 6, 8, 3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> {
