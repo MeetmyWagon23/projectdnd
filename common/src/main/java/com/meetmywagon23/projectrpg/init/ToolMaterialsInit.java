@@ -90,6 +90,13 @@ public class ToolMaterialsInit {
     protected static final ToolMaterial SHADOW_ADAMANTINE =
             new BaseToolMaterial(0f, 18, 4, 12f, 4101,
                     () -> Ingredient.ofItems(ItemsInit.SHADOW_ADAMANTINE_INGOT.get()));
+    protected static final ToolMaterial ADAMANTINE_DRAGON_BONE =
+            new BaseToolMaterial(0f, 18, 4, 12f, 4101,
+                    () -> Ingredient.ofItems(ItemsInit.ADAMANTINE_COATED_DRAGON_SCALE.get()));
+    protected static final ToolMaterial SHADOW_ADAMANTINE_DRAGON_BONE =
+            new BaseToolMaterial(0f, 18, 4, 12f, 4101,
+                    () -> Ingredient.ofItems(ItemsInit.SHADOW_ADAMANTINE_COATED_DRAGON_SCALE.get()));
+
     protected static final ToolMaterial LEGENDARY =
             new BaseToolMaterial(0f, 18, 4, 12f, 4421,
                     () -> Ingredient.ofItems(ItemsInit.LEGENDARY_CORE.get()));

@@ -80,7 +80,7 @@ public enum ArmorSetMaterials implements WagonsArmorMaterial {
     COLD_IRON_MAIL("cold_iron_mail", 12, new double[]{1.6,3.7,4.4,1.6}, 13, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1.5f, 0.1f, ItemsInit.COLD_IRON_INGOT.get()),
     WITHER_BONE("wither_bone", 12, new double[]{2.4,5.4,6.4,2.4}, 2, SoundEvents.ITEM_ARMOR_EQUIP_IRON,2.0f, 0.1f, ItemsInit.WITHER_BONE.get()),
     STEEL("steel", 21, new double[]{2.6,5.6,6.6,2.6}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON,2.0f, 0.1f, ItemsInit.STEEL_INGOT.get()),
-    LIGHT_STEEL("light_steel", 17, new double[]{1.8,3.9,4.6,1.8}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1.0f, 0.0f, ItemsInit.STEEL_INGOT.get()),
+    STEEL_CHAIN("steel_chain", 17, new double[]{1.8,3.9,4.6,1.8}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1.0f, 0.0f, ItemsInit.STEEL_INGOT.get()),
     ELVEN_STEEL("elven_steel", 26, new double[]{2.8,5.8,6.8,2.8}, 18, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1.5f, 0.0f, ItemsInit.ELVEN_STEEL_INGOT.get()),
     ELVEN_STEEL_MAIL("elven_steel_mail", 21, new double[]{1.9,4,4.7,1.9}, 18, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.7f, 0.0f, ItemsInit.ELVEN_STEEL_INGOT.get()),
     DARK_STEEL("dark_steel", 26, new double[]{2.8,5.8,6.8,2.8}, 18, SoundEvents.ITEM_ARMOR_EQUIP_IRON,2.0f, 0.2f, ItemsInit.DARK_STEEL_INGOT.get()),//half the weight of steel
@@ -88,6 +88,8 @@ public enum ArmorSetMaterials implements WagonsArmorMaterial {
 
     //diamond                                   25, new double[]{3, 6, 8, 3}
     //netherite                                 37, new double[]{3, 6, 8, 3}
+
+    //Dragon scale male is a LIGHT ARMOR!!!!
     DRAGON_SCALE_MAIL("dragon_scale_mail", 46, new double[]{3.5,6.5,8.5,3.5}, 18, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 1.0f, 0.0f, ItemsInit.DRAGON_SCALE.get()),
     PALLADIUM("palladium", 41, new double[]{4,7,9,4}, 22, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,2.0f, 0.1f, ItemsInit.PALLADIUM_INGOT.get()),
     LIGHT_PALLADIUM("light_palladium", 32, new double[]{2.8,4.9,6.3,2.8}, 22, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,1.0f, 0.0f, ItemsInit.PALLADIUM_INGOT.get()),
@@ -97,10 +99,14 @@ public enum ArmorSetMaterials implements WagonsArmorMaterial {
     MITHRIL_MAIL("mithril_mail", 49, new double[]{3.5,5.6,7,3.5}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,1.7f, 0.1f, ItemsInit.MITHRIL_INGOT.get()),
     ITANIUM_MAIL("itanium_mail", 50, new double[]{4.2,7,8.4,4.2}, 16, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,2.0f, 0.2f, ItemsInit.ITANIUM_INGOT.get()),
     ADAMANTINE("adamantine", 62, new double[]{6,10,12,6}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 4.0f, 0.4f, ItemsInit.ADAMANTINE_INGOT.get()),
-    LIGHT_ADAMANTINE("light_adamantine", 50, new double[]{4.2,7,8.2,4.2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 4.0f, 0.4f, ItemsInit.ADAMANTINE_INGOT.get()),
+    LIGHT_ADAMANTINE("light_adamantine", 50, new double[]{4.2,7,8.2,4.2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0f, 0.2f, ItemsInit.ADAMANTINE_INGOT.get()),
     SHADOW_ADAMANTINE("shadow_adamantine", 62, new double[]{6,10,12,6}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 4.0f, 0.4f, ItemsInit.SHADOW_ADAMANTINE_INGOT.get()),
     LIGHT_SHADOW_ADAMANTINE("light_shadow_adamantine", 50, new double[]{4.2,7,8.2,4.2}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0f, 0.2f, ItemsInit.SHADOW_ADAMANTINE_INGOT.get()),
-    //-------------------------------------------------------------------------Legendary Armors Below Here---------------------------------------------------------------------------------------------
+    ADAMANTINE_COATED_DRAGON_SCALE("adamantine_dragon_scale", 67, new double[]{6.5,10.5,12.5,6.5}, 18, SoundEvents.ITEM_ARMOR_EQUIP_TURTLE, 5f, 0.4f, ItemsInit.ADAMANTINE_COATED_DRAGON_SCALE.get()),
+    LIGHT_ADAMANTINE_COATED_DRAGON_SCALE("light_shadow_adamantine", 55, new double[]{4.7,7.5,8.7,4.7}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.5f, 0.2f, ItemsInit.ADAMANTINE_COATED_DRAGON_SCALE.get()),
+    SHADOW_ADAMANTINE_COATED_DRAGON_SCALE("shadow_adamantine_coated_dragon_scale", 67, new double[]{6.5,10.5,12.5,6.5}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 5f, 0.4f, ItemsInit.SHADOW_ADAMANTINE_COATED_DRAGON_SCALE.get()),
+    LIGHT_SHADOW_ADAMANTINE_COATED_DRAGON_SCALE("shadow_adamantine_coated_dragon_scale", 55, new double[]{4.7,7.5,8.7,4.7}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.5f, 0.2f, ItemsInit.SHADOW_ADAMANTINE_COATED_DRAGON_SCALE.get()),
+    //-------------------------------------------------------------------------Legendary Armors Below Here----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     LEGENDARY("legendary", 69, new double[]{7,11,13,7}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,6.0f, 0.4f, ItemsInit.LEGENDARY_CORE.get()),
     LIGHT_LEGENDARY("light_legendary", 69, new double[]{4.9,7.7,9.1,4.9}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,3.0f, 0.2f, ItemsInit.LEGENDARY_CORE.get()),
     STARFALL("starfall", 69, new double[]{7,11,13,7}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,6.0f, 0.4f, ItemsInit.LEGENDARY_CORE.get());
