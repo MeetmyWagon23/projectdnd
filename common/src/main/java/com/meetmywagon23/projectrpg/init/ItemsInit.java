@@ -233,6 +233,9 @@ public class ItemsInit {
             () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
     public static final RegistrySupplier<Item> ADAMANTINE_DAGGER_SHEATH = ITEMS.register("adamantine_dagger_sheath",
             () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+
+    //Not Needed Depending on when Universal Gemstones is Done.
+
     //Gemstones A-Z haven't finished as they aren't used just yet.
     // A
 //   public static final RegistrySupplier<Item> AGNI_MANI = ITEMS.register("agni_mani",
