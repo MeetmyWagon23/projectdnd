@@ -106,5 +106,7 @@
 	"item.projectrpg.iron_dagger": "Iron Dagger",
 	"item.projectrpg.steel_dagger": "Steel Dagger",
 	"item.projectrpg.diamond_dagger": "Diamond Dagger",
-	"item.projectrpg.netherite_dagger": "Netherite Dagger"
+	"item.projectrpg.netherite_dagger": "Netherite Dagger",
+//SCYTHES
+	"item.projectrpg.netherite_scythe": "Netherite Scythe"
 }

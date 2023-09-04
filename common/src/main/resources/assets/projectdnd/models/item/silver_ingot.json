@@ -1,6 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "projectdnd:items/silver_ingot"
+		"layer0": "projectrpg:items/silver_ingot"
 	}
 }

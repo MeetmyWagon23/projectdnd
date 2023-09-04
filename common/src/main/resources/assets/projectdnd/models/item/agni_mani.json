@@ -1,6 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "projectdnd:items/agni_mani"
+		"layer0": "projectrpg:items/agni_mani"
 	}
 }

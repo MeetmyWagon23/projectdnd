@@ -1,6 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "projectdnd:items/adamantine_nugget"
+		"layer0": "projectrpg:items/adamantine_nugget"
 	}
 }

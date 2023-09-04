@@ -10,9 +10,10 @@ import net.minecraft.util.registry.Registry;
 public class WeaponsInit {
     public static final DeferredRegister<Item> WEAPONS = DeferredRegister.create(ProjectRPG.MOD_ID, Registry.ITEM_KEY);
     /*
-    ---------------------------Ponderosa Pine tree -> planks -> sticks -> strongest stick material--------------------------
+    ---------------------------Ponderosa Pine tree -> planks -> sticks -> strongest stick material---(also used for ALL Bo Staffs)-----------------------
     mohs hardness order
     wood------------------------vanilla
+    Ponderosa Wood-------------------------------did not check hardness vs stone.
     stone-----------------------vanilla
 
     ------lead------------------------NO TOOLS/ARMOR                                                                    REMOVED

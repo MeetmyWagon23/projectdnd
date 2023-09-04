@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "projectdnd:items/sheaths/steel_sheath"
+    "layer0": "projectrpg:items/sheaths/steel_sheath"
   }
 }
