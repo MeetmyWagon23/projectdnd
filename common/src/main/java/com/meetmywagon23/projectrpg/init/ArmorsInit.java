@@ -218,23 +218,23 @@ public class ArmorsInit {
     public static final RegistrySupplier<Item> LIGHT_SHADOW_ADAMANTINE_LEGGINGS   = registerArmor(LIGHT_SHADOW_ADAMANTINE, LEGS);
     public static final RegistrySupplier<Item> LIGHT_SHADOW_ADAMANTINE_BOOTS      = registerArmor(LIGHT_SHADOW_ADAMANTINE, FEET);
 //Adamantine Dragon Scale
-    public static final RegistrySupplier<Item> ADAMANTINE_DRAGON_HELMET     = registerArmor(ADAMANTINE_COATED_DRAGON_SCALE, HEAD);
-    public static final RegistrySupplier<Item> ADAMANTINE_DRAGON_CHESTPLATE = registerArmor(ADAMANTINE_COATED_DRAGON_SCALE, CHEST);
-    public static final RegistrySupplier<Item> ADAMANTINE_DRAGON_LEGGINGS   = registerArmor(ADAMANTINE_COATED_DRAGON_SCALE, LEGS);
-    public static final RegistrySupplier<Item> ADAMANTINE_DRAGON_BOOTS      = registerArmor(ADAMANTINE_COATED_DRAGON_SCALE, FEET);
-    public static final RegistrySupplier<Item> LIGHT_ADAMANTINE_DRAGON_HELMET     = registerArmor(LIGHT_ADAMANTINE_COATED_DRAGON_SCALE, HEAD);
-    public static final RegistrySupplier<Item> LIGHT_ADAMANTINE_DRAGON_CHESTPLATE = registerArmor(LIGHT_ADAMANTINE_COATED_DRAGON_SCALE, CHEST);
-    public static final RegistrySupplier<Item> LIGHT_ADAMANTINE_DRAGON_LEGGINGS   = registerArmor(LIGHT_ADAMANTINE_COATED_DRAGON_SCALE, LEGS);
-    public static final RegistrySupplier<Item> LIGHT_ADAMANTINE_DRAGON_BOOTS      = registerArmor(LIGHT_ADAMANTINE_COATED_DRAGON_SCALE, FEET);
+    public static final RegistrySupplier<Item> ADAMANTINE_COATED_DRAGON_SCALE_HELMET     = registerArmor(ADAMANTINE_COATED_DRAGON_SCALE, HEAD);
+    public static final RegistrySupplier<Item> ADAMANTINE_COATED_DRAGON_SCALE_CHESTPLATE = registerArmor(ADAMANTINE_COATED_DRAGON_SCALE, CHEST);
+    public static final RegistrySupplier<Item> ADAMANTINE_COATED_DRAGON_SCALE_LEGGINGS   = registerArmor(ADAMANTINE_COATED_DRAGON_SCALE, LEGS);
+    public static final RegistrySupplier<Item> ADAMANTINE_COATED_DRAGON_SCALE_BOOTS      = registerArmor(ADAMANTINE_COATED_DRAGON_SCALE, FEET);
+    public static final RegistrySupplier<Item> LIGHT_ADAMANTINE_COATED_DRAGON_SCALE_HELMET     = registerArmor(LIGHT_ADAMANTINE_COATED_DRAGON_SCALE, HEAD);
+    public static final RegistrySupplier<Item> LIGHT_ADAMANTINE_COATED_DRAGON_SCALE_CHESTPLATE = registerArmor(LIGHT_ADAMANTINE_COATED_DRAGON_SCALE, CHEST);
+    public static final RegistrySupplier<Item> LIGHT_ADAMANTINE_COATED_DRAGON_SCALE_LEGGINGS   = registerArmor(LIGHT_ADAMANTINE_COATED_DRAGON_SCALE, LEGS);
+    public static final RegistrySupplier<Item> LIGHT_ADAMANTINE_COATED_DRAGON_SCALE_BOOTS      = registerArmor(LIGHT_ADAMANTINE_COATED_DRAGON_SCALE, FEET);
 //Shadow Adamantine Dragon Scale
-    public static final RegistrySupplier<Item> SHADOW_ADAMANTINEDRAGONHELMET     = registerArmor(SHADOW_ADAMANTINE_COATED_DRAGON_SCALE, HEAD);
-    public static final RegistrySupplier<Item> SHADOW_ADAMANTINE_DRAGON_CHESTPLATE = registerArmor(SHADOW_ADAMANTINE_COATED_DRAGON_SCALE, CHEST);
-    public static final RegistrySupplier<Item> SHADOW_ADAMANTINE_DRAGON_LEGGINGS   = registerArmor(SHADOW_ADAMANTINE_COATED_DRAGON_SCALE, LEGS);
-    public static final RegistrySupplier<Item> SHADOW_ADAMANTINE_DRAGON_BOOTS      = registerArmor(SHADOW_ADAMANTINE_COATED_DRAGON_SCALE, FEET);
-    public static final RegistrySupplier<Item> LIGHT_SHADOW_ADAMANTINE_DRAGON_HELMET     = registerArmor(LIGHT_SHADOW_ADAMANTINE_COATED_DRAGON_SCALE, HEAD);
-    public static final RegistrySupplier<Item> LIGHT_SHADOW_ADAMANTINE_DRAGON_CHESTPLATE = registerArmor(LIGHT_SHADOW_ADAMANTINE_COATED_DRAGON_SCALE, CHEST);
-    public static final RegistrySupplier<Item> LIGHT_SHADOW_ADAMANTINE_DRAGON_LEGGINGS   = registerArmor(LIGHT_SHADOW_ADAMANTINE_COATED_DRAGON_SCALE, LEGS);
-    public static final RegistrySupplier<Item> LIGHT_SHADOW_ADAMANTINE_DRAGON_BOOTS      = registerArmor(LIGHT_SHADOW_ADAMANTINE_COATED_DRAGON_SCALE, FEET);
+    public static final RegistrySupplier<Item> SHADOW_ADAMANTINE_COATED_DRAGON_SCALE_HELMET     = registerArmor(SHADOW_ADAMANTINE_COATED_DRAGON_SCALE, HEAD);
+    public static final RegistrySupplier<Item> SHADOW_ADAMANTINE_COATED_DRAGON_SCALE_CHESTPLATE = registerArmor(SHADOW_ADAMANTINE_COATED_DRAGON_SCALE, CHEST);
+    public static final RegistrySupplier<Item> SHADOW_ADAMANTINE_COATED_DRAGON_SCALE_LEGGINGS   = registerArmor(SHADOW_ADAMANTINE_COATED_DRAGON_SCALE, LEGS);
+    public static final RegistrySupplier<Item> SHADOW_ADAMANTINE_COATED_DRAGON_SCALE_BOOTS      = registerArmor(SHADOW_ADAMANTINE_COATED_DRAGON_SCALE, FEET);
+    public static final RegistrySupplier<Item> LIGHT_SHADOW_ADAMANTINE_COATED_DRAGON_SCALE_HELMET     = registerArmor(LIGHT_SHADOW_ADAMANTINE_COATED_DRAGON_SCALE, HEAD);
+    public static final RegistrySupplier<Item> LIGHT_SHADOW_ADAMANTINE_COATED_DRAGON_SCALE_CHESTPLATE = registerArmor(LIGHT_SHADOW_ADAMANTINE_COATED_DRAGON_SCALE, CHEST);
+    public static final RegistrySupplier<Item> LIGHT_SHADOW_ADAMANTINE_COATED_DRAGON_SCALE_LEGGINGS   = registerArmor(LIGHT_SHADOW_ADAMANTINE_COATED_DRAGON_SCALE, LEGS);
+    public static final RegistrySupplier<Item> LIGHT_SHADOW_ADAMANTINE_COATED_DRAGON_SCALE_BOOTS      = registerArmor(LIGHT_SHADOW_ADAMANTINE_COATED_DRAGON_SCALE, FEET);
 //LEGENDARY
     public static final RegistrySupplier<Item> LEGENDARY_HELMET     = registerArmor(LEGENDARY, HEAD);
     public static final RegistrySupplier<Item> LEGENDARY_CHESTPLATE = registerArmor(LEGENDARY, CHEST);

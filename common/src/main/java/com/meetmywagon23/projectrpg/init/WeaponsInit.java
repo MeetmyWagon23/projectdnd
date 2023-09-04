@@ -10,6 +10,7 @@ import net.minecraft.util.registry.Registry;
 public class WeaponsInit {
     public static final DeferredRegister<Item> WEAPONS = DeferredRegister.create(ProjectRPG.MOD_ID, Registry.ITEM_KEY);
     /*
+    ---------------------------Ponderosa Pine tree -> planks -> sticks -> strongest stick material--------------------------
     mohs hardness order
     wood------------------------vanilla
     stone-----------------------vanilla
@@ -42,6 +43,10 @@ public class WeaponsInit {
     mithril---------------------
     itanium---------------------to be renamed/removed
     adamantine------------------
+    shadow adamantine
+    Celestial Mithril
+    dragon bone adamantine
+    dragon bone shadow adamantine
 
     Alloy Forging/Metal Working Materials.
     Arandur--------------------- not to be used for armors or weapons, only alloy work
@@ -552,6 +557,7 @@ public class WeaponsInit {
             () -> new SwordItem(ToolMaterialsInit.SHADOW_ADAMANTINE, 4, -3.0f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
 /*----------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------QUARTERSTAFFS-----------------------------------------------------
+---------------------------Ponderosa Pine tree -> planks -> sticks -> strongest stick material--------------------------
 ----------------------------------------------------------------------------------------------------------------------*/
     public static final RegistrySupplier<SwordItem> WOOD_QUARTERSTAFF = WEAPONS.register("wood_quarterstaff",
         () -> new SwordItem(ToolMaterials.WOOD, 4, -3.0f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));

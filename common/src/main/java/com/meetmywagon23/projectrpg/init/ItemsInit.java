@@ -153,6 +153,8 @@ public class ItemsInit {
             () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
     public static final RegistrySupplier<Item> ADAMANTINE_SHEATH = ITEMS.register("adamantine_sheath",
             () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> SHADOW_ADAMANTINE_SHEATH = ITEMS.register("shadow_adamantine_sheath",
+            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
 
     //Dagger Sheaths Please use leather_dagger_sheath.png as a working ground for the colored wool textures.
     public static final RegistrySupplier<Item> LEATHER_DAGGER_SHEATH = ITEMS.register("leather_dagger_sheath",
@@ -233,6 +235,12 @@ public class ItemsInit {
             () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
     public static final RegistrySupplier<Item> ADAMANTINE_DAGGER_SHEATH = ITEMS.register("adamantine_dagger_sheath",
             () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> SHADOW_ADAMANTINE_DAGGER_SHEATH = ITEMS.register("shadow_adamantine_dagger_sheath",
+            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> ADAMANTINE_COATED_DRAGON_SCALE_DAGGER_SHEATH = ITEMS.register("adamantine_coated_dragon_scale_dagger_sheath",
+            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+    public static final RegistrySupplier<Item> SHADOW_ADAMANTINE_COATED_DRAGON_SCALE_DAGGER_SHEATH = ITEMS.register("shadow_adamantine_coated_dragon_scale_dagger_sheath",
+            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
 
     //Not Needed Depending on when Universal Gemstones is Done.
 
@@ -296,7 +304,7 @@ public class ItemsInit {
     Gemstone / Jewel Dusts. please refer to the wiki for the list of dusts to include.
     Ores are organized using the MOHS Hardness Scale, I wanted to keep things realistic as much as possible.
 
-    Raw ores, Ingots, Nuggets | needs to be CULLED of raw ores that dont need to exist. I.E Alloys
+-----Raw ores, Ingots, Nuggets | needs to be CULLED of raw ores that don't need to exist. I.E Alloys---------
 
      */
     public static final RegistrySupplier<Item> RAW_LEAD = ITEMS.register("raw_lead",
@@ -514,6 +522,8 @@ public class ItemsInit {
     public static final RegistrySupplier<Item> ADAMANT_DUST = ITEMS.register("adamant_dust",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> ADAMANTINE_DUST = ITEMS.register("adamantine_dust",
+            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> SHADOW_ADAMANTINE_DUST = ITEMS.register("shadow_adamantine_dust",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> ITANIUM_DUST = ITEMS.register("itanium_dust",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
