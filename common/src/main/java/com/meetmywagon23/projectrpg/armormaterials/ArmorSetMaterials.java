@@ -49,7 +49,7 @@ public enum ArmorSetMaterials implements WagonsArmorMaterial {
     Metal Working Metals.
     Arandur--------------------- not to be used for armors or weapons, only alloy work                                  | *NEW*
     Lead
-    Tin
+   NO TIN Tin
     Zinc
     Aluminum
     Electrum
@@ -93,11 +93,10 @@ public enum ArmorSetMaterials implements WagonsArmorMaterial {
     DRAGON_SCALE_MAIL("dragon_scale_mail", 46, new double[]{3.5,6.5,8.5,3.5}, 18, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 1.0f, 0.0f, ItemsInit.DRAGON_SCALE.get()),
     PALLADIUM("palladium", 41, new double[]{4,7,9,4}, 22, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,2.0f, 0.1f, ItemsInit.PALLADIUM_INGOT.get()),
     LIGHT_PALLADIUM("light_palladium", 32, new double[]{2.8,4.9,6.3,2.8}, 22, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,1.0f, 0.0f, ItemsInit.PALLADIUM_INGOT.get()),
-    TITANIUM("titanium", 48, new double[]{4.5,7.5,9.5,4.5}, 11, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,2.5f, 0.2f, ItemsInit.TITANIUM_INGOT.get()),
+//    TITANIUM("titanium", 48, new double[]{4.5,7.5,9.5,4.5}, 11, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,2.5f, 0.2f, ItemsInit.TITANIUM_INGOT.get()),
     LIGHT_TITANIUM("light_titanium", 39, new double[]{3.1,5.2,6.6,3.1}, 14, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,0.7f, 0.1f, ItemsInit.TITANIUM_INGOT.get()),
     TUNGSTEN("tungsten", 55, new double[]{5,8,10,5}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,3.0f, 0.3f, ItemsInit.TUNGSTEN_INGOT.get()),
     MITHRIL_MAIL("mithril_mail", 49, new double[]{3.5,5.6,7,3.5}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,1.7f, 0.1f, ItemsInit.MITHRIL_INGOT.get()),
-    ITANIUM_MAIL("itanium_mail", 50, new double[]{4.2,7,8.4,4.2}, 16, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,2.0f, 0.2f, ItemsInit.ITANIUM_INGOT.get()),
     ADAMANTINE("adamantine", 62, new double[]{6,10,12,6}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 4.0f, 0.4f, ItemsInit.ADAMANTINE_INGOT.get()),
     LIGHT_ADAMANTINE("light_adamantine", 50, new double[]{4.2,7,8.2,4.2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0f, 0.2f, ItemsInit.ADAMANTINE_INGOT.get()),
     SHADOW_ADAMANTINE("shadow_adamantine", 62, new double[]{6,10,12,6}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 4.0f, 0.4f, ItemsInit.SHADOW_ADAMANTINE_INGOT.get()),
