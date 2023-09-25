@@ -2,7 +2,7 @@ package com.meetmywagon23.projectrpg.init;
 
 import com.meetmywagon23.projectrpg.ProjectRPG;
 import com.meetmywagon23.projectrpg.armormaterials.WagonsArmorMaterial;
-import com.meetmywagon23.projectrpg.items.WagonsArmorItem;
+import com.meetmywagon23.projectrpg.items.DragonScaleArmorItem;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.entity.EquipmentSlot;
@@ -176,10 +176,10 @@ public class ArmorsInit {
     public static final RegistrySupplier<Item> LIGHT_PALLADIUM_LEGGINGS   = registerArmor(LIGHT_PALLADIUM, LEGS);
     public static final RegistrySupplier<Item> LIGHT_PALLADIUM_BOOTS      = registerArmor(LIGHT_PALLADIUM, FEET);
 //Titanium
-    public static final RegistrySupplier<Item> TITANIUM_HELMET     = registerArmor(TITANIUM, HEAD);
-    public static final RegistrySupplier<Item> TITANIUM_CHESTPLATE = registerArmor(TITANIUM, CHEST);
-    public static final RegistrySupplier<Item> TITANIUM_LEGGINGS   = registerArmor(TITANIUM, LEGS);
-    public static final RegistrySupplier<Item> TITANIUM_BOOTS      = registerArmor(TITANIUM, FEET);
+// public static final RegistrySupplier<Item> TITANIUM_HELMET     = registerArmor(TITANIUM, HEAD);
+// public static final RegistrySupplier<Item> TITANIUM_CHESTPLATE = registerArmor(TITANIUM, CHEST);
+// public static final RegistrySupplier<Item> TITANIUM_LEGGINGS   = registerArmor(TITANIUM, LEGS);
+// public static final RegistrySupplier<Item> TITANIUM_BOOTS      = registerArmor(TITANIUM, FEET);
     public static final RegistrySupplier<Item> LIGHT_TITANIUM_HELMET     = registerArmor(LIGHT_TITANIUM, HEAD);
     public static final RegistrySupplier<Item> LIGHT_TITANIUM_CHESTPLATE = registerArmor(LIGHT_TITANIUM, CHEST);
     public static final RegistrySupplier<Item> LIGHT_TITANIUM_LEGGINGS   = registerArmor(LIGHT_TITANIUM, LEGS);
@@ -195,10 +195,10 @@ public class ArmorsInit {
     public static final RegistrySupplier<Item> LIGHT_MITHRIL_LEGGINGS   = registerArmor(MITHRIL_MAIL, LEGS);
     public static final RegistrySupplier<Item> LIGHT_MITHRIL_BOOTS      = registerArmor(MITHRIL_MAIL, FEET);
 //Itanium_MAIL
-    public static final RegistrySupplier<Item> LIGHT_ITANIUM_HELMET     = registerArmor(ITANIUM_MAIL, HEAD);
-    public static final RegistrySupplier<Item> LIGHT_ITANIUM_CHESTPLATE = registerArmor(ITANIUM_MAIL, CHEST);
-    public static final RegistrySupplier<Item> LIGHT_ITANIUM_LEGGINGS   = registerArmor(ITANIUM_MAIL, LEGS);
-    public static final RegistrySupplier<Item> LIGHT_ITANIUM_BOOTS      = registerArmor(ITANIUM_MAIL, FEET);
+//**    public static final RegistrySupplier<Item> LIGHT_ITANIUM_HELMET     = registerArmor(ITANIUM_MAIL, HEAD);
+//**    public static final RegistrySupplier<Item> LIGHT_ITANIUM_CHESTPLATE = registerArmor(ITANIUM_MAIL, CHEST);
+//**    public static final RegistrySupplier<Item> LIGHT_ITANIUM_LEGGINGS   = registerArmor(ITANIUM_MAIL, LEGS);
+//**    public static final RegistrySupplier<Item> LIGHT_ITANIUM_BOOTS      = registerArmor(ITANIUM_MAIL, FEET);
 //Adamantine
     public static final RegistrySupplier<Item> ADAMANTINE_HELMET     = registerArmor(ADAMANTINE, HEAD);
     public static final RegistrySupplier<Item> ADAMANTINE_CHESTPLATE = registerArmor(ADAMANTINE, CHEST);
@@ -245,7 +245,7 @@ public class ArmorsInit {
     public static final RegistrySupplier<Item> LIGHT_LEGENDARY_LEGGINGS   = registerArmor(LIGHT_LEGENDARY, LEGS);
     public static final RegistrySupplier<Item> LIGHT_LEGENDARY_BOOTS      = registerArmor(LIGHT_LEGENDARY, FEET);
     private static RegistrySupplier<Item> registerArmor(String id, WagonsArmorMaterial wagonsArmorMaterial, EquipmentSlot slot) {
-        return ARMOR.register(id, () ->  new WagonsArmorItem(wagonsArmorMaterial, slot, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+        return ARMOR.register(id, () ->  new DragonScaleArmorItem(wagonsArmorMaterial, slot, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
     }
     private static RegistrySupplier<Item> registerArmor(WagonsArmorMaterial wagonsArmorMaterial, EquipmentSlot slot){
         return registerArmor(wagonsArmorMaterial.toString().toLowerCase(Locale.ROOT) + "_" + slotName(slot), wagonsArmorMaterial, slot);

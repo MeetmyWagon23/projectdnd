@@ -1,0 +1,9 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"idle_dragonscale_armor": {
+			"loop": true
+		}
+	},
+	"geckolib_format_version": 2
+}

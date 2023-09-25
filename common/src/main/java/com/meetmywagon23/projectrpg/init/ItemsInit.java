@@ -457,12 +457,22 @@ public class ItemsInit {
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.EPIC)));
     public static final RegistrySupplier<Item> ADAMANTINE_COATED_DRAGON_SCALE = ITEMS.register("adamantine_coated_dragon_scale",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.EPIC)));
+    public static final RegistrySupplier<Item> ADAMANTINE_COATED_DRAGON_BONE = ITEMS.register("adamantine_coated_dragon_bone",
+            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.EPIC)));
     public static final RegistrySupplier<Item> SHADOW_ADAMANTINE_COATED_DRAGON_SCALE = ITEMS.register("shadow_adamantine_coated_dragon_scale",
+            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.EPIC)));
+
+    public static final RegistrySupplier<Item> SHADOW_ADAMANTINE_COATED_DRAGON_BONE = ITEMS.register("shadow_adamantine_coated_dragon_bone",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.EPIC)));
     public static final RegistrySupplier<Item> PRISTINE_ADAMANTINE_COATED_DRAGON_SCALE = ITEMS.register("pristine_adamantine_coated_dragon_scale",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.EPIC)));
+    public static final RegistrySupplier<Item> PRISTINE_ADAMANTINE_COATED_DRAGON_BONE = ITEMS.register("pristine_adamantine_coated_dragon_bone",
+            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.EPIC)));
     public static final RegistrySupplier<Item> PRISTINE_SHADOW_ADAMANTINE_COATED_DRAGON_SCALE = ITEMS.register("pristine_shadow_adamantine_coated_dragon_scale",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.EPIC)));
+    public static final RegistrySupplier<Item> PRISTINE_SHADOW_ADAMANTINE_COATED_DRAGON_BONE = ITEMS.register("pristine_shadow_adamantine_coated_dragon_bone",
+            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.EPIC)));
+
 
 
 
