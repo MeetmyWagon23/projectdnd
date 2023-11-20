@@ -1,7 +1,7 @@
 package com.meetmywagon23.projectrpg.forge.events;
 
 import com.meetmywagon23.projectrpg.ProjectRPG;
-import com.meetmywagon23.projectrpg.client.ProjectRPGClient;
+import com.meetmywagon23.projectrpg.mixin.client.ProjectRPGClient;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;

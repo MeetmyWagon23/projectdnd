@@ -1,4 +1,4 @@
-package com.meetmywagon23.projectrpg.client;
+package com.meetmywagon23.projectrpg.mixin.client;
 
 import com.meetmywagon23.projectrpg.ProjectRPG;
 import com.meetmywagon23.projectrpg.init.ItemsInit;

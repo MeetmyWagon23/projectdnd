@@ -91,10 +91,10 @@ public class ArmorsInit {
     public static final RegistrySupplier<Item> LIGHT_COPPER_LEGGINGS   = registerArmor(LIGHT_COPPER, LEGS);
     public static final RegistrySupplier<Item> LIGHT_COPPER_BOOTS      = registerArmor(LIGHT_COPPER, FEET);
 //Brass
-    public static final RegistrySupplier<Item> BRASS_HELMET     = registerArmor(BRASS, HEAD);
-    public static final RegistrySupplier<Item> BRASS_CHESTPLATE = registerArmor(BRASS, CHEST);
-    public static final RegistrySupplier<Item> BRASS_LEGGINGS   = registerArmor(BRASS, LEGS);
-    public static final RegistrySupplier<Item> BRASS_BOOTS      = registerArmor(BRASS, FEET);
+   //public static final RegistrySupplier<Item> BRASS_HELMET     = registerArmor(BRASS, HEAD);
+   //public static final RegistrySupplier<Item> BRASS_CHESTPLATE = registerArmor(BRASS, CHEST);
+   //public static final RegistrySupplier<Item> BRASS_LEGGINGS   = registerArmor(BRASS, LEGS);
+   //public static final RegistrySupplier<Item> BRASS_BOOTS      = registerArmor(BRASS, FEET);
 //Bronze
     public static final RegistrySupplier<Item> BRONZE_HELMET     = registerArmor(BRONZE, HEAD);
     public static final RegistrySupplier<Item> BRONZE_CHESTPLATE = registerArmor(BRONZE, CHEST);

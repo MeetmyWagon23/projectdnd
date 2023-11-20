@@ -476,7 +476,7 @@ public class ItemsInit {
 
 
 
-    //Ore Dusts | used for other mods when Dusts are needed.
+    //Ore Dusts | used by other mods when Dusts are needed.
     public static final RegistrySupplier<Item> COAL_DUST = ITEMS.register("coal_dust",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> LEAD_DUST = ITEMS.register("lead_dust",

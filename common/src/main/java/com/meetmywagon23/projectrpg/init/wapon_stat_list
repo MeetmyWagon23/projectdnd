@@ -1,7 +1,7 @@
 Look at scythes to see where materials gain more damage as they get stronger.
-
+      For Weapons
 0        wood
-0       gold
+0        gold
 1        stone
 2        silver
 2        copper
@@ -10,13 +10,14 @@ Look at scythes to see where materials gain more damage as they get stronger.
 3        glacial
 3        bone
 3        iorn
-3        infernal ioron
+3        infernal iron
 3        cold iron
 4        steel
 4        diamond
 4        elvensteel
 4        darksteel
 5        netherite
+                        Materials From here DOWN get a unique animation.
 5        dragon bone
 6        palladium
 7        tungsten
@@ -24,4 +25,4 @@ Look at scythes to see where materials gain more damage as they get stronger.
 9        adamantine
 9        shadow adamantine
 10       dragon adamantine
-10       dragon shadow adamantine
+10       shadow dragon adamantine
