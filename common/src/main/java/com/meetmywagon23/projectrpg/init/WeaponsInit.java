@@ -1373,8 +1373,8 @@ public class WeaponsInit {
 ----------------------------------------------------------------------------------------------------------------------*/
     //Homebrew content is NOT ALLOWED (Unless owned by YOU), though inspiration can be drawn from it, need to check existing and future weapons below.
     public static final RegistrySupplier<SwordItem> HOLY_AVENGER_GREATSWORD = WEAPONS.register("holy_avenger_greatsword",
-            () -> new SwordItem(ToolMaterialsInit.LEGENDARY, 12, -3.2f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
+            () -> new SwordItem(ToolMaterialsInit.DIVINE, 12, -3.2f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> HAZIRAWN_GREATSWORD = WEAPONS.register("hazirawn_greatsword",
-            () -> new SwordItem(ToolMaterialsInit.LEGENDARY, 12, -3.2f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
+            () -> new SwordItem(ToolMaterialsInit.DIVINE, 12, -3.2f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
     //Ravens Wing- Glaive, google it.
 }

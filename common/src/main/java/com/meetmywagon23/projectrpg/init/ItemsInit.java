@@ -60,8 +60,9 @@ public class ItemsInit {
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.EPIC)));
     public static final RegistrySupplier<Item> DRAGON_BONE = ITEMS.register("dragon_bone",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.EPIC)));
-    public static final RegistrySupplier<Item> LEGENDARY_CORE = ITEMS.register("legendary_core",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(8).rarity(Rarity.EPIC)));
+    //Legendary Core Needs a new name, something fauncy; something intruiging.
+    public static final RegistrySupplier<Item> DIVINE_CATALYST = ITEMS.register("divine_catalyst",
+            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(8).rarity(Rarity.EPIC)));//Need to make a new Rarity specification "Divine"
     /*--------------------------
 
         Coin Pouches registry

@@ -107,9 +107,9 @@ public enum ArmorSetMaterials implements WagonsArmorMaterial {
     SHADOW_ADAMANTINE_COATED_DRAGON_SCALE("shadow_adamantine_coated_dragon_scale", 67, new double[]{6.5,10.5,12.5,6.5}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 5f, 0.4f, ItemsInit.SHADOW_ADAMANTINE_COATED_DRAGON_SCALE.get()),
     LIGHT_SHADOW_ADAMANTINE_COATED_DRAGON_SCALE("shadow_adamantine_coated_dragon_scale", 55, new double[]{4.7,7.5,8.7,4.7}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.5f, 0.2f, ItemsInit.SHADOW_ADAMANTINE_COATED_DRAGON_SCALE.get()),
     //-------------------------------------------------------------------------Legendary Armors Below Here----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    LEGENDARY("legendary", 69, new double[]{7,11,13,7}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,6.0f, 0.4f, ItemsInit.LEGENDARY_CORE.get()),
-    LIGHT_LEGENDARY("light_legendary", 69, new double[]{4.9,7.7,9.1,4.9}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,3.0f, 0.2f, ItemsInit.LEGENDARY_CORE.get()),
-    STARFALL("starfall", 69, new double[]{7,11,13,7}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,6.0f, 0.4f, ItemsInit.LEGENDARY_CORE.get());
+    LEGENDARY("legendary", 69, new double[]{7,11,13,7}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,6.0f, 0.4f, ItemsInit.DIVINE_CATALYST.get()),
+    LIGHT_LEGENDARY("light_legendary", 69, new double[]{4.9,7.7,9.1,4.9}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,3.0f, 0.2f, ItemsInit.DIVINE_CATALYST.get()),
+    STARFALL("starfall", 69, new double[]{7,11,13,7}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,6.0f, 0.4f, ItemsInit.DIVINE_CATALYST.get());
 
     //more legendary equipment to be added, mostly will be used for Legendary Boss Armors - Legendary Crafted Items from bosses.
     //Legendary is a placeholder name. meant to be replaced & duplicated with different set names, and keeping the BASE legendary armor stats.

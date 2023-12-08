@@ -97,7 +97,7 @@ public class ToolMaterialsInit {
             new BaseToolMaterial(0f, 18, 4, 13f, 4364,
                     () -> Ingredient.ofItems(ItemsInit.PRISTINE_SHADOW_ADAMANTINE_COATED_DRAGON_SCALE.get()));
 
-    protected static final ToolMaterial LEGENDARY =
+    protected static final ToolMaterial DIVINE =
             new BaseToolMaterial(0f, 18, 4, 14f, 4532,
-                    () -> Ingredient.ofItems(ItemsInit.LEGENDARY_CORE.get()));
+                    () -> Ingredient.ofItems(ItemsInit.DIVINE_CATALYST.get()));
 }
