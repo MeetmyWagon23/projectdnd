@@ -140,23 +140,23 @@ public class ToolsInit {
     public static final RegistrySupplier<HoeItem> PALLADIUM_HOE = HOES.register("palladium_hoe",
             () -> new HoeItem(ToolMaterialsInit.PALLADIUM, 1, -2.8f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
 
-    public static final RegistrySupplier<PickaxeItem> TITANIUM_PICKAXE = PICKAXES.register("titanium_pickaxe",
-            () -> new PickaxeItem(ToolMaterialsInit.TITANIUM, 1, -2.8f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<AxeItem> TITANIUM_AXE = AXES.register("titanium_axe",
-            () -> new AxeItem(ToolMaterialsInit.TITANIUM, 1f, -2.8f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<ShovelItem> TITANIUM_SHOVEL = SHOVELS.register("titanium_shovel",
-            () -> new ShovelItem(ToolMaterialsInit.TITANIUM, 1f, 0.0f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<HoeItem> TITANIUM_HOE = HOES.register("titanium_hoe",
-            () -> new HoeItem(ToolMaterialsInit.TITANIUM, 1, -2.8f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<PickaxeItem> TITANIUM_PICKAXE = PICKAXES.register("titanium_pickaxe",
+//            () -> new PickaxeItem(ToolMaterialsInit.TITANIUM, 1, -2.8f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<AxeItem> TITANIUM_AXE = AXES.register("titanium_axe",
+//            () -> new AxeItem(ToolMaterialsInit.TITANIUM, 1f, -2.8f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<ShovelItem> TITANIUM_SHOVEL = SHOVELS.register("titanium_shovel",
+//            () -> new ShovelItem(ToolMaterialsInit.TITANIUM, 1f, 0.0f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<HoeItem> TITANIUM_HOE = HOES.register("titanium_hoe",
+//            () -> new HoeItem(ToolMaterialsInit.TITANIUM, 1, -2.8f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
 
-    public static final RegistrySupplier<PickaxeItem> TUNGSTEN_PICKAXE = PICKAXES.register("tungsten_pickaxe",
-            () -> new PickaxeItem(ToolMaterialsInit.TUNGSTEN, 1, -2.8f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<AxeItem> TUNGSTEN_AXE = AXES.register("tungsten_axe",
-            () -> new AxeItem(ToolMaterialsInit.TUNGSTEN, 1f, -2.8f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<ShovelItem> TUNGSTEN_SHOVEL = SHOVELS.register("tungsten_shovel",
-            () -> new ShovelItem(ToolMaterialsInit.TUNGSTEN, 1f, 0.0f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<HoeItem> TUNGSTEN_HOE = HOES.register("tungsten_hoe",
-            () -> new HoeItem(ToolMaterialsInit.TUNGSTEN, 1, -2.8f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+    public static final RegistrySupplier<PickaxeItem> TUNGSTEN_CARBIDE_PICKAXE = PICKAXES.register("tungsten_carbide_pickaxe",
+            () -> new PickaxeItem(ToolMaterialsInit.TUNGSTEN_CARBIDE, 1, -2.8f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+    public static final RegistrySupplier<AxeItem> TUNGSTEN_CARBIDE_AXE = AXES.register("tungsten_carbide_axe",
+            () -> new AxeItem(ToolMaterialsInit.TUNGSTEN_CARBIDE, 1f, -2.8f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+    public static final RegistrySupplier<ShovelItem> TUNGSTEN_CARBIDE_SHOVEL = SHOVELS.register("tungsten_carbide_shovel",
+            () -> new ShovelItem(ToolMaterialsInit.TUNGSTEN_CARBIDE, 1f, 0.0f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+    public static final RegistrySupplier<HoeItem> TUNGSTEN_CARBIDE_HOE = HOES.register("tungsten_carbide_hoe",
+            () -> new HoeItem(ToolMaterialsInit.TUNGSTEN_CARBIDE, 1, -2.8f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
 
     public static final RegistrySupplier<PickaxeItem> MITHRIL_PICKAXE = PICKAXES.register("mirthril_pickaxe",
             () -> new PickaxeItem(ToolMaterialsInit.MITHRIL, 1, -2.8f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
@@ -167,14 +167,14 @@ public class ToolsInit {
     public static final RegistrySupplier<HoeItem> MITHRIL_HOE = HOES.register("mithril_hoe",
             () -> new HoeItem(ToolMaterialsInit.MITHRIL, 1, -2.8f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
 
-    public static final RegistrySupplier<PickaxeItem> ITANIUM_PICKAXE = PICKAXES.register("itanium_pickaxe",
-            () -> new PickaxeItem(ToolMaterialsInit.ITANIUM, 2, -2.8f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<AxeItem> ITANIUM_AXE = AXES.register("itanium_axe",
-            () -> new AxeItem(ToolMaterialsInit.ITANIUM, 8f, -2.8f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<ShovelItem> ITANIUM_SHOVEL = SHOVELS.register("itanium_shovel",
-            () -> new ShovelItem(ToolMaterialsInit.ITANIUM, 1f, 0.0f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<HoeItem> ITANIUM_HOE = HOES.register("itanium_hoe",
-            () -> new HoeItem(ToolMaterialsInit.ITANIUM, 1, -2.8f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<PickaxeItem> ITANIUM_PICKAXE = PICKAXES.register("itanium_pickaxe",
+//            () -> new PickaxeItem(ToolMaterialsInit.ITANIUM, 2, -2.8f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<AxeItem> ITANIUM_AXE = AXES.register("itanium_axe",
+//            () -> new AxeItem(ToolMaterialsInit.ITANIUM, 8f, -2.8f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<ShovelItem> ITANIUM_SHOVEL = SHOVELS.register("itanium_shovel",
+//            () -> new ShovelItem(ToolMaterialsInit.ITANIUM, 1f, 0.0f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<HoeItem> ITANIUM_HOE = HOES.register("itanium_hoe",
+//            () -> new HoeItem(ToolMaterialsInit.ITANIUM, 1, -2.8f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
 
     public static final RegistrySupplier<PickaxeItem> ADAMANTINE_PICKAXE = PICKAXES.register("adamantine_pickaxe",
             () -> new PickaxeItem(ToolMaterialsInit.ADAMANTINE, 2, -2.8f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));

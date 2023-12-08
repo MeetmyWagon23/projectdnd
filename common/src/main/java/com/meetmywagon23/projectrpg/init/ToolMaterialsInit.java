@@ -72,18 +72,18 @@ public class ToolMaterialsInit {
     protected static final ToolMaterial PALLADIUM =
             new BaseToolMaterial(0f, 22, 4, 10f, 2651,
             () -> Ingredient.ofItems(ItemsInit.PALLADIUM_INGOT.get()));
-    protected static final ToolMaterial TITANIUM =
-            new BaseToolMaterial(0f, 24, 4, 10f, 2961,
-            () -> Ingredient.ofItems(ItemsInit.TITANIUM_INGOT.get()));
-    protected static final ToolMaterial TUNGSTEN =
+//        protected static final ToolMaterial TITANIUM =
+//                new BaseToolMaterial(0f, 24, 4, 10f, 2961,
+//                () -> Ingredient.ofItems(ItemsInit.TITANIUM_INGOT.get()));
+    protected static final ToolMaterial TUNGSTEN_CARBIDE =
             new BaseToolMaterial(0f, 15, 4, 11f, 3271,
-            () -> Ingredient.ofItems(ItemsInit.TUNGSTEN_INGOT.get()));
+            () -> Ingredient.ofItems(ItemsInit.TUNGSTEN_CARBIDE_INGOT.get()));
     protected static final ToolMaterial MITHRIL =
             new BaseToolMaterial(0f, 15, 4, 11f, 3581,
             () -> Ingredient.ofItems(ItemsInit.MITHRIL_INGOT.get()));
-    protected static final ToolMaterial ITANIUM =
-            new BaseToolMaterial(0f, 16, 4, 12f, 3891,
-            () -> Ingredient.ofItems(ItemsInit.ITANIUM_INGOT.get()));
+//    protected static final ToolMaterial ITANIUM =
+//            new BaseToolMaterial(0f, 16, 4, 12f, 3891,
+//            () -> Ingredient.ofItems(ItemsInit.ITANIUM_INGOT.get()));
     protected static final ToolMaterial ADAMANTINE =
             new BaseToolMaterial(0f, 18, 4, 12f, 4101,
             () -> Ingredient.ofItems(ItemsInit.ADAMANTINE_INGOT.get()));

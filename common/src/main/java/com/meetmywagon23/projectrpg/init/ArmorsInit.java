@@ -180,15 +180,15 @@ public class ArmorsInit {
 // public static final RegistrySupplier<Item> TITANIUM_CHESTPLATE = registerArmor(TITANIUM, CHEST);
 // public static final RegistrySupplier<Item> TITANIUM_LEGGINGS   = registerArmor(TITANIUM, LEGS);
 // public static final RegistrySupplier<Item> TITANIUM_BOOTS      = registerArmor(TITANIUM, FEET);
-    public static final RegistrySupplier<Item> LIGHT_TITANIUM_HELMET     = registerArmor(LIGHT_TITANIUM, HEAD);
-    public static final RegistrySupplier<Item> LIGHT_TITANIUM_CHESTPLATE = registerArmor(LIGHT_TITANIUM, CHEST);
-    public static final RegistrySupplier<Item> LIGHT_TITANIUM_LEGGINGS   = registerArmor(LIGHT_TITANIUM, LEGS);
-    public static final RegistrySupplier<Item> LIGHT_TITANIUM_BOOTS      = registerArmor(LIGHT_TITANIUM, FEET);
+//    public static final RegistrySupplier<Item> LIGHT_TITANIUM_HELMET     = registerArmor(LIGHT_TITANIUM, HEAD);
+//    public static final RegistrySupplier<Item> LIGHT_TITANIUM_CHESTPLATE = registerArmor(LIGHT_TITANIUM, CHEST);
+//    public static final RegistrySupplier<Item> LIGHT_TITANIUM_LEGGINGS   = registerArmor(LIGHT_TITANIUM, LEGS);
+//    public static final RegistrySupplier<Item> LIGHT_TITANIUM_BOOTS      = registerArmor(LIGHT_TITANIUM, FEET);
 //Tungsten
-    public static final RegistrySupplier<Item> TUNGSTEN_HELMET     = registerArmor(TUNGSTEN, HEAD);
-    public static final RegistrySupplier<Item> TUNGSTEN_CHESTPLATE = registerArmor(TUNGSTEN, CHEST);
-    public static final RegistrySupplier<Item> TUNGSTEN_LEGGINGS   = registerArmor(TUNGSTEN, LEGS);
-    public static final RegistrySupplier<Item> TUNGSTEN_BOOTS      = registerArmor(TUNGSTEN, FEET);
+    public static final RegistrySupplier<Item> TUNGSTEN_CARBIDE_HELMET     = registerArmor(TUNGSTEN_CARBIDE, HEAD);
+    public static final RegistrySupplier<Item> TUNGSTEN_CARBIDE_CHESTPLATE = registerArmor(TUNGSTEN_CARBIDE, CHEST);
+    public static final RegistrySupplier<Item> TUNGSTEN_CARBIDE_LEGGINGS   = registerArmor(TUNGSTEN_CARBIDE, LEGS);
+    public static final RegistrySupplier<Item> TUNGSTEN_CARBIDE_BOOTS      = registerArmor(TUNGSTEN_CARBIDE, FEET);
 //Mithril
     public static final RegistrySupplier<Item> LIGHT_MITHRIL_HELMET     = registerArmor(MITHRIL_MAIL, HEAD);
     public static final RegistrySupplier<Item> LIGHT_MITHRIL_CHESTPLATE = registerArmor(MITHRIL_MAIL, CHEST);

@@ -319,11 +319,11 @@ public class ItemsInit {
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> TIN_NUGGET = ITEMS.register("tin_nugget",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> RAW_ZINC = ITEMS.register("raw_zinc",
+    public static final RegistrySupplier<Item> RAW_NICKEL_ZINC = ITEMS.register("raw_nickel_zinc",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> ZINC_INGOT = ITEMS.register("zinc_ingot",
+    public static final RegistrySupplier<Item> NICKEL_ZINC_INGOT = ITEMS.register("nickel_zinc_ingot",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> ZINC_NUGGET = ITEMS.register("zinc_nugget",
+    public static final RegistrySupplier<Item> NICKEL_ZINC_NUGGET = ITEMS.register("nickel_zinc_nugget",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
     //Gold
     public static final RegistrySupplier<Item> RAW_SILVER = ITEMS.register("raw_silver",
@@ -351,20 +351,21 @@ public class ItemsInit {
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> BRASS_INGOT = ITEMS.register("brass_ingot",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> BRASS_NUGGET = ITEMS.register("brass_nugget",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> RAW_BRONZE = ITEMS.register("raw_bronze",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> BRASS_NUGGET = ITEMS.register("brass_nugget",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> RAW_BRONZE = ITEMS.register("raw_bronze",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+    //Copper +Tin = Bronze
     public static final RegistrySupplier<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> BRONZE_NUGGET = ITEMS.register("bronze_nugget",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> RAW_NICKEL = ITEMS.register("raw_nickel",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> NICKEL_INGOT = ITEMS.register("nickel_ingot",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> NICKEL_NUGGET = ITEMS.register("nickel_nugget",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> RAW_NICKEL = ITEMS.register("raw_nickel",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> NICKEL_INGOT = ITEMS.register("nickel_ingot",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> NICKEL_NUGGET = ITEMS.register("nickel_nugget",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> RAW_PLATINUM = ITEMS.register("raw_platinum",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> PLATINUM_INGOT = ITEMS.register("platinum_ingot",
@@ -374,8 +375,8 @@ public class ItemsInit {
     //Iron
     public static final RegistrySupplier<Item> RAW_INFERNAL_IRON = ITEMS.register("raw_infernal_iron",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.UNCOMMON)));
-    public static final RegistrySupplier<Item> RAW_INFERNAL_SLIVER = ITEMS.register("raw_infernal_sliver",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.UNCOMMON)));
+//+why the fuck is this in here???    public static final RegistrySupplier<Item> RAW_INFERNAL_SLIVER = ITEMS.register("raw_infernal_sliver",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.UNCOMMON)));
     public static final RegistrySupplier<Item> INFERNAL_IRON_INGOT = ITEMS.register("infernal_iron_ingot",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.UNCOMMON)));
     public static final RegistrySupplier<Item> INFERNAL_IRON_NUGGET = ITEMS.register("infernal_iron_nugget",
@@ -407,40 +408,43 @@ public class ItemsInit {
     public static final RegistrySupplier<Item> RAW_PALLADIUM = ITEMS.register("raw_palladium",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> PALLADIUM_INGOT = ITEMS.register("palladium_ingot",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.RARE)));
     public static final RegistrySupplier<Item> PALLADIUM_NUGGET = ITEMS.register("palladium_nugget",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> RAW_TITANIUM = ITEMS.register("raw_titanium",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> TITANIUM_INGOT = ITEMS.register("titanium_ingot",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> TITANIUM_NUGGET = ITEMS.register("titanium_nugget",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.RARE)));
+    //REMOVED TITANIUM
+//    public static final RegistrySupplier<Item> RAW_TITANIUM = ITEMS.register("raw_titanium",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.RARE)));
+//    public static final RegistrySupplier<Item> TITANIUM_INGOT = ITEMS.register("titanium_ingot",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.RARE)));
+//    public static final RegistrySupplier<Item> TITANIUM_NUGGET = ITEMS.register("titanium_nugget",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.RARE)));
     //Diamond
     //Netherite
-
+    //Carbon - Found in small (~8x8 craters in deserts, as a "snow" layer; obtained with a shovel) Carbon +
+    public static final RegistrySupplier<Item> PURE_CARBON = ITEMS.register("pure_carbon",
+            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.RARE)));
     public static final RegistrySupplier<Item> RAW_TUNGSTEN = ITEMS.register("raw_tungsten",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> TUNGSTEN_INGOT = ITEMS.register("tungsten_ingot",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> TUNGSTEN_NUGGET = ITEMS.register("tungsten_nugget",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.RARE)));
+    public static final RegistrySupplier<Item> TUNGSTEN_CARBIDE_INGOT = ITEMS.register("tungsten_carbide_ingot",
+            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.RARE)));
+    public static final RegistrySupplier<Item> TUNGSTEN_CARBIDE_NUGGET = ITEMS.register("tungsten_carbide_nugget",
+            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.RARE)));
     public static final RegistrySupplier<Item> RAW_MITHRIL = ITEMS.register("raw_mithril",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.RARE)));
     public static final RegistrySupplier<Item> MITHRIL_INGOT = ITEMS.register("mithril_ingot",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.RARE)));
     public static final RegistrySupplier<Item> MITHRIL_NUGGET = ITEMS.register("mithril_nugget",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    //adamant is used only to craft Adamantine. there is lore relation to this reasoning in the D&D world.
+            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.RARE)));
+    //adamant is used only to craft Adamantine. there is lore relation to this reasoning in the D&D lore.
     public static final RegistrySupplier<Item> RAW_ADAMANT_FRAGMENT = ITEMS.register("adamant_fragment",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.EPIC)));
-    //Itanium needs to go, will be removed later.
-    public static final RegistrySupplier<Item> RAW_ITANIUM = ITEMS.register("raw_itanium",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> ITANIUM_INGOT = ITEMS.register("itanium_ingot",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> ITANIUM_NUGGET = ITEMS.register("itanium_nugget",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+    //Itanium Needs to be checked if Fully removed during pre-compile stage.
+//    public static final RegistrySupplier<Item> RAW_ITANIUM = ITEMS.register("raw_itanium",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> ITANIUM_INGOT = ITEMS.register("itanium_ingot",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> ITANIUM_NUGGET = ITEMS.register("itanium_nugget",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.RARE)));
     public static final RegistrySupplier<Item> RAW_ADAMANT = ITEMS.register("raw_adamant",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.EPIC)));
     public static final RegistrySupplier<Item> ADAMANTINE_INGOT = ITEMS.register("adamantine_ingot",
@@ -464,6 +468,7 @@ public class ItemsInit {
 
     public static final RegistrySupplier<Item> SHADOW_ADAMANTINE_COATED_DRAGON_BONE = ITEMS.register("shadow_adamantine_coated_dragon_bone",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.EPIC)));
+    //Pristine armor may have an "Underglow" (texture related) to the visual effects + the stat bonuses.
     public static final RegistrySupplier<Item> PRISTINE_ADAMANTINE_COATED_DRAGON_SCALE = ITEMS.register("pristine_adamantine_coated_dragon_scale",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.EPIC)));
     public static final RegistrySupplier<Item> PRISTINE_ADAMANTINE_COATED_DRAGON_BONE = ITEMS.register("pristine_adamantine_coated_dragon_bone",
@@ -476,69 +481,69 @@ public class ItemsInit {
 
 
 
-    //Ore Dusts | used by other mods when Dusts are needed.
-    public static final RegistrySupplier<Item> COAL_DUST = ITEMS.register("coal_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> LEAD_DUST = ITEMS.register("lead_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> TIN_DUST = ITEMS.register("tin_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> GOLD_DUST = ITEMS.register("gold_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> ZINC_DUST = ITEMS.register("zinc_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> SILVER_DUST = ITEMS.register("silver_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> ALUMINUM_DUST = ITEMS.register("aluminum_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> ELECTRUM_DUST = ITEMS.register("electrum_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> COPPER_DUST = ITEMS.register("copper_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> BRASS_DUST = ITEMS.register("brass_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> BRONZE_DUST = ITEMS.register("bronze_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> NICKEL_DUST = ITEMS.register("nickel_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> PLATINUM_DUST = ITEMS.register("platinum_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> GLACIAL_DUST = ITEMS.register("glacial_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> IRON_DUST = ITEMS.register("iron_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> INFERNAL_IRON_DUST = ITEMS.register("infernal_iron_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> COLD_IRON_DUST = ITEMS.register("cold_iron_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> STEEL_DUST = ITEMS.register("steel_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> DIAMOND_DUST = ITEMS.register("diamond_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> ELVEN_STEEL_DUST = ITEMS.register("elven_steel_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> DARK_STEEL_DUST = ITEMS.register("dark_steel_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> NETHERITE_DUST = ITEMS.register("netherite_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> PALLADIUM_DUST = ITEMS.register("palladium_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> TITANIUM_DUST = ITEMS.register("titanium_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> TUNGSTEN_DUST = ITEMS.register("tungsten_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> MITHRIL_DUST = ITEMS.register("mithril_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> ADAMANT_DUST = ITEMS.register("adamant_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> ADAMANTINE_DUST = ITEMS.register("adamantine_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> SHADOW_ADAMANTINE_DUST = ITEMS.register("shadow_adamantine_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> ITANIUM_DUST = ITEMS.register("itanium_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> ARANDUR_DUST = ITEMS.register("arandur_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> STARFALL_DUST = ITEMS.register("stallfall_dust",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+    //Ore Dusts | used by other mods when Dusts are needed (needs a re-write as much has changed since this writing.)
+//    public static final RegistrySupplier<Item> COAL_DUST = ITEMS.register("coal_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> LEAD_DUST = ITEMS.register("lead_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> TIN_DUST = ITEMS.register("tin_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> GOLD_DUST = ITEMS.register("gold_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> ZINC_DUST = ITEMS.register("zinc_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> SILVER_DUST = ITEMS.register("silver_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> ALUMINUM_DUST = ITEMS.register("aluminum_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> ELECTRUM_DUST = ITEMS.register("electrum_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> COPPER_DUST = ITEMS.register("copper_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> BRASS_DUST = ITEMS.register("brass_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> BRONZE_DUST = ITEMS.register("bronze_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> NICKEL_DUST = ITEMS.register("nickel_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> PLATINUM_DUST = ITEMS.register("platinum_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> GLACIAL_DUST = ITEMS.register("glacial_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> IRON_DUST = ITEMS.register("iron_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> INFERNAL_IRON_DUST = ITEMS.register("infernal_iron_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> COLD_IRON_DUST = ITEMS.register("cold_iron_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> STEEL_DUST = ITEMS.register("steel_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> DIAMOND_DUST = ITEMS.register("diamond_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> ELVEN_STEEL_DUST = ITEMS.register("elven_steel_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> DARK_STEEL_DUST = ITEMS.register("dark_steel_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> NETHERITE_DUST = ITEMS.register("netherite_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> PALLADIUM_DUST = ITEMS.register("palladium_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> TITANIUM_DUST = ITEMS.register("titanium_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> TUNGSTEN_DUST = ITEMS.register("tungsten_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> MITHRIL_DUST = ITEMS.register("mithril_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> ADAMANT_DUST = ITEMS.register("adamant_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> ADAMANTINE_DUST = ITEMS.register("adamantine_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> SHADOW_ADAMANTINE_DUST = ITEMS.register("shadow_adamantine_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> ITANIUM_DUST = ITEMS.register("itanium_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> ARANDUR_DUST = ITEMS.register("arandur_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<Item> STARFALL_DUST = ITEMS.register("stallfall_dust",
+//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
 }

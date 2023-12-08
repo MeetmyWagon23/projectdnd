@@ -66,7 +66,7 @@ public enum ArmorSetMaterials implements WagonsArmorMaterial {
     //ELECTRUM("electrum", 9, new double[]{2,2,3,2}, 20, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.0f, 0.0f, ItemsInit.ELECTRUM_INGOT.get()), //unused
     COPPER("copper", 10, new double[]{1.4,1.7,2.3,1.6}, 3, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, Items.COPPER_INGOT),
     LIGHT_COPPER("light_copper", 8, new double[]{.9,1.1,1.6,1.2}, 3, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, Items.COPPER_INGOT),
-    BRASS("brass", 11, new double[]{1.6,1.9,2.3,1.5}, 5, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1.5f, 0.4f, ItemsInit.BRASS_INGOT.get()),
+//    BRASS("brass", 11, new double[]{1.6,1.9,2.3,1.5}, 5, SoundEvents.ITEM_ARMOR_EQUIP_IRON,1.5f, 0.4f, ItemsInit.BRASS_INGOT.get()),
     BRONZE("bronze", 12, new double[]{1.6,3.6,3.9,1.7}, 4, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.8f, 0.0f, ItemsInit.BRONZE_INGOT.get()),
    //NICKEL("nickel", 13, new double[]{2,3,4,2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, ItemsInit.NICKEL_INGOT.get()),
    //LIGHT_NICKEL("light_nickel", 13, new double[]{1,2,3,1}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, ItemsInit.NICKEL_INGOT.get()),
@@ -93,9 +93,10 @@ public enum ArmorSetMaterials implements WagonsArmorMaterial {
     DRAGON_SCALE_MAIL("dragon_scale_mail", 46, new double[]{3.5,6.5,8.5,3.5}, 18, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 1.0f, 0.0f, ItemsInit.DRAGON_SCALE.get()),
     PALLADIUM("palladium", 41, new double[]{4,7,9,4}, 22, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,2.0f, 0.1f, ItemsInit.PALLADIUM_INGOT.get()),
     LIGHT_PALLADIUM("light_palladium", 32, new double[]{2.8,4.9,6.3,2.8}, 22, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,1.0f, 0.0f, ItemsInit.PALLADIUM_INGOT.get()),
-//    TITANIUM("titanium", 48, new double[]{4.5,7.5,9.5,4.5}, 11, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,2.5f, 0.2f, ItemsInit.TITANIUM_INGOT.get()),
-    LIGHT_TITANIUM("light_titanium", 39, new double[]{3.1,5.2,6.6,3.1}, 14, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,0.7f, 0.1f, ItemsInit.TITANIUM_INGOT.get()),
-    TUNGSTEN("tungsten", 55, new double[]{5,8,10,5}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,3.0f, 0.3f, ItemsInit.TUNGSTEN_INGOT.get()),
+                    //Be sure to adjust the Armor values PAST TITANIUM (armor values go up in a pattern based on the previous armor values.)
+                    //    TITANIUM("titanium", 48, new double[]{4.5,7.5,9.5,4.5}, 11, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,2.5f, 0.2f, ItemsInit.TITANIUM_INGOT.get()),
+                    //    LIGHT_TITANIUM("light_titanium", 39, new double[]{3.1,5.2,6.6,3.1}, 14, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,0.7f, 0.1f, ItemsInit.TITANIUM_INGOT.get()),
+    TUNGSTEN_CARBIDE("tungsten_carbide", 55, new double[]{5,8,10,5}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,3.0f, 0.3f, ItemsInit.TUNGSTEN_CARBIDE_INGOT.get()),
     MITHRIL_MAIL("mithril_mail", 49, new double[]{3.5,5.6,7,3.5}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,1.7f, 0.1f, ItemsInit.MITHRIL_INGOT.get()),
     ADAMANTINE("adamantine", 62, new double[]{6,10,12,6}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 4.0f, 0.4f, ItemsInit.ADAMANTINE_INGOT.get()),
     LIGHT_ADAMANTINE("light_adamantine", 50, new double[]{4.2,7,8.2,4.2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0f, 0.2f, ItemsInit.ADAMANTINE_INGOT.get()),
