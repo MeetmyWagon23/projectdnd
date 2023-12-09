@@ -1373,8 +1373,29 @@ public class WeaponsInit {
 ----------------------------------------------------------------------------------------------------------------------*/
     //Homebrew content is NOT ALLOWED (Unless owned by YOU), though inspiration can be drawn from it, need to check existing and future weapons below.
     public static final RegistrySupplier<SwordItem> HOLY_AVENGER_GREATSWORD = WEAPONS.register("holy_avenger_greatsword",
-            () -> new SwordItem(ToolMaterialsInit.DIVINE, 12, -3.2f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
+            () -> new SwordItem(ToolMaterialsInit.DIVINE, 16, -3.2f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> HAZIRAWN_GREATSWORD = WEAPONS.register("hazirawn_greatsword",
-            () -> new SwordItem(ToolMaterialsInit.DIVINE, 12, -3.2f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
+            () -> new SwordItem(ToolMaterialsInit.DIVINE, 16, -3.2f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
+    //JustaSnowAngel's set
+    public static final RegistrySupplier<SwordItem> SNOWDRIFT_FROSTREAPER = WEAPONS.register("snowdrift_frostreaper",
+            () -> new SwordItem(ToolMaterialsInit.DIVINE, 14, -2.8f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> PURITYS_FROSTFALL_SERENADE = WEAPONS.register("puritys_frostfall_serenade",
+            () -> new SwordItem(ToolMaterialsInit.DIVINE, 10, -1.6f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> MALEVOLENT_ARCTIC_DESPAIR = WEAPONS.register("malevolent_arctic_despair",
+            () -> new SwordItem(ToolMaterialsInit.DIVINE, 10, -1.6f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
+    //Phoenix's Set
+    public static final RegistrySupplier<SwordItem> EMBERWING_SCORNBLADE = WEAPONS.register("emberwing_scornblade",
+            () -> new SwordItem(ToolMaterialsInit.DIVINE, 14, -2.8f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> SERAPHIC_PLUMEREAVER = WEAPONS.register("seraphic_plumereaver",
+            () -> new SwordItem(ToolMaterialsInit.DIVINE, 10, -1.6f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> DEMONIC_PYROFEATHER = WEAPONS.register("demonic_pyrofeather",
+            () -> new SwordItem(ToolMaterialsInit.DIVINE, 10, -1.6f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
+    //Mtiger's Set
+    public static final RegistrySupplier<SwordItem> PROWLING_SWIFTCLAW = WEAPONS.register("prowling_swiftclaw",
+            () -> new SwordItem(ToolMaterialsInit.DIVINE, 11, -2.2f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> HARMONIOUS_HUNTRESS = WEAPONS.register("harmonious_huntress",
+            () -> new SwordItem(ToolMaterialsInit.DIVINE, 8, -1.9f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> WICKED_WHISKER = WEAPONS.register("wicked_whisker",
+            () -> new SwordItem(ToolMaterialsInit.DIVINE, 8, -1.9f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
     //Ravens Wing- Glaive, google it.
 }

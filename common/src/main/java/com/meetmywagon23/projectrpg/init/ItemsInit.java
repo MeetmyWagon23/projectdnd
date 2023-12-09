@@ -63,6 +63,9 @@ public class ItemsInit {
     //Legendary Core Needs a new name, something fauncy; something intruiging.
     public static final RegistrySupplier<Item> DIVINE_CATALYST = ITEMS.register("divine_catalyst",
             () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(8).rarity(Rarity.EPIC)));//Need to make a new Rarity specification "Divine"
+    public static final RegistrySupplier<Item> ANCIENT_ICE = ITEMS.register("ancient_ice",
+            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(8).rarity(Rarity.EPIC)));// dropped from Ancient Ice Block &/or Ice Based "God" Boss
+
     /*--------------------------
 
         Coin Pouches registry

@@ -42,9 +42,6 @@ public class ToolMaterialsInit {
     protected static final ToolMaterial PLATINUM =
             new BaseToolMaterial(0f, 18, 1, 5.5f, 241,
             () -> Ingredient.ofItems(ItemsInit.PLATINUM_INGOT.get()));
-    protected static final ToolMaterial GLACIAL =
-            new BaseToolMaterial(0f, 6, 2, 5.5f, 196,
-                    () -> Ingredient.ofItems(Items.PACKED_ICE));
     protected static final ToolMaterial BONE =
             new BaseToolMaterial(0f, 2, 2, 7f, 32,
                     () -> Ingredient.ofItems(Items.BONE));
@@ -67,7 +64,7 @@ public class ToolMaterialsInit {
                     () -> Ingredient.ofItems(ItemsInit.DARK_STEEL_INGOT.get()));
     //netherite    NETHERITE     (attackdamag 4.0f, enchant 15, mininglvl 4, miningspeed 9.0f, durability 2031)
     protected static final ToolMaterial DRAGON_BONE =
-            new BaseToolMaterial(0f, 18, 3, 9f, 2341,
+            new BaseToolMaterial(0f, 18, 3, 10f, 2341,
                     () -> Ingredient.ofItems(ItemsInit.DRAGON_BONE.get()));
     protected static final ToolMaterial PALLADIUM =
             new BaseToolMaterial(0f, 22, 4, 10f, 2651,
@@ -76,28 +73,32 @@ public class ToolMaterialsInit {
 //                new BaseToolMaterial(0f, 24, 4, 10f, 2961,
 //                () -> Ingredient.ofItems(ItemsInit.TITANIUM_INGOT.get()));
     protected static final ToolMaterial TUNGSTEN_CARBIDE =
-            new BaseToolMaterial(0f, 15, 4, 11f, 3271,
+            new BaseToolMaterial(0f, 16, 4, 11f, 3271,
             () -> Ingredient.ofItems(ItemsInit.TUNGSTEN_CARBIDE_INGOT.get()));
     protected static final ToolMaterial MITHRIL =
-            new BaseToolMaterial(0f, 15, 4, 11f, 3581,
+            new BaseToolMaterial(0f, 17, 4, 11f, 3581,
             () -> Ingredient.ofItems(ItemsInit.MITHRIL_INGOT.get()));
 //    protected static final ToolMaterial ITANIUM =
 //            new BaseToolMaterial(0f, 16, 4, 12f, 3891,
 //            () -> Ingredient.ofItems(ItemsInit.ITANIUM_INGOT.get()));
     protected static final ToolMaterial ADAMANTINE =
-            new BaseToolMaterial(0f, 18, 4, 12f, 4101,
+            new BaseToolMaterial(0f, 16, 4, 12f, 4101,
             () -> Ingredient.ofItems(ItemsInit.ADAMANTINE_INGOT.get()));
     protected static final ToolMaterial SHADOW_ADAMANTINE =
-            new BaseToolMaterial(0f, 18, 4, 12f, 4101,
+            new BaseToolMaterial(0f, 16, 4, 12f, 4101,
                     () -> Ingredient.ofItems(ItemsInit.SHADOW_ADAMANTINE_INGOT.get()));
     protected static final ToolMaterial ADAMANTINE_DRAGON_BONE =
-            new BaseToolMaterial(0f, 18, 4, 13f, 4364,
+            new BaseToolMaterial(0f, 18, 4, 12f, 4364,
                     () -> Ingredient.ofItems(ItemsInit.PRISTINE_ADAMANTINE_COATED_DRAGON_SCALE.get()));
     protected static final ToolMaterial SHADOW_ADAMANTINE_DRAGON_BONE =
-            new BaseToolMaterial(0f, 18, 4, 13f, 4364,
+            new BaseToolMaterial(0f, 18, 4, 12f, 4364,
                     () -> Ingredient.ofItems(ItemsInit.PRISTINE_SHADOW_ADAMANTINE_COATED_DRAGON_SCALE.get()));
+    //This is where ALL DIVINE materials are stored.
 
     protected static final ToolMaterial DIVINE =
-            new BaseToolMaterial(0f, 18, 4, 14f, 4532,
+            new BaseToolMaterial(0f, 18, 4, 13f, 4532,
                     () -> Ingredient.ofItems(ItemsInit.DIVINE_CATALYST.get()));
+    protected static final ToolMaterial GLACIAL =
+            new BaseToolMaterial(0f, 15, 4, 13f, 4624,
+                    () -> Ingredient.ofItems(ItemsInit.ANCIENT_ICE.get()));
 }

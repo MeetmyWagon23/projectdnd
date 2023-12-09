@@ -72,7 +72,6 @@ public enum ArmorSetMaterials implements WagonsArmorMaterial {
    //LIGHT_NICKEL("light_nickel", 13, new double[]{1,2,3,1}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.0f, 0.0f, ItemsInit.NICKEL_INGOT.get()),
     PLATINUM("platinum", 14, new double[]{1.8,4.4,5.2,1.8}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.0f, 0.0f, ItemsInit.PLATINUM_INGOT.get()),
     LIGHT_PLATINUM("light_platinum", 11, new double[]{2,3,4,1}, 18, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,0.0f, 0.0f, ItemsInit.PLATINUM_INGOT.get()),
-    GLACIAL("glacial", 9, new double[]{1.6,4.2,5,1.6}, 6, SoundEvents.ITEM_ARMOR_EQUIP_IRON,2.0f, 0.1f, Items.PACKED_ICE),
     BONE("bone", 4, new double[]{1.8,4.6,5.3,1.8}, 2, SoundEvents.ENTITY_SKELETON_AMBIENT,1.0f, 0.0f, Items.BONE),
     //iron                             15, new double[]{2, 5, 6, 2}
     LIGHT_IRON("light_iron", 12, new double[]{1.4,3.5,4.2,1.4}, 16, SoundEvents.ITEM_ARMOR_EQUIP_IRON,0.5f, 0.f, Items.IRON_INGOT),
@@ -107,9 +106,11 @@ public enum ArmorSetMaterials implements WagonsArmorMaterial {
     SHADOW_ADAMANTINE_COATED_DRAGON_SCALE("shadow_adamantine_coated_dragon_scale", 67, new double[]{6.5,10.5,12.5,6.5}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 5f, 0.4f, ItemsInit.SHADOW_ADAMANTINE_COATED_DRAGON_SCALE.get()),
     LIGHT_SHADOW_ADAMANTINE_COATED_DRAGON_SCALE("shadow_adamantine_coated_dragon_scale", 55, new double[]{4.7,7.5,8.7,4.7}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.5f, 0.2f, ItemsInit.SHADOW_ADAMANTINE_COATED_DRAGON_SCALE.get()),
     //-------------------------------------------------------------------------Legendary Armors Below Here----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    LEGENDARY("legendary", 69, new double[]{7,11,13,7}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,6.0f, 0.4f, ItemsInit.DIVINE_CATALYST.get()),
-    LIGHT_LEGENDARY("light_legendary", 69, new double[]{4.9,7.7,9.1,4.9}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,3.0f, 0.2f, ItemsInit.DIVINE_CATALYST.get()),
-    STARFALL("starfall", 69, new double[]{7,11,13,7}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,6.0f, 0.4f, ItemsInit.DIVINE_CATALYST.get());
+    DIVINE("divine", 69, new double[]{7,11,13,7}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,6.0f, 0.4f, ItemsInit.DIVINE_CATALYST.get()),
+    LIGHT_DIVINE("light_divine", 69, new double[]{4.9,7.7,9.1,4.9}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,3.0f, 0.2f, ItemsInit.DIVINE_CATALYST.get()),
+    GLACIAL("glacial", 9, new double[]{7,11,13,7}, 14, SoundEvents.ITEM_ARMOR_EQUIP_IRON,2.5f, 0.2f, ItemsInit.ANCIENT_ICE.get()),
+    E("E", 9, new double[]{7,11,13,7}, 14, SoundEvents.ITEM_ARMOR_EQUIP_IRON,2.5f, 0.2f, ItemsInit.ANCIENT_ICE.get());
+//why is this here    STARFALL("starfall", 69, new double[]{7,11,13,7}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,6.0f, 0.4f, ItemsInit.DIVINE_CATALYST.get());
 
     //more legendary equipment to be added, mostly will be used for Legendary Boss Armors - Legendary Crafted Items from bosses.
     //Legendary is a placeholder name. meant to be replaced & duplicated with different set names, and keeping the BASE legendary armor stats.
