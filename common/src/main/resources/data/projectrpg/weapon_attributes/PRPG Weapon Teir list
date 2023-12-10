@@ -1,0 +1,66 @@
+    Greatsword              -3.3f
+dagger                      -1.5f
+    spear                   -2.7f
+    rapier                  -1.8f
+    glaive                  -2.0f
+    scimitar                -2.4f
+    quarterstaff            -2.6f
+tridents                -
+    battleaxe               -2.8f
+    warhammer               -3.2f
+    sickle                  -2.1f
+    scyth                   -2.6f
+    sword                   -2.4f
+    mace                    -2.8f
+    falchions               -2.3f
+    ceastus/gauntlet/claw   -1.5f
+
+
+
+Order of damage starting from Top to Bottom, Wood starts at a higher damage if it is higher on this list
+then proceeds to get more damage as the material increases by 1 damage at a time. god damn i hope this makes
+sense to anyone else but me xD
+
+greatsword                  |dmg for wood 6
+warhammer                   |dmg for wood 6
+battleaxe                   |dmg for wood 6
+mace                        |dmg for wood 5
+spear                       |dmg for wood 5
+scythe                      |dmg for wood 5
+quarterstaff                |dmg for wood 4
+scimitar                    |dmg for wood 4
+sword                       |dmg for wood 4
+falchion                    |dmg for wood 3
+sickle                      |dmg for wood 3
+glaive                      |dmg for wood 3
+rapier                      |dmg for wood 2
+ceastus/gauntlet/glaw       |dmg for wood 2
+dagger -1.5f                |dmg for wood 2
+
+Look at scythes to see where materials gain more damage as they get stronger.
+      For Weapons
+0        wood
+1        stone
+0        gold
+2        silver
+2        copper
+2        bronze
+2        platinum
+3        bone
+3        iorn
+3        infernal iron
+3        cold iron
+4        steel
+4        diamond
+4        elvensteel
+4        darksteel
+5        netherite
+                        Materials From here DOWN get a unique animation.
+5        dragon bone
+6        palladium
+7        tungsten-carbide
+8        mythril
+9        adamantine
+9        shadow adamantine
+10       dragon adamantine
+10       shadow dragon adamantine
