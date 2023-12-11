@@ -521,13 +521,13 @@ public class WeaponsInit {
             () -> new SwordItem(ToolMaterialsInit.TUNGSTEN_CARBIDE, 12, -2.4f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> MITHRIL_SCIMITAR = WEAPONS.register("mithril_scimitar",
             () -> new SwordItem(ToolMaterialsInit.MITHRIL, 12, -2.4f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<SwordItem> ADAMANTINE_SCIMITAR = WEAPONS.register("adanamtine_scimitar",
+    public static final RegistrySupplier<SwordItem> ADAMANTINE_SCIMITAR = WEAPONS.register("adamantine_scimitar",
             () -> new SwordItem(ToolMaterialsInit.ADAMANTINE, 13, -2.4f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<SwordItem> SHADOW_ADAMANTINE_SCIMITAR = WEAPONS.register("shadow_adanamtine_scimitar",
+    public static final RegistrySupplier<SwordItem> SHADOW_ADAMANTINE_SCIMITAR = WEAPONS.register("shadow_adamantine_scimitar",
             () -> new SwordItem(ToolMaterialsInit.SHADOW_ADAMANTINE, 13, -2.4f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<SwordItem> ADAMANTINE_DRAGON_BONE_SCIMITAR = WEAPONS.register("adanamtine_scimitar",
+    public static final RegistrySupplier<SwordItem> ADAMANTINE_DRAGON_BONE_SCIMITAR = WEAPONS.register("adamantine_dragon_bone_scimitar",
             () -> new SwordItem(ToolMaterialsInit.ADAMANTINE, 14, -2.4f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<SwordItem> SHADOW_ADAMANTINE_DRAGON_BONE_SCIMITAR = WEAPONS.register("shadow_adanamtine_scimitar",
+    public static final RegistrySupplier<SwordItem> SHADOW_ADAMANTINE_DRAGON_BONE_SCIMITAR = WEAPONS.register("shadow_adamantine_dragon_bone_scimitar",
             () -> new SwordItem(ToolMaterialsInit.SHADOW_ADAMANTINE, 14, -2.4f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
 /*----------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------QUARTERSTAFFS-----------------------------------------------------
@@ -1312,21 +1312,22 @@ public class WeaponsInit {
             () -> new SwordItem(ToolMaterialsInit.DIVINE, 17, -3.3f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> HAZIRAWN_GREATSWORD = WEAPONS.register("hazirawn_greatsword",
             () -> new SwordItem(ToolMaterialsInit.DIVINE, 17, -3.3f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
-    //JustaSnowAngel's set------------------------------ 1 scythe 2 sickles
+    //Ravens Wing- Glaive, google it.
+    //-------------------------------------JustaSnowAngel's set------------------------------ 1 scythe 2 sickles
     public static final RegistrySupplier<SwordItem> SNOWDRIFT_FROSTREAPER = WEAPONS.register("snowdrift_frostreaper",
             () -> new SwordItem(ToolMaterialsInit.DIVINE, 16, -2.6f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> PURITYS_FROSTFALL_SERENADE = WEAPONS.register("puritys_frostfall_serenade",
             () -> new SwordItem(ToolMaterialsInit.DIVINE, 1, -1.6f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> MALEVOLENT_ARCTIC_DESPAIR = WEAPONS.register("malevolent_arctic_despair",
             () -> new SwordItem(ToolMaterialsInit.DIVINE, 1, -1.6f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
-    //Phoenix's Set------------------------------------ 1 warscythe 2 small scythes
+    //----------------------------------------Phoenix's Set------------------------------------ 1 warscythe 2 small scythes
     public static final RegistrySupplier<SwordItem> EMBERWING_SCORNBLADE = WEAPONS.register("emberwing_scornblade",
             () -> new SwordItem(ToolMaterialsInit.DIVINE, 14, -2.6f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> SERAPHIC_PLUMEREAVER = WEAPONS.register("seraphic_plumereaver",
             () -> new SwordItem(ToolMaterialsInit.DIVINE, 1, -1.6f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> DEMONIC_PYROFEATHER = WEAPONS.register("demonic_pyrofeather",
             () -> new SwordItem(ToolMaterialsInit.DIVINE, 1, -1.6f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
-    //Mtiger's Set------------------------------------- 3 Katanas
+    //------------------------------------------Mtiger's Set------------------------------------- 3 Katanas
     public static final RegistrySupplier<SwordItem> PROWLING_SWIFTCLAW = WEAPONS.register("prowling_swiftclaw",
             () -> new SwordItem(ToolMaterialsInit.DIVINE, 11, -2.2f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<SwordItem> HARMONIOUS_HUNTRESS = WEAPONS.register("harmonious_huntress",
@@ -1336,11 +1337,13 @@ public class WeaponsInit {
     //The True Pumpkin King -Inspiration by Pumpkinking6647 on Twitch. needs to be a scythe.
     public static final RegistrySupplier<SwordItem> W1 = WEAPONS.register("w1",
             () -> new SwordItem(ToolMaterialsInit.DIVINE, 16, -2.6f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
-    //Assistance_Required's set
+    //------------------------------------Assistance_Required's set--------------------------------------
     //Ornate longsword (Good)
     //2 sistser blades (boths evil)
-    //Tamaki's Set
-    //Black Powder Sniper (as close to as i can get to the Sentinal from Apex)
+    //------------------------------------------Tamaki's Set----------------------------------------------
+    //Black Powder Sniper (as close to as i can get to the Sentinal from Apex) crossbows have 6 states, unloaded-loaded-reload 0-3.
     //sister weapons 2 katana like blades like the ninjas from elden ring. Lots of Color saturation- yellowy.
-    //Ravens Wing- Glaive, google it.
+    //-------------------------------------------Solaces Set----------------------------------------------
+    //rorano zoro katana set of 3 katanas from 1 piece.
+
 }

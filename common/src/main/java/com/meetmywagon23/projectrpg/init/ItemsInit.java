@@ -364,12 +364,6 @@ public class ItemsInit {
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> BRONZE_NUGGET = ITEMS.register("bronze_nugget",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-//    public static final RegistrySupplier<Item> RAW_NICKEL = ITEMS.register("raw_nickel",
-//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-//    public static final RegistrySupplier<Item> NICKEL_INGOT = ITEMS.register("nickel_ingot",
-//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-//    public static final RegistrySupplier<Item> NICKEL_NUGGET = ITEMS.register("nickel_nugget",
-//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> RAW_PLATINUM = ITEMS.register("raw_platinum",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<Item> PLATINUM_INGOT = ITEMS.register("platinum_ingot",
@@ -415,13 +409,6 @@ public class ItemsInit {
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.RARE)));
     public static final RegistrySupplier<Item> PALLADIUM_NUGGET = ITEMS.register("palladium_nugget",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.RARE)));
-    //REMOVED TITANIUM
-//    public static final RegistrySupplier<Item> RAW_TITANIUM = ITEMS.register("raw_titanium",
-//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.RARE)));
-//    public static final RegistrySupplier<Item> TITANIUM_INGOT = ITEMS.register("titanium_ingot",
-//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.RARE)));
-//    public static final RegistrySupplier<Item> TITANIUM_NUGGET = ITEMS.register("titanium_nugget",
-//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.RARE)));
     //Diamond
     //Netherite
     //Carbon - Found in small (~8x8 craters in deserts, as a "snow" layer; obtained with a shovel) Carbon +
@@ -439,17 +426,8 @@ public class ItemsInit {
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.RARE)));
     public static final RegistrySupplier<Item> MITHRIL_NUGGET = ITEMS.register("mithril_nugget",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.RARE)));
-    //adamant is used only to craft Adamantine. there is lore relation to this reasoning in the D&D lore.
-    public static final RegistrySupplier<Item> RAW_ADAMANT_FRAGMENT = ITEMS.register("adamant_fragment",
-            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.EPIC)));
-    //Itanium Needs to be checked if Fully removed during pre-compile stage.
-//    public static final RegistrySupplier<Item> RAW_ITANIUM = ITEMS.register("raw_itanium",
-//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-//    public static final RegistrySupplier<Item> ITANIUM_INGOT = ITEMS.register("itanium_ingot",
-//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
-//    public static final RegistrySupplier<Item> ITANIUM_NUGGET = ITEMS.register("itanium_nugget",
-//            ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.RARE)));
-    public static final RegistrySupplier<Item> RAW_ADAMANT = ITEMS.register("raw_adamant",
+    //adamant is used only to craft Adamantine. there is lore relation to this reasoning in the D&D lore.-----Fragments +_________ are used to craft the Adamantine Ingot.
+    public static final RegistrySupplier<Item> RAW_ADAMANT_FRAGMENT = ITEMS.register("raw_adamant_fragment",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.EPIC)));
     public static final RegistrySupplier<Item> ADAMANTINE_INGOT = ITEMS.register("adamantine_ingot",
             ()-> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).rarity(Rarity.EPIC)));
