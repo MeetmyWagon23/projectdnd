@@ -1,0 +1,10 @@
+{
+
+  "parent": "item/handheld",
+
+  "textures": {
+
+    "layer0": "projectrpg:items/tools/shadow_adamantine_dragon_bone_pickaxe"
+
+  }
+}

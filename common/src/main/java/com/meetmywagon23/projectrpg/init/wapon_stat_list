@@ -23,21 +23,21 @@ sense to anyone else but me xD
                                           Weapon/mod testing needs to be done with this mod
                                                     * = damage implimented properly by DmWagon
 
-greatsword                  -3.3f|dmg for wood 6*        damage went up here base on a .5f difference on the weapon type below and above.
-warhammer                   -3.2f|dmg for wood 6*        damage went up here base on a .5f difference on the weapon type below and above.
-battleaxe                   -2.8f|dmg for wood 5*        damage went up here base on a .5f difference on the weapon type below and above.
-mace                        -2.8f|dmg for wood 5*        damage went up here base on a .5f difference on the weapon type below and above.
-spear                       -2.7f|dmg for wood 5*        damage went up here base on a .5f difference on the weapon type below and above.
-scythe                      -2.6f|dmg for wood 5*        damage went up here base on a .5f difference on the weapon type below and above.
-quarterstaff                -2.6f|dmg for wood 5*        damage went up here base on a .5f difference on the weapon type below and above.
-scimitar                    -2.4f|dmg for wood 4*        damage went up here base on a .5f difference on the weapon type below and above.
-sword                       -2.4f|dmg for wood 4*        damage went up here base on a .5f difference on the weapon type below and above.
-falchion                    -2.3f|dmg for wood 4*        damage went up here base on a .5f difference on the weapon type below and above.
-sickle                      -2.1f|dmg for wood 4*        damage went up here base on a .5f difference on the weapon type below and above.
-glaive                      -2.0f|dmg for wood 4*        damage went up here base on a .5f difference on the weapon type below and above.
-rapier                      -1.8f|dmg for wood 3*        damage went up here base on a .5f difference on the weapon type below and above.
-ceastus/gauntlet/glaw       -1.5f|dmg for wood 2*        damage went up here base on a .5f difference on the weapon type below and above.
-dagger                      -1.5f|dmg for wood 2        damage went up here base on a .5f difference on the weapon type below and above.
+greatsword                  -3.3f|dmg for wood 6*        damage starts here based on a .5f difference of weapon swing speed.
+warhammer                   -3.2f|dmg for wood 6*        damage starts here based on a .5f difference of weapon swing speed.
+battleaxe                   -2.8f|dmg for wood 5*        damage starts here based on a .5f difference of weapon swing speed.
+mace                        -2.8f|dmg for wood 5*        damage starts here based on a .5f difference of weapon swing speed.
+spear                       -2.7f|dmg for wood 5*        damage starts here based on a .5f difference of weapon swing speed.
+scythe                      -2.6f|dmg for wood 5*        damage starts here based on a .5f difference of weapon swing speed.
+quarterstaff                -2.6f|dmg for wood 5*        damage starts here based on a .5f difference of weapon swing speed.
+scimitar                    -2.4f|dmg for wood 4*        damage starts here based on a .5f difference of weapon swing speed.
+sword                       -2.4f|dmg for wood 4*        damage starts here based on a .5f difference of weapon swing speed.
+falchion                    -2.3f|dmg for wood 4*        damage starts here based on a .5f difference of weapon swing speed.
+sickle                      -2.1f|dmg for wood 4*        damage starts here based on a .5f difference of weapon swing speed.
+glaive                      -2.0f|dmg for wood 4*        damage starts here based on a .5f difference of weapon swing speed.
+rapier                      -1.8f|dmg for wood 3*        damage starts here based on a .5f difference of weapon swing speed.
+ceastus/gauntlet/glaw       -1.5f|dmg for wood 2*        damage starts here based on a .5f difference of weapon swing speed.
+dagger                      -1.5f|dmg for wood 2         damage starts here based on a .5f difference of weapon swing speed.
 
 as the number increases below per new material, the number of damage goes up by 1.
       For Weapons
@@ -61,7 +61,7 @@ as the number increases below per new material, the number of damage goes up by 
 5        dragon bone
 6        palladium
 7        tungsten-carbide
-8        mythril
+8        mithril
 9        adamantine
 9        shadow adamantine
 10       dragon adamantine
