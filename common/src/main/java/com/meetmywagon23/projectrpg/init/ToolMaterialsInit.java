@@ -20,7 +20,7 @@ public class ToolMaterialsInit {
 
     */
     protected static final ToolMaterial FLESH =
-            new BaseToolMaterial(0f, 1, 0, 0.5f, 11,
+            new BaseToolMaterial(0f, 1, 0, 0.5f, 4,
     			() -> Ingredient.ofItems(Items.ROTTEN_FLESH));
     //wood     WOOD                 (attackdmg 0.0f, enchant 15, mininglvl 0, miningspeed 2.0f, durability 59)
     //        return Ingredient.fromTag(ItemTags.PLANKS)
@@ -31,29 +31,26 @@ public class ToolMaterialsInit {
             new BaseToolMaterial(0f, 15, 1, 4f, 161,
             () -> Ingredient.ofItems(ItemsInit.SILVER_INGOT.get()));
     protected static final ToolMaterial COPPER =
-            new BaseToolMaterial(0f, 3, 1, 4.5f, 181,
+            new BaseToolMaterial(0f, 3, 1, 3.5f, 181,
     		() -> Ingredient.ofItems(Items.COPPER_INGOT));
-    protected static final ToolMaterial BRASS =
-            new BaseToolMaterial(0f, 5, 1, 4.5f, 201,
-            () -> Ingredient.ofItems(ItemsInit.BRASS_INGOT.get()));
     protected static final ToolMaterial BRONZE =
             new BaseToolMaterial(0f, 4, 1, 4.5f, 221,
             () -> Ingredient.ofItems(ItemsInit.BRONZE_INGOT.get()));
     protected static final ToolMaterial PLATINUM =
-            new BaseToolMaterial(0f, 18, 1, 5.5f, 241,
+            new BaseToolMaterial(0f, 18, 1, 5f, 241,
             () -> Ingredient.ofItems(ItemsInit.PLATINUM_INGOT.get()));
     protected static final ToolMaterial BONE =
-            new BaseToolMaterial(0f, 2, 2, 7f, 32,
+            new BaseToolMaterial(0f, 2, 1, 5.5f, 7,
                     () -> Ingredient.ofItems(Items.BONE));
     //iron    IRON               (attackdamag 2.0f, enchant 14, mininglvl 2, miningspeed 6.0f, durability 250)
     protected static final ToolMaterial INFERNAL_IRON =
-            new BaseToolMaterial(0f, 14, 2, 7f, 250,
+            new BaseToolMaterial(0f, 14, 2, 6.5f, 250,
                     () -> Ingredient.ofItems(ItemsInit.INFERNAL_IRON_INGOT.get()));
     protected static final ToolMaterial COLD_IRON =
             new BaseToolMaterial(0f, 14, 2, 7f, 250,
                     () -> Ingredient.ofItems(ItemsInit.COLD_IRON_INGOT.get()));
     protected static final ToolMaterial STEEL =
-            new BaseToolMaterial(0f, 16, 3, 7f, 670,
+            new BaseToolMaterial(0f, 15, 3, 7f, 670,
             () -> Ingredient.ofItems(ItemsInit.STEEL_INGOT.get()));
     //diamond    DIAMOND         (attackdamag 3.0f, enchant 10, mininglvl 3, miningspeed 8.0f, durability 1561)
     protected static final ToolMaterial ELVEN_STEEL =
@@ -88,10 +85,10 @@ public class ToolMaterialsInit {
             new BaseToolMaterial(0f, 16, 4, 12f, 4101,
                     () -> Ingredient.ofItems(ItemsInit.SHADOW_ADAMANTINE_INGOT.get()));
     protected static final ToolMaterial ADAMANTINE_DRAGON_BONE =
-            new BaseToolMaterial(0f, 18, 4, 12f, 4364,
+            new BaseToolMaterial(0f, 18, 4, 12.5f, 4364,
                     () -> Ingredient.ofItems(ItemsInit.PRISTINE_ADAMANTINE_COATED_DRAGON_SCALE.get()));
     protected static final ToolMaterial SHADOW_ADAMANTINE_DRAGON_BONE =
-            new BaseToolMaterial(0f, 18, 4, 12f, 4364,
+            new BaseToolMaterial(0f, 18, 4, 12.5f, 4364,
                     () -> Ingredient.ofItems(ItemsInit.PRISTINE_SHADOW_ADAMANTINE_COATED_DRAGON_SCALE.get()));
     //This is where ALL DIVINE materials are stored.
 

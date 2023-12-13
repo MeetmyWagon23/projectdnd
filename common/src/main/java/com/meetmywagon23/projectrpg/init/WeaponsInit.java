@@ -1313,6 +1313,8 @@ public class WeaponsInit {
     public static final RegistrySupplier<SwordItem> HAZIRAWN_GREATSWORD = WEAPONS.register("hazirawn_greatsword",
             () -> new SwordItem(ToolMaterialsInit.DIVINE, 17, -3.3f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
     //Ravens Wing- Glaive, google it.
+    public static final RegistrySupplier<SwordItem> ATROPOS = WEAPONS.register("atropos",
+            () -> new SwordItem(ToolMaterialsInit.DIVINE, 16, -2.6f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
     //-------------------------------------JustaSnowAngel's set------------------------------ 1 scythe 2 sickles
     public static final RegistrySupplier<SwordItem> SNOWDRIFT_FROSTREAPER = WEAPONS.register("snowdrift_frostreaper",
             () -> new SwordItem(ToolMaterialsInit.DIVINE, 16, -2.6f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));

@@ -159,22 +159,22 @@ public class ToolsInit {
             () -> new HoeItem(ToolMaterialsInit.SHADOW_ADAMANTINE, 1, -0.0f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
 
     public static final RegistrySupplier<PickaxeItem> ADAMANTINE_DRAGON_BONE_PICKAXE = PICKAXES.register("adamantine_dragon_bone_pickaxe",
-            () -> new PickaxeItem(ToolMaterialsInit.ADAMANTINE, 2, -2.8f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+            () -> new PickaxeItem(ToolMaterialsInit.ADAMANTINE_DRAGON_BONE, 2, -2.8f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<AxeItem> ADAMANTINE_DRAGON_BONE_AXE = AXES.register("adamantine_dragon_bone_axe",
-            () -> new AxeItem(ToolMaterialsInit.ADAMANTINE, 14f, -1.5f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+            () -> new AxeItem(ToolMaterialsInit.ADAMANTINE_DRAGON_BONE, 14f, -1.5f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<ShovelItem> ADAMANTINE_DRAGON_BONE_SHOVEL = SHOVELS.register("adamantine_dragon_bone_shovel",
-            () -> new ShovelItem(ToolMaterialsInit.ADAMANTINE, 1f, 3.0f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+            () -> new ShovelItem(ToolMaterialsInit.ADAMANTINE_DRAGON_BONE, 1f, 3.0f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<HoeItem> ADAMANTINE_DRAGON_BONE_HOE = HOES.register("adamantine_dragon_bone_hoe",
-            () -> new HoeItem(ToolMaterialsInit.ADAMANTINE, 1, -0.0f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+            () -> new HoeItem(ToolMaterialsInit.ADAMANTINE_DRAGON_BONE, 1, -0.0f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
 
     public static final RegistrySupplier<PickaxeItem> SHADOW_ADAMANTINE_DRAGON_BONE_PICKAXE = PICKAXES.register("shadow_adamantine_dragon_bone_pickaxe",
-            () -> new PickaxeItem(ToolMaterialsInit.SHADOW_ADAMANTINE, 2, -2.8f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+            () -> new PickaxeItem(ToolMaterialsInit.SHADOW_ADAMANTINE_DRAGON_BONE, 2, -2.8f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<AxeItem> SHADOW_ADAMANTINE_DRAGON_BONE_AXE = AXES.register("shadow_adamantine_dragon_bone_axe",
-            () -> new AxeItem(ToolMaterialsInit.SHADOW_ADAMANTINE, 14f, -1.5f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+            () -> new AxeItem(ToolMaterialsInit.SHADOW_ADAMANTINE_DRAGON_BONE, 14f, -1.5f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<ShovelItem> SHADOW_ADAMANTINE_DRAGON_BONE_SHOVEL = SHOVELS.register("shadow_adamantine_dragon_bone_shovel",
-            () -> new ShovelItem(ToolMaterialsInit.SHADOW_ADAMANTINE, 1f, 3.0f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+            () -> new ShovelItem(ToolMaterialsInit.SHADOW_ADAMANTINE_DRAGON_BONE, 1f, 3.0f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
     public static final RegistrySupplier<HoeItem> SHADOW_ADAMANTINE_DRAGON_BONE_HOE = HOES.register("shadow_adamantine_dragon_bone_hoe",
-            () -> new HoeItem(ToolMaterialsInit.SHADOW_ADAMANTINE, 1, -0.0f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+            () -> new HoeItem(ToolMaterialsInit.SHADOW_ADAMANTINE_DRAGON_BONE, 1, -0.0f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
 
     //Divine Equipment sets goes here----\/
 //    public static final RegistrySupplier<PickaxeItem> NAME = PICKAXES.register("name",
