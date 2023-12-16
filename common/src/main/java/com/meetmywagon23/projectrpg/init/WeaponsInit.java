@@ -1346,6 +1346,13 @@ public class WeaponsInit {
     //Black Powder Sniper (as close to as i can get to the Sentinal from Apex) crossbows have 6 states, unloaded-loaded-reload 0-3.
     //sister weapons 2 katana like blades like the ninjas from elden ring. Lots of Color saturation- yellowy.
     //-------------------------------------------Solaces Set----------------------------------------------
-    //rorano zoro katana set of 3 katanas from 1 piece.
+    //---------Eclipse-----https://docs.google.com/document/d/1d4psOBlnjd8o4wiiwG8O69ppE73nYKGnyeAWODnxnbM/edit?usp=drivesdk---------
+    public static final RegistrySupplier<SwordItem> THE_ECLIPSE = WEAPONS.register("the_eclipse",
+            () -> new SwordItem(ToolMaterialsInit.DIVINE, 17, -3.3f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
+    public static final RegistrySupplier<SwordItem> DAWN = WEAPONS.register("dawn",
+            () -> new SwordItem(ToolMaterialsInit.DIVINE, 1, -1.8f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));//Katanas need to get damage set, (whole set)
+    public static final RegistrySupplier<SwordItem> DUSK = WEAPONS.register("dusk",
+            () -> new SwordItem(ToolMaterialsInit.DIVINE, 15, -2.4f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+    //Combine both these to get The Eclipse.
 
 }
