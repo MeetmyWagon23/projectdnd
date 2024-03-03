@@ -68,7 +68,7 @@ public class ItemsInit {
 
     /*--------------------------
 
-        Coin Pouches registry
+        Coin Pouches registry                       *NOT IN USE AT THE MOMENT*
 
     ----------------------------
 
@@ -76,175 +76,175 @@ public class ItemsInit {
 
     ----------------------------
 
-        Sheath Registry
+        Sheath Registry                             *NOT IN USE AT THE MOMENT*
 
     --------------------------*/
-    public static final RegistrySupplier<Item> LEATHER_SHEATH = ITEMS.register("leather_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> WHITE_SHEATH = ITEMS.register("white_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> GRAY_SHEATH = ITEMS.register("gray_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> DARK_GRAY_SHEATH = ITEMS.register("dark_gray_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> BLACK_SHEATH = ITEMS.register("black_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> BROWN_SHEATH = ITEMS.register("brown_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> RED_SHEATH = ITEMS.register("red_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> ORANGE_SHEATH = ITEMS.register("orange_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> YELLOW_SHEATH = ITEMS.register("yellow_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> LIME_GREEN_SHEATH = ITEMS.register("lime_green_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> GREEN_SHEATH = ITEMS.register("green_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> CYAN_SHEATH = ITEMS.register("cyan_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> LIGHT_BLUE_SHEATH = ITEMS.register("light_blue_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> BLUE_SHEATH = ITEMS.register("blue_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> PURPLE_SHEATH = ITEMS.register("purple_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> MAGENTA_SHEATH = ITEMS.register("magenta_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> PINK_SHEATH = ITEMS.register("pink_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> CHAIN_SHEATH = ITEMS.register("chain_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> GOLD_SHEATH = ITEMS.register("gold_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> SILVER_SHEATH = ITEMS.register("silver_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> COPPER_SHEATH = ITEMS.register("copper_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> BRASS_SHEATH = ITEMS.register("brass_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> BRONZE_SHEATH = ITEMS.register("bronze_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> PLATINUM_SHEATH = ITEMS.register("platinum_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> BONE_SHEATH = ITEMS.register("bone_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> IRON_SHEATH = ITEMS.register("iron_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> INFERNAL_IRON_SHEATH = ITEMS.register("infernal_iron_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> COLD_IRON_SHEATH = ITEMS.register("cold_iron_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> STEEL_SHEATH = ITEMS.register("steel_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> DIAMOND_SHEATH = ITEMS.register("diamond_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> ELVEN_STEEL_SHEATH = ITEMS.register("elven_steel_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> DARK_STEEL_SHEATH = ITEMS.register("dark_steel_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> NETHERITE_SHEATH = ITEMS.register("netherite_sheath",
-            () -> new Item(new Item.Settings().fireproof().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> DRAGON_SCALE_SHEATH = ITEMS.register("dragon_scale_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> PALLADIUM_SHEATH = ITEMS.register("palladium_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> TITANIUM_SHEATH = ITEMS.register("titanium_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> TUNGSTEN_SHEATH = ITEMS.register("tungsten_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> MITHRIL_SHEATH = ITEMS.register("mithril_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> ADAMANTINE_SHEATH = ITEMS.register("adamantine_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> SHADOW_ADAMANTINE_SHEATH = ITEMS.register("shadow_adamantine_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> LEATHER_SHEATH = ITEMS.register("leather_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> WHITE_SHEATH = ITEMS.register("white_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> GRAY_SHEATH = ITEMS.register("gray_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> DARK_GRAY_SHEATH = ITEMS.register("dark_gray_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> BLACK_SHEATH = ITEMS.register("black_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> BROWN_SHEATH = ITEMS.register("brown_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> RED_SHEATH = ITEMS.register("red_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> ORANGE_SHEATH = ITEMS.register("orange_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> YELLOW_SHEATH = ITEMS.register("yellow_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> LIME_GREEN_SHEATH = ITEMS.register("lime_green_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> GREEN_SHEATH = ITEMS.register("green_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> CYAN_SHEATH = ITEMS.register("cyan_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> LIGHT_BLUE_SHEATH = ITEMS.register("light_blue_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> BLUE_SHEATH = ITEMS.register("blue_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> PURPLE_SHEATH = ITEMS.register("purple_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> MAGENTA_SHEATH = ITEMS.register("magenta_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> PINK_SHEATH = ITEMS.register("pink_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> CHAIN_SHEATH = ITEMS.register("chain_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> GOLD_SHEATH = ITEMS.register("gold_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> SILVER_SHEATH = ITEMS.register("silver_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> COPPER_SHEATH = ITEMS.register("copper_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> BRASS_SHEATH = ITEMS.register("brass_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> BRONZE_SHEATH = ITEMS.register("bronze_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> PLATINUM_SHEATH = ITEMS.register("platinum_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> BONE_SHEATH = ITEMS.register("bone_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> IRON_SHEATH = ITEMS.register("iron_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> INFERNAL_IRON_SHEATH = ITEMS.register("infernal_iron_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> COLD_IRON_SHEATH = ITEMS.register("cold_iron_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> STEEL_SHEATH = ITEMS.register("steel_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> DIAMOND_SHEATH = ITEMS.register("diamond_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> ELVEN_STEEL_SHEATH = ITEMS.register("elven_steel_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> DARK_STEEL_SHEATH = ITEMS.register("dark_steel_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> NETHERITE_SHEATH = ITEMS.register("netherite_sheath",
+//           () -> new Item(new Item.Settings().fireproof().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> DRAGON_SCALE_SHEATH = ITEMS.register("dragon_scale_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> PALLADIUM_SHEATH = ITEMS.register("palladium_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> TITANIUM_SHEATH = ITEMS.register("titanium_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> TUNGSTEN_SHEATH = ITEMS.register("tungsten_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> MITHRIL_SHEATH = ITEMS.register("mithril_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> ADAMANTINE_SHEATH = ITEMS.register("adamantine_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> SHADOW_ADAMANTINE_SHEATH = ITEMS.register("shadow_adamantine_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
 
-    //Dagger Sheaths Please use leather_dagger_sheath.png as a working ground for the colored wool textures.
-    public static final RegistrySupplier<Item> LEATHER_DAGGER_SHEATH = ITEMS.register("leather_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> WHITE_DAGGER_SHEATH = ITEMS.register("white_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> GRAY_DAGGER_SHEATH = ITEMS.register("gray_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> DARK_DAGGER_GRAY_SHEATH = ITEMS.register("dark_gray_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> BLACK_DAGGER_SHEATH = ITEMS.register("black_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> BROWN_DAGGER_SHEATH = ITEMS.register("brown_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> RED_DAGGER_SHEATH = ITEMS.register("red_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> ORANGE_DAGGER_SHEATH = ITEMS.register("orange_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> YELLOW_DAGGER_SHEATH = ITEMS.register("yellow_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> LIME_GREEN_DAGGER_SHEATH = ITEMS.register("lime_green_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> GREEN_DAGGER_SHEATH = ITEMS.register("green_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> CYAN_DAGGER_SHEATH = ITEMS.register("cyan_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> LIGHT_BLUE_DAGGER_SHEATH = ITEMS.register("light_blue_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> BLUE_DAGGER_SHEATH = ITEMS.register("blue_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> PURPLE_DAGGER_SHEATH = ITEMS.register("purple_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> MAGENTA_DAGGER_SHEATH = ITEMS.register("magenta_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> PINK_DAGGER_SHEATH = ITEMS.register("pink_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> CHAIN_DAGGER_SHEATH = ITEMS.register("chain_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> GOLD_DAGGER_SHEATH = ITEMS.register("gold_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> SILVER_DAGGER_SHEATH = ITEMS.register("silver_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> COPPER_DAGGER_SHEATH = ITEMS.register("copper_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> BRASS_DAGGER_SHEATH = ITEMS.register("brass_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> BRONZE_DAGGER_SHEATH = ITEMS.register("bronze_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> PLATINUM_DAGGER_SHEATH = ITEMS.register("platinum_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> BONE_DAGGER_SHEATH = ITEMS.register("bone_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> IRON_DAGGER_SHEATH = ITEMS.register("iron_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> INFERNAL_IRON_DAGGER_SHEATH = ITEMS.register("infernal_iron_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> COLD_IRON_DAGGER_SHEATH = ITEMS.register("cold_iron_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> STEEL_DAGGER_SHEATH = ITEMS.register("steel_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> DIAMOND_DAGGER_SHEATH = ITEMS.register("diamond_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> ELVEN_STEEL_DAGGER_SHEATH = ITEMS.register("elven_steel_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> DARK_STEEL_DAGGER_SHEATH = ITEMS.register("dark_steel_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> NETHERITE_DAGGER_SHEATH = ITEMS.register("netherite_dagger_sheath",
-            () -> new Item(new Item.Settings().fireproof().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> DRAGON_SCALE_DAGGER_SHEATH = ITEMS.register("dragon_scale_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> PALLADIUM_DAGGER_SHEATH = ITEMS.register("palladium_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> TITANIUM_DAGGER_SHEATH = ITEMS.register("titanium_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> TUNGSTEN_DAGGER_SHEATH = ITEMS.register("tungsten_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> MITHRIL_DAGGER_SHEATH = ITEMS.register("mithril_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> ADAMANTINE_DAGGER_SHEATH = ITEMS.register("adamantine_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> SHADOW_ADAMANTINE_DAGGER_SHEATH = ITEMS.register("shadow_adamantine_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> ADAMANTINE_COATED_DRAGON_SCALE_DAGGER_SHEATH = ITEMS.register("adamantine_coated_dragon_scale_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
-    public static final RegistrySupplier<Item> SHADOW_ADAMANTINE_COATED_DRAGON_SCALE_DAGGER_SHEATH = ITEMS.register("shadow_adamantine_coated_dragon_scale_dagger_sheath",
-            () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   //Dagger Sheaths Please use leather_dagger_sheath.png as a working ground for the colored wool textures.
+//   public static final RegistrySupplier<Item> LEATHER_DAGGER_SHEATH = ITEMS.register("leather_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> WHITE_DAGGER_SHEATH = ITEMS.register("white_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> GRAY_DAGGER_SHEATH = ITEMS.register("gray_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> DARK_DAGGER_GRAY_SHEATH = ITEMS.register("dark_gray_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> BLACK_DAGGER_SHEATH = ITEMS.register("black_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> BROWN_DAGGER_SHEATH = ITEMS.register("brown_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> RED_DAGGER_SHEATH = ITEMS.register("red_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> ORANGE_DAGGER_SHEATH = ITEMS.register("orange_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> YELLOW_DAGGER_SHEATH = ITEMS.register("yellow_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> LIME_GREEN_DAGGER_SHEATH = ITEMS.register("lime_green_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> GREEN_DAGGER_SHEATH = ITEMS.register("green_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> CYAN_DAGGER_SHEATH = ITEMS.register("cyan_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> LIGHT_BLUE_DAGGER_SHEATH = ITEMS.register("light_blue_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> BLUE_DAGGER_SHEATH = ITEMS.register("blue_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> PURPLE_DAGGER_SHEATH = ITEMS.register("purple_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> MAGENTA_DAGGER_SHEATH = ITEMS.register("magenta_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> PINK_DAGGER_SHEATH = ITEMS.register("pink_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> CHAIN_DAGGER_SHEATH = ITEMS.register("chain_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> GOLD_DAGGER_SHEATH = ITEMS.register("gold_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> SILVER_DAGGER_SHEATH = ITEMS.register("silver_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> COPPER_DAGGER_SHEATH = ITEMS.register("copper_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> BRASS_DAGGER_SHEATH = ITEMS.register("brass_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> BRONZE_DAGGER_SHEATH = ITEMS.register("bronze_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> PLATINUM_DAGGER_SHEATH = ITEMS.register("platinum_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> BONE_DAGGER_SHEATH = ITEMS.register("bone_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> IRON_DAGGER_SHEATH = ITEMS.register("iron_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> INFERNAL_IRON_DAGGER_SHEATH = ITEMS.register("infernal_iron_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> COLD_IRON_DAGGER_SHEATH = ITEMS.register("cold_iron_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> STEEL_DAGGER_SHEATH = ITEMS.register("steel_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> DIAMOND_DAGGER_SHEATH = ITEMS.register("diamond_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> ELVEN_STEEL_DAGGER_SHEATH = ITEMS.register("elven_steel_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> DARK_STEEL_DAGGER_SHEATH = ITEMS.register("dark_steel_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> NETHERITE_DAGGER_SHEATH = ITEMS.register("netherite_dagger_sheath",
+//           () -> new Item(new Item.Settings().fireproof().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> DRAGON_SCALE_DAGGER_SHEATH = ITEMS.register("dragon_scale_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> PALLADIUM_DAGGER_SHEATH = ITEMS.register("palladium_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> TITANIUM_DAGGER_SHEATH = ITEMS.register("titanium_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> TUNGSTEN_DAGGER_SHEATH = ITEMS.register("tungsten_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> MITHRIL_DAGGER_SHEATH = ITEMS.register("mithril_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> ADAMANTINE_DAGGER_SHEATH = ITEMS.register("adamantine_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> SHADOW_ADAMANTINE_DAGGER_SHEATH = ITEMS.register("shadow_adamantine_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> ADAMANTINE_COATED_DRAGON_SCALE_DAGGER_SHEATH = ITEMS.register("adamantine_coated_dragon_scale_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
+//   public static final RegistrySupplier<Item> SHADOW_ADAMANTINE_COATED_DRAGON_SCALE_DAGGER_SHEATH = ITEMS.register("shadow_adamantine_coated_dragon_scale_dagger_sheath",
+//           () -> new Item(new Item.Settings().group(ProjectRPG.CREATIVE_TAB).maxCount(1)));
 
     //Not Needed Depending on when Universal Gemstones is Done.
 

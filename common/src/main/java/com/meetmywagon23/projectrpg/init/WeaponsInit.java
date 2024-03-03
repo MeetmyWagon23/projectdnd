@@ -1308,51 +1308,65 @@ public class WeaponsInit {
 --------------------------------------------------LEGENDARY/MISC-WEAPONRY-----------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------*/
     //Homebrew content is NOT ALLOWED (Unless owned by YOU), though inspiration can be drawn from it, need to check existing and future weapons below.
-    public static final RegistrySupplier<SwordItem> HOLY_AVENGER_GREATSWORD = WEAPONS.register("holy_avenger_greatsword",
-            () -> new SwordItem(ToolMaterialsInit.DIVINE, 17, -3.3f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<SwordItem> HAZIRAWN_GREATSWORD = WEAPONS.register("hazirawn_greatsword",
-            () -> new SwordItem(ToolMaterialsInit.DIVINE, 17, -3.3f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
-    //Ravens Wing- Glaive, google it.
-    public static final RegistrySupplier<SwordItem> ATROPOS = WEAPONS.register("atropos",
-            () -> new SwordItem(ToolMaterialsInit.DIVINE, 16, -2.6f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
-    //-------------------------------------JustaSnowAngel's set------------------------------ 1 scythe 2 sickles
-    public static final RegistrySupplier<SwordItem> SNOWDRIFT_FROSTREAPER = WEAPONS.register("snowdrift_frostreaper",
-            () -> new SwordItem(ToolMaterialsInit.DIVINE, 16, -2.6f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<SwordItem> PURITYS_FROSTFALL_SERENADE = WEAPONS.register("puritys_frostfall_serenade",
-            () -> new SwordItem(ToolMaterialsInit.DIVINE, 1, -1.6f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<SwordItem> MALEVOLENT_ARCTIC_DESPAIR = WEAPONS.register("malevolent_arctic_despair",
-            () -> new SwordItem(ToolMaterialsInit.DIVINE, 1, -1.6f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
-    //----------------------------------------Phoenix's Set------------------------------------ 1 warscythe 2 small scythes
-    public static final RegistrySupplier<SwordItem> EMBERWING_SCORNBLADE = WEAPONS.register("emberwing_scornblade",
-            () -> new SwordItem(ToolMaterialsInit.DIVINE, 14, -2.6f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<SwordItem> SERAPHIC_PLUMEREAVER = WEAPONS.register("seraphic_plumereaver",
-            () -> new SwordItem(ToolMaterialsInit.DIVINE, 1, -1.6f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<SwordItem> DEMONIC_PYROFEATHER = WEAPONS.register("demonic_pyrofeather",
-            () -> new SwordItem(ToolMaterialsInit.DIVINE, 1, -1.6f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
-    //------------------------------------------Mtiger's Set------------------------------------- 3 Katanas
-    public static final RegistrySupplier<SwordItem> PROWLING_SWIFTCLAW = WEAPONS.register("prowling_swiftclaw",
-            () -> new SwordItem(ToolMaterialsInit.DIVINE, 11, -2.2f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<SwordItem> HARMONIOUS_HUNTRESS = WEAPONS.register("harmonious_huntress",
-            () -> new SwordItem(ToolMaterialsInit.DIVINE, 1, -1.9f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<SwordItem> WICKED_WHISKER = WEAPONS.register("wicked_whisker",
-            () -> new SwordItem(ToolMaterialsInit.DIVINE, 1, -1.9f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
-    //The True Pumpkin King -Inspiration by Pumpkinking6647 on Twitch. needs to be a scythe.
-    public static final RegistrySupplier<SwordItem> W1 = WEAPONS.register("w1",
-            () -> new SwordItem(ToolMaterialsInit.DIVINE, 16, -2.6f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
-    //------------------------------------Assistance_Required's set--------------------------------------
-    //Ornate longsword (Good)
-    //2 sistser blades (boths evil)
-    //------------------------------------------Tamaki's Set----------------------------------------------
-    //Black Powder Sniper (as close to as i can get to the Sentinal from Apex) crossbows have 6 states, unloaded-loaded-reload 0-3.
-    //sister weapons 2 katana like blades like the ninjas from elden ring. Lots of Color saturation- yellowy.
-    //-------------------------------------------Solaces Set----------------------------------------------
-    //---------Eclipse-----https://docs.google.com/document/d/1d4psOBlnjd8o4wiiwG8O69ppE73nYKGnyeAWODnxnbM/edit?usp=drivesdk---------
-    public static final RegistrySupplier<SwordItem> THE_ECLIPSE = WEAPONS.register("the_eclipse",
-            () -> new SwordItem(ToolMaterialsInit.DIVINE, 17, -3.3f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
-    public static final RegistrySupplier<SwordItem> DAWN = WEAPONS.register("dawn",
-            () -> new SwordItem(ToolMaterialsInit.DIVINE, 1, -1.8f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));//Katanas need to get damage set, (whole set)
-    public static final RegistrySupplier<SwordItem> DUSK = WEAPONS.register("dusk",
-            () -> new SwordItem(ToolMaterialsInit.DIVINE, 15, -2.4f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<SwordItem> HOLY_AVENGER_GREATSWORD = WEAPONS.register("holy_avenger_greatsword",
+//            () -> new SwordItem(ToolMaterialsInit.DIVINE, 17, -3.3f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<SwordItem> HAZIRAWN_GREATSWORD = WEAPONS.register("hazirawn_greatsword",
+//            () -> new SwordItem(ToolMaterialsInit.DIVINE, 17, -3.3f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
+//    //Ravens Wing- Glaive, google it.
+//    public static final RegistrySupplier<SwordItem> ATROPOS = WEAPONS.register("atropos",
+//            () -> new SwordItem(ToolMaterialsInit.DIVINE, 16, -2.6f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
+//    //-------------------------------------JustaSnowAngel's set------------------------------ 1 scythe 2 sickles
+//    public static final RegistrySupplier<SwordItem> SNOWDRIFT_FROSTREAPER = WEAPONS.register("snowdrift_frostreaper",
+//            () -> new SwordItem(ToolMaterialsInit.DIVINE, 16, -2.6f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<SwordItem> PURITYS_FROSTFALL_SERENADE = WEAPONS.register("puritys_frostfall_serenade",
+//            () -> new SwordItem(ToolMaterialsInit.DIVINE, 1, -1.6f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<SwordItem> MALEVOLENT_ARCTIC_DESPAIR = WEAPONS.register("malevolent_arctic_despair",
+//            () -> new SwordItem(ToolMaterialsInit.DIVINE, 1, -1.6f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
+//    //----------------------------------------Phoenix's Set------------------------------------ 1 warscythe 2 small scythes
+//    public static final RegistrySupplier<SwordItem> EMBERWING_SCORNBLADE = WEAPONS.register("emberwing_scornblade",
+//            () -> new SwordItem(ToolMaterialsInit.DIVINE, 14, -2.6f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<SwordItem> SERAPHIC_PLUMEREAVER = WEAPONS.register("seraphic_plumereaver",
+//            () -> new SwordItem(ToolMaterialsInit.DIVINE, 1, -1.6f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<SwordItem> DEMONIC_PYROFEATHER = WEAPONS.register("demonic_pyrofeather",
+//            () -> new SwordItem(ToolMaterialsInit.DIVINE, 1, -1.6f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
+//    //------------------------------------------Mtiger's Set------------------------------------- 3 Katanas
+//    public static final RegistrySupplier<SwordItem> PROWLING_SWIFTCLAW = WEAPONS.register("prowling_swiftclaw",
+//            () -> new SwordItem(ToolMaterialsInit.DIVINE, 11, -2.2f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<SwordItem> HARMONIOUS_HUNTRESS = WEAPONS.register("harmonious_huntress",
+//            () -> new SwordItem(ToolMaterialsInit.DIVINE, 1, -1.9f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<SwordItem> WICKED_WHISKER = WEAPONS.register("wicked_whisker",
+//            () -> new SwordItem(ToolMaterialsInit.DIVINE, 1, -1.9f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
+//    //The True Pumpkin King -Inspiration by Pumpkinking6647 on Twitch. needs to be a scythe.----------1-Scythe
+//    public static final RegistrySupplier<SwordItem> W1 = WEAPONS.register("w1",
+//            () -> new SwordItem(ToolMaterialsInit.DIVINE, 16, -2.6f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
+//    //------------------------------------Assistance_Required's set--------------------------------------
+//    //Ornate longsword (Good)
+//    //2 sistser blades (boths evil)
+//    //------------------------------------------Tamaki's Set----------------------------------------------
+//    //Black Powder Sniper (as close to as i can get to the Sentinal from Apex) crossbows have 6 states, unloaded-loaded-reload 0-3.
+//    //sister weapons 2 katana like blades like the ninjas from elden ring. Lots of Color saturation- yellowy. (Tamaki is color blind)
+//    //-------------------------------------------Solaces Set----------------------------------------------
+//    //---------Eclipse-----https://docs.google.com/document/d/1d4psOBlnjd8o4wiiwG8O69ppE73nYKGnyeAWODnxnbM/edit?usp=drivesdk---------
+//    public static final RegistrySupplier<SwordItem> THE_ECLIPSE = WEAPONS.register("the_eclipse",
+//            () -> new SwordItem(ToolMaterialsInit.DIVINE, 17, -3.3f, new Item.Settings().rarity(Rarity.EPIC).group(ProjectRPG.CREATIVE_TAB)));
+//    public static final RegistrySupplier<SwordItem> DAWN = WEAPONS.register("dawn",
+//            () -> new SwordItem(ToolMaterialsInit.DIVINE, 1, -1.8f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));//Katanas need to get damage set, (whole set)
+//    public static final RegistrySupplier<SwordItem> DUSK = WEAPONS.register("dusk",
+//            () -> new SwordItem(ToolMaterialsInit.DIVINE, 15, -2.4f, new Item.Settings().group(ProjectRPG.CREATIVE_TAB)));
     //Combine both these to get The Eclipse.
+
+    //PureJosh's set-------------------------------------------------------------------------------------
+    //main: katana - handed, fast
+    //side: tachi -2handed, check 2 handed weapons in better combat, slow-er speed.
+    //aux: naginata 2 handed staff like glaive type weapon, faster than tachi, less damage than tachi.
+    //        wants focus around speed and damage, speed or stealth abilities
+
+    //Backupcup's set-----------------------------------------------------------------------------------------------------------
+
+
+
+    //Zarras set
+    //Havoc staff (but a chicken demon skull)
+    //Shang-chi Rings
 
 }

@@ -40,7 +40,7 @@ public class ToolMaterialsInit {
             new BaseToolMaterial(0f, 18, 1, 5f, 241,
             () -> Ingredient.ofItems(ItemsInit.PLATINUM_INGOT.get()));
     protected static final ToolMaterial BONE =
-            new BaseToolMaterial(0f, 2, 1, 5.5f, 7,
+            new BaseToolMaterial(0f, 2, 2, 5.5f, 9,
                     () -> Ingredient.ofItems(Items.BONE));
     //iron    IRON               (attackdamag 2.0f, enchant 14, mininglvl 2, miningspeed 6.0f, durability 250)
     protected static final ToolMaterial INFERNAL_IRON =
@@ -61,7 +61,7 @@ public class ToolMaterialsInit {
                     () -> Ingredient.ofItems(ItemsInit.DARK_STEEL_INGOT.get()));
     //netherite    NETHERITE     (attackdamag 4.0f, enchant 15, mininglvl 4, miningspeed 9.0f, durability 2031)
     protected static final ToolMaterial DRAGON_BONE =
-            new BaseToolMaterial(0f, 18, 3, 10f, 2341,
+            new BaseToolMaterial(0f, 18, 4, 10f, 2341,
                     () -> Ingredient.ofItems(ItemsInit.DRAGON_BONE.get()));
     protected static final ToolMaterial PALLADIUM =
             new BaseToolMaterial(0f, 22, 4, 10f, 2651,
